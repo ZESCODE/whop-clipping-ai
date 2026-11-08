@@ -1,0 +1,84 @@
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /data/data/com.termux/files/home/package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * /data/data/com.termux/files/home/tmp/whop-clipping-ai/pnpm-lock.yaml
+   * /data/data/com.termux/files/home/tmp/package-lock.json
+
+▲ Next.js 16.1.1 (webpack)
+- Local:         http://localhost:3020
+- Network:       http://10.44.220.186:3020
+- Environments: .env.local, .env.development
+- Experiments (use with caution):
+  · optimizePackageImports
+  · serverActions
+
+✓ Starting...
+  Skipping creating a lockfile at /data/data/com.termux/files/home/tmp/whop-clipping-ai/.next/dev/lock because we're using WASM bindings
+✓ Ready in 15.1s
+○ Compiling / ...
+(node:22489) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///data/data/com.termux/files/home/tmp/whop-clipping-ai/tailwind.config.ts?id=1794106363742 is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /data/data/com.termux/files/home/tmp/whop-clipping-ai/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET / 200 in 609ms (compile: 74ms, render: 535ms)
+○ Compiling /api/bounties ...
+ GET /api/bounties?company_id=biz_Zb8U7LB7taBrjb 200 in 14.6s (compile: 12.9s, render: 1779ms)
+○ Compiling /api/clips ...
+ POST /api/clips 200 in 20.0s (compile: 4.4s, render: 15.6s)
+ POST /api/clips 200 in 24.1s (compile: 39ms, render: 24.1s)
+ GET / 200 in 1639ms (compile: 639ms, render: 1000ms)
+○ Compiling /api/creator ...
+ GET /api/creator?company_id=biz_Zb8U7LB7taBrjb 200 in 10.3s (compile: 8.0s, render: 2.3s)
+○ Compiling /dashboard/[companyId] ...
+⨯ Error: Whop user token not found. If you are the app developer, ensure you are developing in the whop.com iframe and have the dev proxy enabled.
+    at DashboardPage (app/dashboard/[companyId]/page.tsx:15:35)
+  13 | 	const { companyId } = await params;
+  14 | 	// Ensure the user is logged in on whop.
+> 15 | 	const { userId } = await whopsdk.verifyUserToken(await headers());
+     | 	                                 ^
+  16 |
+  17 | 	const [company, user, access] = await Promise.all([
+  18 | 		whopsdk.companies.retrieve(companyId), {
+  digest: '2689298521'
+}
+⨯ Error: Whop user token not found. If you are the app developer, ensure you are developing in the whop.com iframe and have the dev proxy enabled.
+    at DashboardPage (app/dashboard/[companyId]/page.tsx:15:35)
+  13 | 	const { companyId } = await params;
+  14 | 	// Ensure the user is logged in on whop.
+> 15 | 	const { userId } = await whopsdk.verifyUserToken(await headers());
+     | 	                                 ^
+  16 |
+  17 | 	const [company, user, access] = await Promise.all([
+  18 | 		whopsdk.companies.retrieve(companyId), {
+  digest: '2689298521'
+}
+ GET /dashboard/biz_Zb8U7LB7taBrjb 500 in 523ms (compile: 191ms, render: 332ms)
+ GET / 200 in 407ms (compile: 89ms, render: 318ms)
+○ Compiling /api/bounties ...
+ GET /api/bounties?company_id=biz_Zb8U7LB7taBrjb 200 in 7.7s (compile: 6.3s, render: 1406ms)
+ GET /api/bounties?company_id=biz_Zb8U7LB7taBrjb 200 in 684ms (compile: 14ms, render: 669ms)
+  Reload env: .env.local
+○ Compiling /_not-found ...
+ POST /api/webhooks/whop 404 in 264ms (compile: 33ms, render: 231ms)
+ POST /api/webhooks/whop 404 in 206ms (compile: 26ms, render: 180ms)
+○ Compiling /api/webhooks/whop ...
+ POST /api/webhooks/whop 400 in 4.3s (compile: 4.2s, render: 161ms)
+ POST /api/webhooks/whop 400 in 49ms (compile: 17ms, render: 32ms)
+○ Compiling /api/webhooks/whop ...
+[whop] sig-miss id=null ts=null sig=null secretTail=4d75d8 bodyLen=2
+ POST /api/webhooks/whop 400 in 11.3s (compile: 11.1s, render: 141ms)
+[whop] sig-miss id=msg_JsaoFmfTSRqi2pcv7ZvDgzY2 ts=1794110964 sig=v1,Qf3C8vEFoEPLMwnQsZmUrR4Y9XwJC+QbiWf9gyYLg6U= secretTail=4d75d8 bodyLen=3588
+ POST /api/webhooks/whop 400 in 50ms (compile: 18ms, render: 32ms)
+○ Compiling /api/webhooks/whop ...
+ POST /api/webhooks/whop 400 in 5.6s (compile: 5.4s, render: 150ms)
+ POST /api/webhooks/whop 400 in 57ms (compile: 17ms, render: 41ms)
+  Reload env: .env.local
+○ Compiling /api/webhooks/whop ...
+ POST /api/webhooks/whop 400 in 5.9s (compile: 5.7s, render: 127ms)
+[whop] payment.succeeded id=pay_xxxxxxxxxxxxxx
+ POST /api/webhooks/whop 200 in 48ms (compile: 16ms, render: 32ms)
+○ Compiling /api/webhooks/whop ...
+[whop] signature rejected id=null
+ POST /api/webhooks/whop 400 in 6.1s (compile: 6.0s, render: 133ms)

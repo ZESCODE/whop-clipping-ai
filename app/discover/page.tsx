@@ -7,7 +7,7 @@ export default function DiscoverPage() {
 					Discover your app
 				</h1>
 				{/* Main Description Card */}
-				<div className="bg-white rounded-xl p-8 shadow-md text-center mb-16">
+				<div className="frost-card p-8 text-center mb-16">
 					<p className="text-xl text-gray-600 max-w-2xl mx-auto mb-4">
 						This is your app's discover page—showcase what your app does
 						and how it helps creators.
@@ -26,7 +26,7 @@ export default function DiscoverPage() {
 
 				{/* Pro Tips Section */}
 				<div className="grid md:grid-cols-2 gap-6 mb-10">
-					<div className="bg-white rounded-xl p-6 shadow-md flex flex-col gap-2">
+					<div className="frost-card p-6 flex flex-col gap-2">
 						<h3 className="font-semibold text-gray-900">
 							Showcase Real Success
 						</h3>
@@ -35,7 +35,7 @@ export default function DiscoverPage() {
 							and member stats.
 						</p>
 					</div>
-					<div className="bg-white rounded-xl p-6 shadow-md flex flex-col gap-2">
+					<div className="frost-card p-6 flex flex-col gap-2">
 						<h3 className="font-semibold text-gray-900">
 							Include Referral Links
 						</h3>
@@ -53,7 +53,7 @@ export default function DiscoverPage() {
 				{/* Main Content Cards */}
 				<div className="grid md:grid-cols-2 gap-6">
 					{/* Success Story Card 1 */}
-					<div className="bg-white rounded-xl p-6 shadow-md flex flex-col justify-between">
+					<div className="frost-card p-6 flex flex-col justify-between">
 						<div>
 							<h3 className="text-lg font-bold text-gray-900 mb-1">
 								CryptoKings
@@ -83,7 +83,7 @@ export default function DiscoverPage() {
 					</div>
 
 					{/* Success Story Card 2 */}
-					<div className="bg-white rounded-xl p-6 shadow-md flex flex-col justify-between">
+					<div className="frost-card p-6 flex flex-col justify-between">
 						<div>
 							<h3 className="text-lg font-bold text-gray-900 mb-1">
 								SignalPro

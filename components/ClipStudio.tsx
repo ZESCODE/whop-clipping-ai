@@ -148,13 +148,13 @@ export default function ClipStudio({
         )}
         <div className="grid gap-3 md:grid-cols-2">
           {bounties.map((b) => (
-            <button
-              key={b.id}
-              onClick={() => setBounty(b)}
-              className={`text-left border rounded-lg p-4 transition-colors ${
-                bounty?.id === b.id ? "border-gray-12 bg-gray-a3" : "border-gray-a4 hover:border-gray-10"
-              }`}
-            >
+<button
+				key={b.id}
+				onClick={() => setBounty(b)}
+				className={`text-left frost-card frost-card-hover p-4 ${
+					bounty?.id === b.id ? "frost-card-selected" : ""
+				}`}
+			>
               <div className="flex justify-between items-center gap-3">
                 <strong className="text-4">{b.title || b.name || b.id}</strong>
                 {b.reward != null && <span className="text-3 text-gray-11">${b.reward}</span>}
@@ -180,8 +180,8 @@ export default function ClipStudio({
             <input
               value={videoUrl}
               onChange={(e) => setVideoUrl(e.target.value)}
-              placeholder="https://youtube.com/watch?v=..."
-              className="border border-gray-a4 rounded-lg px-3 py-2 bg-gray-a1 text-gray-12 text-3 w-full"
+placeholder="https://youtube.com/watch?v=..."
+				className="frost-input px-3 py-2 text-gray-12 text-3 w-full"
             />
           </label>
           <Button variant="classic" size="3" onClick={startClipping} disabled={busy || !videoUrl.trim()}>
@@ -200,14 +200,14 @@ export default function ClipStudio({
           </h3>
           {busy && (
             <div className="w-full h-2 bg-gray-a3 rounded-full overflow-hidden">
-              <div className="h-full bg-gray-12 transition-all" style={{ width: `${Math.max(2, job?.progress || 0)}%`}} />
+              <div className="h-full bg-[var(--blue-9)] transition-all" style={{ width: `${Math.max(2, job?.progress || 0)}%`}} />
             </div>
           )}
           {clips.length > 0 && (
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               {clips.map((c) => (
-                <figure key={c.video_url} className={`border rounded-lg overflow-hidden ${picked === c.video_url ? "border-gray-12" : "border-gray-a4"}`}>
-                  <video
+                <figure key={c.video_url} className={`frost-card overflow-hidden ${picked === c.video_url ? "frost-card-selected" : ""}`}>
+                  <video suppressHydrationWarning
                     controls
                     preload="metadata"
                     className="w-full aspect-[9/16] bg-black"
@@ -234,7 +234,7 @@ export default function ClipStudio({
 
       {/* 3 — submit */}
       {picked && (
-        <section className="flex flex-col gap-3 border border-gray-a4 rounded-lg p-4">
+        <section className="flex flex-col gap-3 frost-card p-4">
           <h3 className="text-5 font-bold">Submit to “{bounty?.title || bounty?.name || bounty?.id}”</h3>
           <p className="text-2 text-gray-10">
             The selected clip goes to the bounty creator for review. Approvals are paid out from the

@@ -57,17 +57,17 @@ export default function CreatorDashboard({
 	return (
 		<div className="flex flex-col gap-8">
 			<div className="grid gap-4 md:grid-cols-3">
-				<div className="border border-gray-a4 rounded-lg p-4">
+				<div className="frost-card p-4">
 					<div className="text-2 text-gray-10">Open bounties</div>
 					<div className="text-9 font-bold mt-1">{bounties.length}</div>
 				</div>
-				<div className="border border-gray-a4 rounded-lg p-4">
+				<div className="frost-card p-4">
 					<div className="text-2 text-gray-10">Submissions in queue</div>
 					<div className="text-9 font-bold mt-1">
 						{bounties.reduce((n, b) => n + b.submissions.length, 0)}
 					</div>
 				</div>
-				<div className="border border-gray-a4 rounded-lg p-4">
+				<div className="frost-card p-4">
 					<div className="text-2 text-gray-10">Payouts ({payouts.count})</div>
 					<div className="text-9 font-bold mt-1">${payouts.total.toFixed(2)}</div>
 				</div>
@@ -81,7 +81,7 @@ export default function CreatorDashboard({
 			)}
 
 			{bounties.map((b) => (
-				<section key={b.id} className="flex flex-col gap-4 border border-gray-a4 rounded-lg p-5">
+				<section key={b.id} className="flex flex-col gap-4 frost-card p-5">
 					<header className="flex flex-wrap justify-between items-center gap-3">
 						<div>
 							<h2 className="text-6 font-bold">{b.title}</h2>
@@ -105,9 +105,9 @@ export default function CreatorDashboard({
 						{b.submissions.map((s) => {
 							const url = s.deliverable?.urls?.[0];
 							return (
-								<article key={s.id} className="border border-gray-a4 rounded-lg overflow-hidden flex flex-col">
+								<article key={s.id} className="frost-card overflow-hidden flex flex-col">
 									{url ? (
-										<video
+										<video suppressHydrationWarning
 											controls
 											preload="metadata"
 											className="w-full aspect-[9/16] bg-black"

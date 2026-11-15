@@ -1,0 +1,59 @@
+/* Hallmark · genre: atmospheric · theme: frost (blue) · design-system: design.md · designed-as-app
+ * macrostructure: Marquee Hero (marketing) / Workbench (app) / Long Document (content)
+ * nav: N9 edge-aligned · footer: Ft5 statement · enrichment: filament apparatus (landing only)
+ * pre-emit critique: P5 H4 E4 S5 R5 V4
+ */
+
+:root {
+  /* paper — cold navy */
+  --color-paper: oklch(12% 0.02 258);
+  --color-paper-2: oklch(15.5% 0.022 258);
+  --color-paper-3: oklch(19% 0.024 258);
+
+  /* ink */
+  --color-ink: oklch(96% 0.006 262);
+  --color-ink-2: oklch(86% 0.01 262);
+  --color-ink-3: oklch(74% 0.012 262);
+  --color-muted: oklch(64% 0.012 262);
+
+  /* rules */
+  --color-rule: oklch(96% 0.006 262 / 0.08);
+  --color-rule-2: oklch(96% 0.006 262 / 0.14);
+  --rule-blueprint: oklch(96% 0.006 262 / 0.04);
+
+  /* accents — frost blue */
+  --color-accent: oklch(64% 0.19 258);
+  --color-accent-ink: oklch(16% 0.03 258);
+  --color-accent-2: oklch(76% 0.12 250);
+  --color-glow: oklch(70% 0.16 255 / 0.45);
+  --color-paper-emit: oklch(64% 0.19 258 / 0.07);
+  --color-focus: oklch(72% 0.14 250);
+
+  /* frost ramp */
+  --color-frost-blue: oklch(64% 0.19 258);
+  --color-frost-blue-bright: oklch(76% 0.12 250);
+  --color-frost-blue-deep: oklch(47% 0.19 264);
+
+  /* states */
+  --color-ok: oklch(75% 0.11 150);
+  --color-danger: oklch(66% 0.18 25);
+  --color-warn: oklch(78% 0.14 75);
+
+  /* type */
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --text-display: clamp(3rem, 6vw + 1rem, 6rem);
+  --tracking-display: -0.032em;
+  --tracking-micro: 0.10em;
+
+  /* geometry */
+  --radius-card: 10px;
+  --radius-input: 8px;
+
+  /* motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-short: 220ms;
+  --dur-reveal: 600ms;
+  --dur-pulse: 4s;
+}

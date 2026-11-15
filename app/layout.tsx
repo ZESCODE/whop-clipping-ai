@@ -1,21 +1,11 @@
 import { WhopApp } from "@whop/react/components";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-	variable: "--font-geist-sans",
-	subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-	variable: "--font-geist-mono",
-	subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-	title: "Whop App",
-	description: "My Whop App",
+	title: "Clipping AI",
+	description:
+		"Clip long videos into shorts for Whop bounties — generate, review, submit, get paid.",
 };
 
 export default function RootLayout({
@@ -24,10 +14,13 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en" suppressHydrationWarning>
-			<body
-				className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-			>
+		<html lang="en" data-accent-color="blue" suppressHydrationWarning>
+			<head>
+				{/* Self-hosted faces (OFL WOFF2): Space Grotesk display, Inter body,
+				    JetBrains Mono readouts — see public/fonts.css. */}
+				<link rel="stylesheet" href="/fonts.css" />
+			</head>
+			<body className="antialiased">
 				<WhopApp>{children}</WhopApp>
 			</body>
 		</html>

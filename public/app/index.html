@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-  <!-- App shell, not a crawlable page: pin the hash router to the dashboard
-       (the same document renders the marketing landing when the hash is empty). -->
-  <script>if(!/^#\/?app/.test(location.hash))history.replaceState(null,"","#app")</script>
+  <!-- App shell, not a crawlable page; the pin keeps ?code= for the OAuth callback. -->
+  <script>if(!/^#\/?app/.test(location.hash))history.replaceState(null,"",location.pathname+location.search+"#app")</script>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/app/logo-clippingai.svg" />
   <!-- viewport-fit=cover so the bottom tab bar can pad itself past the iOS home
        indicator with env(safe-area-inset-bottom); without it that inset reads 0. -->
+  <meta name="robots" content="noindex, follow" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <meta name="theme-color" content="#070c18" />
   <meta name="color-scheme" content="dark" />
@@ -28,7 +28,6 @@
   <meta name="description" content="Paste a YouTube link and get 9:16 clips with captions in minutes. Free plan, paid from $12/mo, or self-host free under MIT. Open source, no lock-in." />
   <meta name="author" content="Clipping AI" />
   <meta name="attribution" content="Based on OpenShorts (MIT) — github.com/mutonby/openshorts" />
-  <meta name="robots" content="noindex, follow" />
   <!-- Canonical must match the host actually served. The apex redirects to www,
        so pointing this at the apex named a URL that only ever redirects. -->
   <link rel="canonical" href="/app/" />
@@ -357,8 +356,8 @@
         };
       })();
     </script>
-    <script type="module" crossorigin src="/app/assets/main-d88adf12.js"></script>
-    <link rel="stylesheet" href="/app/assets/index-224c9f00.css">
+    <script type="module" crossorigin src="/app/assets/main-63970342.js"></script>
+    <link rel="stylesheet" href="/app/assets/index-b9aecd76.css">
   </head>
 
 <body>

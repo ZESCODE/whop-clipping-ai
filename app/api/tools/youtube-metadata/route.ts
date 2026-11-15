@@ -1,5 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 
+// The upstream free-tools service sleeps when idle (free tier), so the
+// first request can spend ~50 s on a cold start. Vercel's default is 10 s.
+export const maxDuration = 60;
+
 /**
  * Free-tool proxy → OpenShorts API (:8000 by default).
  *

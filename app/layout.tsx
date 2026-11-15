@@ -20,7 +20,9 @@ export default function RootLayout({
 				    JetBrains Mono readouts — see public/fonts.css. */}
 				<link rel="stylesheet" href="/fonts.css" />
 			</head>
-			<body className="antialiased">
+			{/* Extensions (and Whop's own iframe shell) add attributes to <body>
+			    before React hydrates; ignore that difference. */}
+			<body className="antialiased" suppressHydrationWarning>
 				<WhopApp>{children}</WhopApp>
 			</body>
 		</html>

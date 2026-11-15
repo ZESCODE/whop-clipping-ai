@@ -1,4 +1,5 @@
 import { WhopApp } from "@whop/react/components";
+import { HashAppRedirect } from "@/components/HashAppRedirect";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -34,6 +35,7 @@ export default function RootLayout({
 			{/* Extensions (and Whop's own iframe shell) add attributes to <body>
 			    before React hydrates; ignore that difference. */}
 			<body className="antialiased" suppressHydrationWarning>
+				<HashAppRedirect />
 				<WhopApp>{children}</WhopApp>
 			</body>
 		</html>

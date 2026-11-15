@@ -572,7 +572,7 @@ export default function Landing({
   const xIcon = <span className="text-muted text-sm">Paid</span>;
 
   return (
-    <div className="min-h-screen bg-paper text-ink2 overflow-x-clip">
+    <div className="ambient-page min-h-screen bg-paper text-ink2 overflow-x-clip">
       {/* Navigation: the shared site nav (seo/nav.js), same items as every page */}
       <SiteNav className="fixed top-0 w-full z-50" />
 

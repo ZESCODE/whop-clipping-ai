@@ -6,7 +6,7 @@ export default function LegalDoc({ path }: { path: string }) {
 	const doc = legalPages().find((p) => p.path === path);
 	if (!doc) {
 		return (
-			<main className="min-h-screen bg-paper text-ink2 px-6 py-20">
+			<main className="ambient-page min-h-screen bg-paper text-ink2 px-6 py-20">
 				<div className="max-w-3xl mx-auto">
 					<h1 className="font-display text-3xl lowercase text-ink mb-4">Not found</h1>
 					<p className="text-muted">This legal document does not exist.</p>
@@ -15,7 +15,7 @@ export default function LegalDoc({ path }: { path: string }) {
 		);
 	}
 	return (
-		<main className="min-h-screen bg-paper text-ink2 px-6 py-20">
+		<main className="ambient-page min-h-screen bg-paper text-ink2 px-6 py-20">
 			<article className="max-w-3xl mx-auto legal-prose">
 				<p className="eyebrow mb-3">Legal</p>
 				<h1 className="font-display text-4xl lowercase text-ink mb-2">{doc.h1}</h1>

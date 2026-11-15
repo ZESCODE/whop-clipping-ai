@@ -1,33 +1,34 @@
 import { frostedThemePlugin } from "@whop/react/tailwind";
 
-// Frost-blue palette mirrored from the OpenShorts dashboard tokens, so the
-// ported landing (components/Landing.jsx) and its CSS classes resolve.
+// Frost palette mirrored from the ZES OS dashboard at :7070 (#409cff rim,
+// #0a0a0a paper, #eaf1ff ink), so the landing, the ported SEO pages and the
+// component classes in openshorts-ui.css all read as the same lit glass.
 export default {
 	plugins: [frostedThemePlugin()],
 	theme: {
 		extend: {
 			colors: {
-				paper: "oklch(12% 0.02 258 / <alpha-value>)",
-				paper2: "oklch(15.5% 0.022 258 / <alpha-value>)",
-				paper3: "oklch(19% 0.024 258 / <alpha-value>)",
-				ink: "oklch(96% 0.006 262 / <alpha-value>)",
-				ink2: "oklch(86% 0.01 262 / <alpha-value>)",
-				ink3: "oklch(74% 0.012 262 / <alpha-value>)",
-				muted: "oklch(64% 0.012 262 / <alpha-value>)",
-				brass: "oklch(64% 0.19 258 / <alpha-value>)",
-				brassink: "oklch(16% 0.03 258 / <alpha-value>)",
-				coral: "oklch(76% 0.12 250 / <alpha-value>)",
-				ok: "oklch(75% 0.11 150 / <alpha-value>)",
-				warn: "oklch(78% 0.14 75 / <alpha-value>)",
-				danger: "oklch(66% 0.18 25 / <alpha-value>)",
+				paper: "#0a0a0a / <alpha-value>",
+				paper2: "#0d0f13 / <alpha-value>",
+				paper3: "#12151b / <alpha-value>",
+				ink: "#eaf1ff / <alpha-value>",
+				ink2: "#cbd8ee / <alpha-value>",
+				ink3: "#a8b6cf / <alpha-value>",
+				muted: "#93a1b8 / <alpha-value>",
+				brass: "#409cff / <alpha-value>",
+				brassink: "#06101f / <alpha-value>",
+				coral: "#7cc0ff / <alpha-value>",
+				ok: "#10d181 / <alpha-value>",
+				warn: "#fb923c / <alpha-value>",
+				danger: "#f85564 / <alpha-value>",
 			},
 			borderColor: {
-				rule: "oklch(96% 0.006 262 / 0.08)",
-				rule2: "oklch(96% 0.006 262 / 0.14)",
+				rule: "rgb(64 156 255 / 0.20)",
+				rule2: "rgb(64 156 255 / 0.34)",
 			},
 			borderRadius: {
-				card: "10px",
-				input: "8px",
+				card: "16px",
+				input: "10px",
 			},
 			fontFamily: {
 				display: "var(--font-display)",

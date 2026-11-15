@@ -159,7 +159,7 @@ export default function PricingPage({
   };
 
   return (
-    <div className="min-h-screen bg-paper text-ink2 animate-fade">
+    <div className="ambient-page min-h-screen bg-paper text-ink2 animate-fade">
       {/* Header */}
       <header className="px-6 pt-20 pb-12">
         <div className="max-w-6xl mx-auto text-center">

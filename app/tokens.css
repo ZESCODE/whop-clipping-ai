@@ -5,39 +5,48 @@
  */
 
 :root {
-  /* paper — cold navy */
-  --color-paper: oklch(12% 0.02 258);
-  --color-paper-2: oklch(15.5% 0.022 258);
-  --color-paper-3: oklch(19% 0.024 258);
+  color-scheme: dark;
 
-  /* ink */
-  --color-ink: oklch(96% 0.006 262);
-  --color-ink-2: oklch(86% 0.01 262);
-  --color-ink-3: oklch(74% 0.012 262);
-  --color-muted: oklch(64% 0.012 262);
+  /* paper — near-black, the blue comes from the ambient wash below */
+  --color-paper: #0a0a0a;
+  --color-paper-2: #0d0f13;
+  --color-paper-3: #12151b;
 
-  /* rules */
-  --color-rule: oklch(96% 0.006 262 / 0.08);
-  --color-rule-2: oklch(96% 0.006 262 / 0.14);
-  --rule-blueprint: oklch(96% 0.006 262 / 0.04);
+  /* ink — cold white, lifted so text sits above the glass */
+  --color-ink: #eaf1ff;
+  --color-ink-2: #cbd8ee;
+  --color-ink-3: #a8b6cf;
+  --color-muted: #93a1b8;
 
-  /* accents — frost blue */
-  --color-accent: oklch(64% 0.19 258);
-  --color-accent-ink: oklch(16% 0.03 258);
-  --color-accent-2: oklch(76% 0.12 250);
-  --color-glow: oklch(70% 0.16 255 / 0.45);
-  --color-paper-emit: oklch(64% 0.19 258 / 0.07);
-  --color-focus: oklch(72% 0.14 250);
+  /* rules — blue rims, not neutral hairlines (matches the :7070 dashboard) */
+  --color-rule: rgb(64 156 255 / 0.20);
+  --color-rule-2: rgb(64 156 255 / 0.34);
+  --rule-blueprint: rgb(64 156 255 / 0.07);
+
+  /* accents — frost blue #409cff */
+  --color-accent: #409cff;
+  --color-accent-ink: #06101f;
+  --color-accent-2: #7cc0ff;
+  --color-glow: rgb(64 156 255 / 0.45);
+  --color-glow-strong: rgb(64 156 255 / 0.55);
+  --color-paper-emit: rgb(64 156 255 / 0.08);
+  --color-focus: #8ecbff;
 
   /* frost ramp */
-  --color-frost-blue: oklch(64% 0.19 258);
-  --color-frost-blue-bright: oklch(76% 0.12 250);
-  --color-frost-blue-deep: oklch(47% 0.19 264);
+  --color-frost-blue: #409cff;
+  --color-frost-blue-bright: #8ecbff;
+  --color-frost-blue-deep: #1f6fd0;
+
+  /* ambient wash: two soft blue/violet sources over the near-black paper */
+  --ambient:
+    radial-gradient(1000px 640px at 88% -6%, rgb(64 156 255 / 0.16), transparent 58%),
+    radial-gradient(900px 620px at -12% 18%, rgb(167 139 250 / 0.10), transparent 62%),
+    radial-gradient(760px 520px at 50% 108%, rgb(64 156 255 / 0.07), transparent 60%);
 
   /* states */
-  --color-ok: oklch(75% 0.11 150);
-  --color-danger: oklch(66% 0.18 25);
-  --color-warn: oklch(78% 0.14 75);
+  --color-ok: #10d181;
+  --color-danger: #f85564;
+  --color-warn: #fb923c;
 
   /* type */
   --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
@@ -48,8 +57,8 @@
   --tracking-micro: 0.10em;
 
   /* geometry */
-  --radius-card: 10px;
-  --radius-input: 8px;
+  --radius-card: 16px;
+  --radius-input: 10px;
 
   /* motion */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);

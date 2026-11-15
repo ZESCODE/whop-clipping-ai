@@ -107,7 +107,9 @@ function go(url, platform) {
     localStorage.setItem('os_pending_url', url)
     localStorage.setItem('clippingai_skip_landing', '1')
   } catch (_) { /* private mode: the app still opens, without the link */ }
-  window.location.href = '/#app'
+  // The app in this build lives at the Whop experience (/discover), not the
+  // hash-route app of the upstream dashboard.
+  window.location.href = '/discover'
 }
 
 function warnUnknown(url) {

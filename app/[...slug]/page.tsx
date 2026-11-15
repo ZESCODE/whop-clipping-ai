@@ -35,12 +35,33 @@ function extract(html: string) {
 		.map((m) => m[1])
 		.join("\n");
 	const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/);
-	const body = bodyMatch ? bodyMatch[1] : html;
+	let body = bodyMatch ? bodyMatch[1] : html;
+	// A module <script> inside innerHTML never executes, so lift the tool's
+	// entry out of the body and re-emit it as a real React <script> tag.
+	const toolScript = body.match(/<script type="module" src="([^"]+)"><\/script>/);
+	const toolSrc = toolScript ? toolScript[1] : null;
+	if (toolScript) body = body.replace(toolScript[0], "");
 	const ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(
 		(m) => m[1],
 	);
-	return { styles, body, ld };
+	// The upstream pages send "open the app" CTAs to SITE.url/#app. In this
+	// build the app is the Whop experience at /discover, so those links stay in
+	// the app instead of jumping to a placeholder host.
+	body = body
+		.replaceAll("https://clippingai.local/#app", "/discover")
+		.replaceAll('href="https://clippingai.local/"', 'href="/"');
+	return { styles, body, ld, toolSrc };
 }
+
+// The vite plugin resolved these entry names to hashed build outputs; this app
+// serves the same tool modules from /tools/ (vertical is pre-bundled with
+// mediabunny, which has no bare-specifier resolution in a browser).
+const TOOL_ENTRIES: Record<string, string> = {
+	"tool-paste-link": "/tools/paste-link.js",
+	"tool-metadata": "/tools/metadata.js",
+	"tool-transcript": "/tools/transcript.js",
+	"tool-vertical": "/tools/vertical.bundle.js",
+};
 
 export function generateStaticParams() {
 	return allPages.map((p) => ({ slug: p.path.split("/").filter(Boolean) }));
@@ -77,15 +98,19 @@ export default async function SeoPage({
 	if (!page) notFound();
 
 	const legal = legalDocs.some((p) => p.path === path);
+	const toolEntry = (page.tool?.entry as string) || (page.pasteLink ? "tool-paste-link" : null);
+	const toolScript = toolEntry ? TOOL_ENTRIES[toolEntry] || "" : "";
 	const html = renderPage(page, legal ? [] : relatedFor(page, seoPages), {
 		cta: !legal,
+		toolScript,
 		built: new Set(allPages.map((p) => p.path)) as unknown as null,
 	});
-	const { styles, body, ld } = extract(html);
+	const { styles, body, ld, toolSrc } = extract(html);
 
 	return (
 		<>
 			<style dangerouslySetInnerHTML={{ __html: styles }} />
+			{toolSrc ? <script type="module" src={toolSrc} /> : null}
 			{ld.map((json, i) => (
 				<script
 					key={i}

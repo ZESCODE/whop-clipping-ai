@@ -7,7 +7,10 @@
  */
 
 // Same variable the app uses. Empty means same-origin (self-host behind one host).
-export const API_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '')
+// This app serves the tools from its own origin (Next proxies /api/tools/* to
+// the OpenShorts backend), so the base stays empty — the browser has no Vite
+// to replace import.meta.env for us.
+export const API_URL = ('').replace(/\/$/, '')
 
 /* OpenPanel events. window.op is the queueing stub the page head defines; it
  * only ever flushes when the analytics init passed its host/placeholder guard,
@@ -86,10 +89,11 @@ export async function apiError(res) {
   return { code: String(res.status), message: 'Something went wrong. Try again in a moment.' }
 }
 
-/* Hand a YouTube link to the app: MediaInput reads os_pending_url on mount,
- * so the visitor lands in the clip generator with their video already in. */
+/* Hand a YouTube link to the app: the clip studio reads os_pending_url on
+ * mount, so the visitor lands with their video already in. The app lives at
+ * /discover in this build. */
 export function openInApp(url, tool) {
   track('tool_cta_click', { tool })
   try { if (url) localStorage.setItem('os_pending_url', url) } catch (_) { /* private mode */ }
-  window.location.href = '/#app'
+  window.location.href = '/discover'
 }

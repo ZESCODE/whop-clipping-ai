@@ -21,7 +21,7 @@ const HOSTED_VS_SELF = [
     icon: KeyRound,
     label: 'API keys',
     hosted: 'The Gemini key is included. Nothing to create, paste or top up.',
-    self: 'You create and pay for your own Gemini key, plus ElevenLabs and fal.ai for dubbing and AI Shorts.',
+    self: 'You create and pay for your own Gemini key, plus ElevenLabs and Pollinations for dubbing and AI Shorts.',
   },
   {
     icon: Send,
@@ -49,7 +49,7 @@ const HOSTED_VS_SELF = [
 const FAQS = [
   {
     question: "Is Clipping AI really free? What's the catch?",
-    answer: "There is no catch, but there are two different things on offer. (1) Self-hosted is 100% free and open source: you run it with Docker on your own machine, bring your own API keys, and there are no watermarks, no usage limits and no subscription. What it costs you is hardware and time. On a typical CPU an 8-minute video takes 5 to 8 minutes to process, and you need your own Google Gemini key (required, free tier is 1,500 requests/day), plus ElevenLabs for dubbing and fal.ai for AI Shorts if you want those. (2) Hosted at clippingai.app is the same software with the running costs covered: our NVIDIA GPU clips that same 8-minute video in about 50 seconds, the Gemini key is included so there is nothing to create or paste, auto-posting to TikTok, Instagram and YouTube is already wired up, and your clips are stored and re-openable from any browser. It has a free plan (20 minutes a month, watermark, no credit card) and paid plans from $12/mo for 100 minutes without watermark. So: free if you are happy to run it yourself, paid if you would rather it just ran fast. Both are far cheaper than Opus Clip ($15-228/month) or Kapwing ($24-79/month)."
+    answer: "There is no catch, but there are two different things on offer. (1) Self-hosted is 100% free and open source: you run it with Docker on your own machine, bring your own API keys, and there are no watermarks, no usage limits and no subscription. What it costs you is hardware and time. On a typical CPU an 8-minute video takes 5 to 8 minutes to process, and you need your own Google Gemini key (required, free tier is 1,500 requests/day), plus ElevenLabs for dubbing and Pollinations for AI Shorts if you want those. (2) Hosted at clippingai.app is the same software with the running costs covered: our NVIDIA GPU clips that same 8-minute video in about 50 seconds, the Gemini key is included so there is nothing to create or paste, auto-posting to TikTok, Instagram and YouTube is already wired up, and your clips are stored and re-openable from any browser. It has a free plan (20 minutes a month, watermark, no credit card) and paid plans from $12/mo for 100 minutes without watermark. So: free if you are happy to run it yourself, paid if you would rather it just ran fast. Both are far cheaper than Opus Clip ($15-228/month) or Kapwing ($24-79/month)."
   },
   {
     question: "Can Clipping AI generate YouTube thumbnails and titles for free?",
@@ -57,7 +57,7 @@ const FAQS = [
   },
   {
     question: "How much does it cost to generate an AI UGC video?",
-    answer: "Clipping AI itself is free, but the AI Shorts feature uses external APIs (fal.ai for video generation, ElevenLabs for voiceover) that charge per use. Low Cost mode costs approximately $0.65 per video (Flux image $0.05 + ElevenLabs voice $0.10 + Hailuo img2video $0.19 + VEED Lipsync $0.20 + b-roll $0.10). Premium mode costs approximately $2.00 per video using Kling Avatar v2 for higher quality. Both modes are significantly cheaper than hiring UGC creators ($50-500 per video) or using platforms like HeyGen ($24-180/month)."
+    answer: "Clipping AI itself is free, but the AI Shorts feature uses external APIs that charge per use: Pollinations for the actor images and the video generation, ElevenLabs for the voiceover. Pollinations bills the pollen balance on your own account, so a video costs whatever those models charge for one Flux actor image, a few b-roll stills and 5-15 seconds of video per talking-head chunk. Both modes are still far cheaper than hiring UGC creators ($50-500 per video) or using platforms like HeyGen ($24-180/month)."
   },
   {
     question: "Does API and MCP access cost extra?",

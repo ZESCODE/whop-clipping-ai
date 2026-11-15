@@ -49,3 +49,4 @@ next-env.d.ts
 
 # local dev/tunnel logs
 *.log
+.env*

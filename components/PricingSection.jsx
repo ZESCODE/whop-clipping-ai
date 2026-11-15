@@ -232,7 +232,7 @@ export default function PricingSection({ onRequireLogin }) {
           </div>
           <p className="text-sm text-muted mb-3 leading-relaxed">
             <b className="text-ink2">AI Shorts</b> (AI-actor UGC videos) and <b className="text-ink2">voice dubbing</b> use premium generation from
-            <b className="text-ink2"> fal.ai</b> and <b className="text-ink2">ElevenLabs</b>. Connect your own keys for those — you're billed by those
+            <b className="text-ink2"> Pollinations</b> and <b className="text-ink2">ElevenLabs</b>. Connect your own keys for those — you're billed by those
             providers directly (typically ~$0.65-2 per video). Your plan still covers the script &amp; orchestration.
           </p>
           <p className="text-xs text-muted">Managed credits for these are coming later — no keys needed.</p>

@@ -495,7 +495,7 @@ export default function Landing({
   const faqs = [
     {
       question: "Is Clipping AI really free?",
-      answer: "Self-hosting is free under the MIT licence, with no watermark and no cap; Clipping AI Cloud has a free plan (your first video up to 60 minutes, then 20 minutes a month, watermarked) and paid plans from $12/month. There is no catch, but there are two different things on offer. (1) Self-hosted is 100% free and open source: you run it with Docker on your own machine, bring your own API keys, and there are no watermarks, no usage limits and no subscription. What it costs you is hardware and time. On a typical CPU an 8-minute video takes 5 to 8 minutes to process, and you need your own Google Gemini key (required, free tier is 1,500 requests/day), plus ElevenLabs for dubbing and fal.ai for AI Shorts if you want those. (2) Hosted at clippingai.local is the same software with the running costs covered: our NVIDIA GPU clips that same 8-minute video in about 50 seconds, the Gemini key is included so there is nothing to create or paste, auto-posting to TikTok, Instagram and YouTube is already wired up, and your clips are stored and re-openable from any browser. Its free plan clips your first video whole up to 60 minutes, then 20 minutes a month, with a watermark and no credit card; paid plans start at $12/mo for 100 minutes without watermark. So: free if you are happy to run it yourself, paid if you would rather it just ran fast. For reference, Opus Clip starts at $15/month and bills a credit per minute of source video."
+      answer: "Self-hosting is free under the MIT licence, with no watermark and no cap; Clipping AI Cloud has a free plan (your first video up to 60 minutes, then 20 minutes a month, watermarked) and paid plans from $12/month. There is no catch, but there are two different things on offer. (1) Self-hosted is 100% free and open source: you run it with Docker on your own machine, bring your own API keys, and there are no watermarks, no usage limits and no subscription. What it costs you is hardware and time. On a typical CPU an 8-minute video takes 5 to 8 minutes to process, and you need your own Google Gemini key (required, free tier is 1,500 requests/day), plus ElevenLabs for dubbing and Pollinations for AI Shorts if you want those. (2) Hosted at clippingai.local is the same software with the running costs covered: our NVIDIA GPU clips that same 8-minute video in about 50 seconds, the Gemini key is included so there is nothing to create or paste, auto-posting to TikTok, Instagram and YouTube is already wired up, and your clips are stored and re-openable from any browser. Its free plan clips your first video whole up to 60 minutes, then 20 minutes a month, with a watermark and no credit card; paid plans start at $12/mo for 100 minutes without watermark. So: free if you are happy to run it yourself, paid if you would rather it just ran fast. For reference, Opus Clip starts at $15/month and bills a credit per minute of source video."
     },
     {
       question: "Do the clips have a watermark?",
@@ -539,7 +539,7 @@ export default function Landing({
     },
     {
       question: "How much does it cost to generate an AI UGC video?",
-      answer: "Clipping AI itself is free, but the AI Shorts feature uses external APIs (fal.ai for video generation, ElevenLabs for voiceover) that charge per use. Low Cost mode costs approximately $0.65 per video (Flux image $0.05 + ElevenLabs voice $0.10 + Hailuo img2video $0.19 + VEED Lipsync $0.20 + b-roll $0.10). Premium mode costs approximately $2.00 per video using Kling Avatar v2 for higher quality. Both modes are significantly cheaper than hiring UGC creators ($50-500 per video) or using platforms like HeyGen ($24-180/month)."
+      answer: "Clipping AI itself is free, but the AI Shorts feature uses external APIs that charge per use: Pollinations for the actor images and the video generation, ElevenLabs for the voiceover. Pollinations bills the pollen balance on your own account, so a video costs whatever those models charge for one Flux actor image, a few b-roll stills and 5-15 seconds of video per talking-head chunk. Both modes are still far cheaper than hiring UGC creators ($50-500 per video) or using platforms like HeyGen ($24-180/month)."
     },
     {
       question: "What AI does Clipping AI use for viral moment detection?",
@@ -887,7 +887,7 @@ export default function Landing({
                 <span className="readout border border-rule rounded-full px-2.5 py-1">Free · Docker</span>
               </div>
               <ul className="space-y-1.5 mb-6 flex-1">
-                {['Your machine: 5 to 8 min on a typical CPU', 'Bring your own Gemini, ElevenLabs and fal.ai keys', 'You install it, you maintain it, you back it up', 'Free forever, and always will be'].map((f, i) => (
+                {['Your machine: 5 to 8 min on a typical CPU', 'Bring your own Gemini, ElevenLabs and Pollinations keys', 'You install it, you maintain it, you back it up', 'Free forever, and always will be'].map((f, i) => (
                   <li key={i} className="flex items-center gap-2 text-sm text-muted"><Check size={14} className="text-ok shrink-0" />{f}</li>
                 ))}
               </ul>
@@ -1109,7 +1109,7 @@ export default function Landing({
                     <div className="w-10 h-10 rounded-input bg-paper3 flex items-center justify-center mb-4">
                       <Zap size={18} className="text-brass" />
                     </div>
-                    <h3 className="font-display text-xl lowercase text-ink mb-1">fal.ai API</h3>
+                    <h3 className="font-display text-xl lowercase text-ink mb-1">Pollinations API</h3>
                     <div className="mb-3"><span className="badge-ok">Pay-per-use from $0.04</span></div>
                     <p className="text-muted text-sm leading-relaxed">Powers AI Shorts: generates AI actor images (Flux), talking head videos (Hailuo/Kling), and lip-sync (VEED). Required only for the AI UGC video generator.</p>
                   </div>
@@ -1140,7 +1140,7 @@ export default function Landing({
                     { name: "MediaPipe", desc: "Face Tracking" },
                     { name: "FFmpeg", desc: "Video Processing" },
                     { name: "ElevenLabs", desc: "Voice & TTS" },
-                    { name: "fal.ai", desc: "AI Video Gen" },
+                    { name: "Pollinations", desc: "AI Video Gen" },
                     { name: "React + Vite", desc: "Dashboard" },
                     { name: "Docker", desc: "Deployment" }
                   ].map((tech, i) => (

@@ -202,7 +202,15 @@ export default function SocialLivePanel({ page }: PanelProps) {
 			const data = await uploadPostGet("/uploadposts/users");
 			const list = data?.profiles || [];
 			setProfiles(list);
-			const profile = readUploadPostProfile() || list[0]?.username || "";
+			// uploadUserId can belong to a key the visitor replaced, so only
+			// trust it when this account still has that profile.
+			const stored = readUploadPostProfile();
+			const names = list.map((p: any) => p.username).filter(Boolean);
+			const profile = (stored && names.includes(stored) ? stored : names[0]) || "";
+			if (!profile) {
+				setState("empty");
+				return;
+			}
 
 			if (page.preview === "analytics") {
 				const connected = NETWORK_ORDER.filter(
@@ -221,8 +229,9 @@ export default function SocialLivePanel({ page }: PanelProps) {
 			}
 			setState("ready");
 		} catch (e) {
-			setError(String((e as Error)?.message || e).slice(0, 200));
-			setState("error");
+			const message = String((e as Error)?.message || e);
+			setError(message.slice(0, 200));
+			setState(/profile_not_found|PROFILE_NOT_FOUND/i.test(message) ? "empty" : "error");
 		}
 	}, [page.preview]);
 
@@ -238,6 +247,30 @@ export default function SocialLivePanel({ page }: PanelProps) {
 		);
 	}
 	if (state === "nokey") return <KeyPrompt />;
+	if (state === "empty") {
+		return (
+			<div className="card p-5 space-y-3">
+				<h3 className="text-ink font-medium">That key has no profile yet</h3>
+				<p className="text-sm text-muted leading-relaxed">
+					Upload-Post keeps social accounts inside a <strong>profile</strong>. Create one in
+					Manage Users, connect a network to it, then reload this page.
+				</p>
+				<div className="flex flex-wrap gap-2">
+					<a
+						href="https://app.upload-post.com/manage-users"
+						target="_blank"
+						rel="noreferrer"
+						className="btn-primary"
+					>
+						Manage users
+					</a>
+					<a href={SETTINGS_HREF} className="btn-ghost px-4 py-2 text-sm">
+						Check the key in Settings
+					</a>
+				</div>
+			</div>
+		);
+	}
 	if (state === "error") {
 		return (
 			<div className="card p-4 space-y-3">

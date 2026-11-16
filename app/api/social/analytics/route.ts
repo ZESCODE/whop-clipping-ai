@@ -35,7 +35,11 @@ function rateLimited(ip: string): boolean {
 }
 
 export async function GET(request: NextRequest) {
-	if (process.env.NODE_ENV === "production" && !request.headers.get("x-whop-user-token")) {
+	// A key supplied by the caller is used as-is (BYOK); the server-key path
+	// still needs the Whop iframe session.
+	const userKey = (request.headers.get("x-upload-post-key") || "").trim();
+
+	if (!userKey && process.env.NODE_ENV === "production" && !request.headers.get("x-whop-user-token")) {
 		// Outside the Whop iframe there is no session to read this for. Answer
 		// empty rather than 401 so a direct visit does not log a console error;
 		// the card simply hides.
@@ -47,7 +51,7 @@ export async function GET(request: NextRequest) {
 		return NextResponse.json({ error: "rate_limited" }, { status: 429 });
 	}
 
-	const key = process.env.UPLOAD_POST_API_KEY;
+	const key = userKey || process.env.UPLOAD_POST_API_KEY || "";
 	if (!key) {
 		return NextResponse.json({ configured: false, metrics: {} });
 	}

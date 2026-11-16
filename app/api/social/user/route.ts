@@ -18,14 +18,17 @@ const PLATFORM_KEYS = ["tiktok", "instagram", "youtube", "linkedin", "facebook",
 export const dynamic = "force-dynamic";
 
 export async function GET(request: NextRequest) {
-	if (process.env.NODE_ENV === "production" && !request.headers.get("x-whop-user-token")) {
+	// A key supplied by the caller is used as-is (BYOK); only the server-key
+	// path needs the Whop iframe session.
+	const userKey = (request.headers.get("x-upload-post-key") || "").trim();
+	if (!userKey && process.env.NODE_ENV === "production" && !request.headers.get("x-whop-user-token")) {
 		// Outside the Whop iframe there is no session to read this for. Answer
 		// empty rather than 401 so a direct visit does not log a console error;
 		// the card simply hides.
 		return NextResponse.json({ configured: false, profiles: [], metrics: {} });
 	}
 
-	const key = process.env.UPLOAD_POST_API_KEY;
+	const key = userKey || process.env.UPLOAD_POST_API_KEY || "";
 	if (!key) {
 		return NextResponse.json({ configured: false, profiles: [] });
 	}

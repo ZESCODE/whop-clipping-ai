@@ -41,27 +41,27 @@ function PlatformChip({ children, on = true }) {
 }
 
 function AccountsPreview() {
-	// Each row is the real thing: it skips the chooser and opens that network's
-	// own consent screen (the route mints a one-network authorize URL).
+	// Empty state, not a made-up brand: the rows are real connect links, and a
+	// profile with nothing attached says so.
 	return (
 		<div className="card p-4 space-y-2">
 			<div className="flex items-center justify-between">
-				<span className="readout">harbor-cafe</span>
-				<span className="badge-brass">6 networks</span>
+				<span className="readout text-muted">no profile connected</span>
+				<span className="badge-float">not connected</span>
 			</div>
 			{NETWORKS.map((n) => (
 				<a
 					key={n.name}
-				href={`${CONNECT_HREF}?platform=${n.slug}`}
+					href={`${CONNECT_HREF}?platform=${n.slug}`}
 					className="flex items-center justify-between gap-3 rounded-input border border-rule bg-paper2 px-3 py-2 hover:border-brass/50 transition-colors"
 				>
 					<div className="flex items-center gap-2 min-w-0">
-						<span className="readout w-7 h-7 grid place-items-center rounded-full bg-paper3 text-ink2">
+						<span className="readout w-7 h-7 grid place-items-center rounded-full bg-paper3 text-ink3">
 							{n.short}
 						</span>
-						<span className="text-sm text-ink truncate">{n.name}</span>
+						<span className="text-sm text-ink3 truncate">{n.name}</span>
 					</div>
-					<span className="text-xs text-muted group-hover:text-ink">connect →</span>
+					<span className="text-xs text-muted">connect →</span>
 				</a>
 			))}
 		</div>
@@ -71,33 +71,32 @@ function AccountsPreview() {
 function UploadPreview() {
 	return (
 		<div className="card p-4 space-y-3">
-			<div className="flex items-center gap-2 text-sm text-ink2">
-				<Upload size={14} className="text-brass" />
-				<span>new-post.mp4</span>
-				<span className="ml-auto readout">9:16 · 0:24</span>
+			<div className="flex items-center gap-2 text-sm text-ink3">
+				<Upload size={14} className="text-muted" />
+				<span>no clip selected</span>
+				<span className="ml-auto readout">—</span>
 			</div>
 			<div className="flex flex-wrap gap-2">
 				{NETWORKS.slice(0, 4).map((n) => (
-					<PlatformChip key={n.name}>{n.name}</PlatformChip>
+					<PlatformChip key={n.name} on={false}>
+						{n.name}
+					</PlatformChip>
 				))}
 				<PlatformChip on={false}>+2</PlatformChip>
 			</div>
-			<p className="text-sm text-ink2 leading-relaxed">
-				Three clips from this week&apos;s podcast, reframed vertical and captioned. Which one is your
-				favourite?
-			</p>
+			<p className="text-sm text-muted leading-relaxed">The caption goes here, one per network.</p>
 			<div className="flex items-center justify-between text-xs text-muted">
 				<span className="inline-flex items-center gap-1">
-					<Clock size={12} /> schedule · tue 09:00
+					<Clock size={12} /> not scheduled
 				</span>
-				<span>per-network caption</span>
+				<span>no networks selected</span>
 			</div>
 			<div className="h-1.5 rounded-full bg-paper3 overflow-hidden">
-				<div className="h-full w-2/3 bg-brass" />
+				<div className="h-full w-0 bg-brass" />
 			</div>
 			<div className="flex items-center justify-between readout text-xs text-muted">
-				<span>4 of 6 networks</span>
-				<span>queued</span>
+				<span>0 of 0 networks</span>
+				<span>nothing queued</span>
 			</div>
 		</div>
 	);
@@ -105,12 +104,11 @@ function UploadPreview() {
 
 function CalendarPreview() {
 	const days = ["m", "t", "w", "t", "f", "s", "s"];
-	const marks = [1, 3, 6, 8, 10, 12, 13, 15, 17, 19, 22, 24, 26, 28];
 	return (
 		<div className="card p-4">
 			<div className="flex items-center justify-between mb-3">
-				<span className="readout">march · harbor-cafe</span>
-				<span className="badge-brass">12 queued</span>
+				<span className="readout text-muted">no profile connected</span>
+				<span className="badge-float">0 queued</span>
 			</div>
 			<div className="grid grid-cols-7 gap-1.5">
 				{days.map((d, i) => (
@@ -121,11 +119,7 @@ function CalendarPreview() {
 				{Array.from({ length: 28 }, (_, i) => i + 1).map((day) => (
 					<div
 						key={day}
-						className={`aspect-square rounded-input grid place-items-center text-xs ${
-							marks.includes(day)
-								? "bg-brass/15 text-ink border border-brass/40"
-								: "bg-paper2 text-muted border border-rule"
-						}`}
+						className="aspect-square rounded-input grid place-items-center text-xs bg-paper2 text-ink3 border border-rule"
 					>
 						{day}
 					</div>
@@ -136,33 +130,28 @@ function CalendarPreview() {
 }
 
 function AnalyticsPreview() {
-	const bars = [38, 62, 45, 88, 54, 72, 30];
 	return (
 		<div className="card p-4 space-y-3">
 			<div className="grid grid-cols-3 gap-2">
 				{[
-					["views", "128k"],
-					["reposts", "4.1k"],
-					["follows", "912"],
+					["views", "—"],
+					["reposts", "—"],
+					["follows", "—"],
 				].map(([label, value]) => (
 					<div key={label} className="rounded-input border border-rule bg-paper2 px-3 py-2">
 						<p className="readout text-xs text-muted">{label}</p>
-						<p className="text-lg text-ink">{value}</p>
+						<p className="text-lg text-ink3">{value}</p>
 					</div>
 				))}
 			</div>
 			<div className="flex items-end gap-1.5 h-20">
-				{bars.map((h, i) => (
-					<div
-						key={i}
-						className="flex-1 rounded-t bg-brass/60"
-						style={{ height: `${h}%` }}
-					/>
+				{Array.from({ length: 7 }, (_, i) => (
+					<div key={i} className="flex-1 rounded-t bg-paper3" style={{ height: "6%" }} />
 				))}
 			</div>
 			<div className="flex items-center justify-between readout text-xs text-muted">
-				<span>tiktok · instagram · youtube</span>
-				<span>last 7 days</span>
+				<span>no data yet</span>
+				<span>connect an account</span>
 			</div>
 		</div>
 	);
@@ -176,10 +165,10 @@ const PREVIEWS = {
 };
 
 const PREVIEW_LABEL = {
-	accounts: "connect page · branded",
-	upload: "publish · one clip, many networks",
-	calendar: "queue · read-only view",
-	analytics: "reporting · per network",
+	accounts: "connect page · empty profile",
+	upload: "publish · nothing queued",
+	calendar: "queue · empty month",
+	analytics: "reporting · no data",
 };
 
 export default function SocialFeaturePage({ page }) {

@@ -6,7 +6,7 @@ import { legalPages } from "@/lib/seo/legal";
 // every legal page, plus the routes this app owns itself.
 const marketing = buildPages().map((p) => p.path);
 const legal = legalPages().map((p) => p.path);
-const owned = ["/", "/pricing", "/discover"];
+const owned = ["/", "/pricing", "/discover", "/user", "/upload", "/calendar", "/analytics"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
 	const all = [...new Set([...owned, ...marketing, ...legal])];

@@ -20,12 +20,12 @@ import SiteNav from "./SiteNav";
 import { CONNECT_HREF, UPLOAD_POST_URL } from "../lib/upload-post";
 
 const NETWORKS = [
-	{ name: "TikTok", short: "TT" },
-	{ name: "Instagram", short: "IG" },
-	{ name: "YouTube", short: "YT" },
-	{ name: "LinkedIn", short: "LI" },
-	{ name: "Facebook", short: "FB" },
-	{ name: "X", short: "X" },
+	{ name: "TikTok", short: "TT", slug: "tiktok" },
+	{ name: "Instagram", short: "IG", slug: "instagram" },
+	{ name: "YouTube", short: "YT", slug: "youtube" },
+	{ name: "LinkedIn", short: "LI", slug: "linkedin" },
+	{ name: "Facebook", short: "FB", slug: "facebook" },
+	{ name: "X", short: "X", slug: "x" },
 ];
 
 function PlatformChip({ children, on = true }) {
@@ -41,16 +41,19 @@ function PlatformChip({ children, on = true }) {
 }
 
 function AccountsPreview() {
+	// Each row is the real thing: it skips the chooser and opens that network's
+	// own consent screen (the route mints a one-network authorize URL).
 	return (
 		<div className="card p-4 space-y-2">
 			<div className="flex items-center justify-between">
 				<span className="readout">harbor-cafe</span>
-				<span className="badge-ok">4 connected</span>
+				<span className="badge-brass">6 networks</span>
 			</div>
-			{NETWORKS.slice(0, 5).map((n, i) => (
-				<div
+			{NETWORKS.map((n) => (
+				<a
 					key={n.name}
-					className="flex items-center justify-between gap-3 rounded-input border border-rule bg-paper2 px-3 py-2"
+				href={`${CONNECT_HREF}?platform=${n.slug}`}
+					className="flex items-center justify-between gap-3 rounded-input border border-rule bg-paper2 px-3 py-2 hover:border-brass/50 transition-colors"
 				>
 					<div className="flex items-center gap-2 min-w-0">
 						<span className="readout w-7 h-7 grid place-items-center rounded-full bg-paper3 text-ink2">
@@ -58,12 +61,8 @@ function AccountsPreview() {
 						</span>
 						<span className="text-sm text-ink truncate">{n.name}</span>
 					</div>
-					{i < 4 ? (
-						<span className="text-xs text-ok">connected</span>
-					) : (
-						<span className="text-xs text-muted">connect</span>
-					)}
-				</div>
+					<span className="text-xs text-muted group-hover:text-ink">connect →</span>
+				</a>
 			))}
 		</div>
 	);

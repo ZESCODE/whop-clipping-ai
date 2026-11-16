@@ -13,8 +13,14 @@ import { NextRequest, NextResponse } from "next/server";
  */
 const UPLOAD_POST_API = "https://api.upload-post.com/api";
 const PREFERRED_PROFILE = process.env.UPLOAD_POST_PROFILE?.trim() || "default";
-const SIGNUP_URL = "https://app.upload-post.com?source=clipping-ai";
 const PLATFORMS = ["tiktok", "instagram", "youtube", "linkedin", "facebook", "x"];
+// Where a visitor goes when we cannot connect them here: no key on the server,
+// a plan that will not give us another profile, or an upstream failure. Point
+// NEXT_PUBLIC_UPLOAD_POST_AFFILIATE_URL at the tracked link once the affiliate
+// account is approved; until then this is the plain signup page.
+const AFFILIATE_URL =
+	process.env.NEXT_PUBLIC_UPLOAD_POST_AFFILIATE_URL?.trim() ||
+	"https://app.upload-post.com?source=clipping-ai";
 
 const WINDOW_MS = 60_000;
 const MAX_PER_WINDOW = 10;
@@ -79,8 +85,11 @@ export async function GET(request: NextRequest) {
 
 	const key = process.env.UPLOAD_POST_API_KEY;
 	if (!key) {
-		return NextResponse.redirect(SIGNUP_URL, 302);
+		return NextResponse.redirect(AFFILIATE_URL, 302);
 	}
+
+	const asked = (request.nextUrl.searchParams.get("platform") || "").trim().toLowerCase();
+	const platform = PLATFORMS.includes(asked) ? asked : "";
 
 	const origin = request.nextUrl.origin;
 	const logo = `${origin}/logo-clippingai.svg`;
@@ -88,6 +97,25 @@ export async function GET(request: NextRequest) {
 
 	try {
 		const profile = await resolveProfile(key);
+
+		// Straight to one network: ask the Connect API for that platform's
+		// consent URL and redirect there, skipping the chooser page.
+		if (platform) {
+			const start = await fetch(
+				`${UPLOAD_POST_API}/uploadposts/oauth/${platform}/start`,
+				{
+					method: "POST",
+					headers: { Authorization: `ApiKey ${key}`, "Content-Type": "application/json" },
+					body: JSON.stringify({ profile, redirect_url: `${origin}/app` }),
+					cache: "no-store",
+				},
+			);
+			const data = (await start.json().catch(() => ({}))) as { authorize_url?: string };
+			if (start.ok && data?.authorize_url?.startsWith("https://")) {
+				return NextResponse.redirect(data.authorize_url, 302);
+			}
+			return NextResponse.redirect(new URL("/user?connect=failed", request.url), 302);
+		}
 		const res = await fetch(`${UPLOAD_POST_API}/uploadposts/users/generate-jwt`, {
 			method: "POST",
 			headers: { Authorization: `ApiKey ${key}`, "Content-Type": "application/json" },
@@ -105,15 +133,15 @@ export async function GET(request: NextRequest) {
 			cache: "no-store",
 		});
 		if (!res.ok) {
-			return NextResponse.redirect(new URL("/user?connect=failed", request.url), 302);
+			return NextResponse.redirect(AFFILIATE_URL, 302);
 		}
 		const data = await res.json();
 		const accessUrl = (data?.access_url || data?.accessUrl || "") as string;
 		if (!accessUrl.startsWith("https://")) {
-			return NextResponse.redirect(new URL("/user?connect=failed", request.url), 302);
+			return NextResponse.redirect(AFFILIATE_URL, 302);
 		}
 		return NextResponse.redirect(accessUrl, 302);
 	} catch {
-		return NextResponse.redirect(new URL("/user?connect=failed", request.url), 302);
+		return NextResponse.redirect(AFFILIATE_URL, 302);
 	}
 }

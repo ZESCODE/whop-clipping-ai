@@ -1,4 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
+import {
+	MANAGED_ENABLED,
+	MANAGED_KEY,
+	resolveManagedEntitlement,
+} from "@/lib/upload-post-server";
 
 /**
  * GET /api/social/analytics?user=<profile>&platforms=youtube,instagram
@@ -35,11 +40,21 @@ function rateLimited(ip: string): boolean {
 }
 
 export async function GET(request: NextRequest) {
-	// A key supplied by the caller is used as-is (BYOK); the server-key path
-	// still needs the Whop iframe session.
+	// A key supplied by the caller is used as-is (BYOK); the managed path needs
+	// a verified, entitled Whop session and is pinned to the caller's profile.
 	const userKey = (request.headers.get("x-upload-post-key") || "").trim();
+	const entitlement = await resolveManagedEntitlement(request.headers);
 
-	if (!userKey && process.env.NODE_ENV === "production" && !request.headers.get("x-whop-user-token")) {
+	if (MANAGED_ENABLED) {
+		if (!entitlement.ok) {
+			return NextResponse.json(
+				{ error: entitlement.reason === "forbidden" ? "not_entitled" : "no_whop_session" },
+				{ status: entitlement.reason === "forbidden" ? 403 : 401 },
+			);
+		}
+	}
+
+	if (!userKey && !MANAGED_ENABLED && process.env.NODE_ENV === "production" && !request.headers.get("x-whop-user-token")) {
 		// Outside the Whop iframe there is no session to read this for. Answer
 		// empty rather than 401 so a direct visit does not log a console error;
 		// the card simply hides.
@@ -51,12 +66,14 @@ export async function GET(request: NextRequest) {
 		return NextResponse.json({ error: "rate_limited" }, { status: 429 });
 	}
 
-	const key = userKey || process.env.UPLOAD_POST_API_KEY || "";
+	const key = entitlement.ok ? MANAGED_KEY : userKey || process.env.UPLOAD_POST_API_KEY || "";
 	if (!key) {
 		return NextResponse.json({ configured: false, metrics: {} });
 	}
 
-	const user = request.nextUrl.searchParams.get("user")?.trim();
+	const user = entitlement.ok
+		? entitlement.profile
+		: request.nextUrl.searchParams.get("user")?.trim();
 	if (!user) {
 		return NextResponse.json({ error: "user_required" }, { status: 400 });
 	}

@@ -47,10 +47,11 @@ export function readUploadPostProfile(): string {
 }
 
 export async function uploadPostGet<T = any>(path: string): Promise<T> {
+	// No key header in managed mode: the proxy supplies the account key.
 	const key = readUploadPostKey();
-	if (!key) throw new Error("missing_key");
+	const headers: Record<string, string> = key ? { "x-upload-post-key": key } : {};
 	const res = await fetch(`/api/upload-post${path}`, {
-		headers: { "x-upload-post-key": key },
+		headers,
 		cache: "no-store",
 	});
 	const text = await res.text();

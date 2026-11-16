@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { MANAGED_KEY, resolveManagedEntitlement } from "@/lib/upload-post-server";
 
 /**
  * GET /api/social/connect — start the Upload-Post connect flow.
@@ -83,8 +84,12 @@ export async function GET(request: NextRequest) {
 		return NextResponse.redirect(new URL("/user?connect=rate", request.url), 302);
 	}
 
-	const key = process.env.UPLOAD_POST_API_KEY;
-	if (!key) {
+	// Managed mode: connect into the caller's own (verified, entitled) profile
+	// inside the shared account.
+	const entitlement = await resolveManagedEntitlement(request.headers);
+	const managedProfile = entitlement.ok ? entitlement.profile : null;
+	const key = managedProfile ? MANAGED_KEY : process.env.UPLOAD_POST_API_KEY || "";
+	if (!key || (managedProfile && !MANAGED_KEY)) {
 		return NextResponse.redirect(AFFILIATE_URL, 302);
 	}
 
@@ -96,7 +101,7 @@ export async function GET(request: NextRequest) {
 	const redirect = `${origin}/app`;
 
 	try {
-		const profile = await resolveProfile(key);
+		const profile = managedProfile || (await resolveProfile(key));
 
 		// Straight to one network: ask the Connect API for that platform's
 		// consent URL and redirect there, skipping the chooser page.

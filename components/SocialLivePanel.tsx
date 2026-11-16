@@ -190,15 +190,28 @@ export default function SocialLivePanel({ page }: PanelProps) {
 	const [posts, setPosts] = useState<any[]>([]);
 	const [metrics, setMetrics] = useState({});
 	const [error, setError] = useState("");
+	const [managed, setManaged] = useState(false);
 
 	const load = useCallback(async () => {
 		setError("");
-		if (!readUploadPostKey()) {
-			setState("nokey");
-			return;
-		}
 		setState("loading");
 		try {
+			// The server decides: managed mode (included in the plan) or BYOK.
+			// It returns managed:true when no key of ours is needed.
+			const who = await fetch("/api/social/user", { cache: "no-store" })
+				.then((r) => (r.ok ? r.json() : null))
+				.catch(() => null);
+
+			if (who && who.managed) {
+				setManaged(true);
+			} else if (!readUploadPostKey()) {
+				setManaged(false);
+				setState("nokey");
+				return;
+			} else {
+				setManaged(false);
+			}
+
 			const data = await uploadPostGet("/uploadposts/users");
 			const list = data?.profiles || [];
 			setProfiles(list);
@@ -295,7 +308,7 @@ export default function SocialLivePanel({ page }: PanelProps) {
 			)}
 			{page.preview === "analytics" && <Analytics metrics={metrics} profile={profile} />}
 			<p className="text-xs text-muted flex items-center gap-1.5">
-				reading your own Upload-Post profile ·{" "}
+				{managed ? "included in your plan · " : "reading your own Upload-Post profile · "}{" "}
 				<button onClick={load} className="underline hover:text-ink">
 					refresh
 				</button>

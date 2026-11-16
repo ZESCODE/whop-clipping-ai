@@ -36,7 +36,10 @@ function rateLimited(ip: string): boolean {
 
 export async function GET(request: NextRequest) {
 	if (process.env.NODE_ENV === "production" && !request.headers.get("x-whop-user-token")) {
-		return NextResponse.json({ error: "whop_session_required" }, { status: 401 });
+		// Outside the Whop iframe there is no session to read this for. Answer
+		// empty rather than 401 so a direct visit does not log a console error;
+		// the card simply hides.
+		return NextResponse.json({ configured: false, profiles: [], metrics: {} });
 	}
 
 	const ip = request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "local";

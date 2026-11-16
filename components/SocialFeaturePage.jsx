@@ -17,6 +17,7 @@ import {
 	Upload,
 } from "lucide-react";
 import SiteNav from "./SiteNav";
+import SocialLivePanel from "./SocialLivePanel";
 import { CONNECT_HREF, UPLOAD_POST_URL } from "../lib/upload-post";
 
 const NETWORKS = [
@@ -40,139 +41,7 @@ function PlatformChip({ children, on = true }) {
 	);
 }
 
-function AccountsPreview() {
-	// Empty state, not a made-up brand: the rows are real connect links, and a
-	// profile with nothing attached says so.
-	return (
-		<div className="card p-4 space-y-2">
-			<div className="flex items-center justify-between">
-				<span className="readout text-muted">no profile connected</span>
-				<span className="badge-float">not connected</span>
-			</div>
-			{NETWORKS.map((n) => (
-				<a
-					key={n.name}
-					href={`${CONNECT_HREF}?platform=${n.slug}`}
-					className="flex items-center justify-between gap-3 rounded-input border border-rule bg-paper2 px-3 py-2 hover:border-brass/50 transition-colors"
-				>
-					<div className="flex items-center gap-2 min-w-0">
-						<span className="readout w-7 h-7 grid place-items-center rounded-full bg-paper3 text-ink3">
-							{n.short}
-						</span>
-						<span className="text-sm text-ink3 truncate">{n.name}</span>
-					</div>
-					<span className="text-xs text-muted">connect →</span>
-				</a>
-			))}
-		</div>
-	);
-}
-
-function UploadPreview() {
-	return (
-		<div className="card p-4 space-y-3">
-			<div className="flex items-center gap-2 text-sm text-ink3">
-				<Upload size={14} className="text-muted" />
-				<span>no clip selected</span>
-				<span className="ml-auto readout">—</span>
-			</div>
-			<div className="flex flex-wrap gap-2">
-				{NETWORKS.slice(0, 4).map((n) => (
-					<PlatformChip key={n.name} on={false}>
-						{n.name}
-					</PlatformChip>
-				))}
-				<PlatformChip on={false}>+2</PlatformChip>
-			</div>
-			<p className="text-sm text-muted leading-relaxed">The caption goes here, one per network.</p>
-			<div className="flex items-center justify-between text-xs text-muted">
-				<span className="inline-flex items-center gap-1">
-					<Clock size={12} /> not scheduled
-				</span>
-				<span>no networks selected</span>
-			</div>
-			<div className="h-1.5 rounded-full bg-paper3 overflow-hidden">
-				<div className="h-full w-0 bg-brass" />
-			</div>
-			<div className="flex items-center justify-between readout text-xs text-muted">
-				<span>0 of 0 networks</span>
-				<span>nothing queued</span>
-			</div>
-		</div>
-	);
-}
-
-function CalendarPreview() {
-	const days = ["m", "t", "w", "t", "f", "s", "s"];
-	return (
-		<div className="card p-4">
-			<div className="flex items-center justify-between mb-3">
-				<span className="readout text-muted">no profile connected</span>
-				<span className="badge-float">0 queued</span>
-			</div>
-			<div className="grid grid-cols-7 gap-1.5">
-				{days.map((d, i) => (
-					<div key={`h${i}`} className="readout text-center text-muted pb-1">
-						{d}
-					</div>
-				))}
-				{Array.from({ length: 28 }, (_, i) => i + 1).map((day) => (
-					<div
-						key={day}
-						className="aspect-square rounded-input grid place-items-center text-xs bg-paper2 text-ink3 border border-rule"
-					>
-						{day}
-					</div>
-				))}
-			</div>
-		</div>
-	);
-}
-
-function AnalyticsPreview() {
-	return (
-		<div className="card p-4 space-y-3">
-			<div className="grid grid-cols-3 gap-2">
-				{[
-					["views", "—"],
-					["reposts", "—"],
-					["follows", "—"],
-				].map(([label, value]) => (
-					<div key={label} className="rounded-input border border-rule bg-paper2 px-3 py-2">
-						<p className="readout text-xs text-muted">{label}</p>
-						<p className="text-lg text-ink3">{value}</p>
-					</div>
-				))}
-			</div>
-			<div className="flex items-end gap-1.5 h-20">
-				{Array.from({ length: 7 }, (_, i) => (
-					<div key={i} className="flex-1 rounded-t bg-paper3" style={{ height: "6%" }} />
-				))}
-			</div>
-			<div className="flex items-center justify-between readout text-xs text-muted">
-				<span>no data yet</span>
-				<span>connect an account</span>
-			</div>
-		</div>
-	);
-}
-
-const PREVIEWS = {
-	accounts: AccountsPreview,
-	upload: UploadPreview,
-	calendar: CalendarPreview,
-	analytics: AnalyticsPreview,
-};
-
-const PREVIEW_LABEL = {
-	accounts: "connect page · empty profile",
-	upload: "publish · nothing queued",
-	calendar: "queue · empty month",
-	analytics: "reporting · no data",
-};
-
 export default function SocialFeaturePage({ page }) {
-	const Preview = PREVIEWS[page.preview];
 
 	return (
 		<div className="ambient-page min-h-screen bg-paper text-ink2">
@@ -206,8 +75,7 @@ export default function SocialFeaturePage({ page }) {
 
 			<section className="px-6 pb-14">
 				<div className="max-w-3xl mx-auto">
-					<Preview />
-					<p className="readout text-xs text-muted mt-2">{PREVIEW_LABEL[page.preview]}</p>
+					<SocialLivePanel page={page} />
 				</div>
 			</section>
 

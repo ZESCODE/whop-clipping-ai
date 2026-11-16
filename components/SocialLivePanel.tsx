@@ -21,7 +21,7 @@ function KeyPrompt() {
 			<h3 className="text-ink font-medium">Connect your own Upload-Post account</h3>
 			<p className="text-sm text-muted leading-relaxed">
 				These pages read <em>your</em> accounts, queue and numbers, so they need your key — not ours.
-				Upload-Post has a free tier and no credit card is required.
+				Upload-Post has a free tier and no card is needed.
 			</p>
 			<ol className="text-sm text-muted space-y-1.5 list-decimal list-inside">
 				<li>

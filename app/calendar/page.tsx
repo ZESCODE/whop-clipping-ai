@@ -5,9 +5,9 @@ import { SOCIAL_PAGES } from "@/lib/social-pages";
 const page = SOCIAL_PAGES.calendar;
 
 export const metadata: Metadata = {
-	title: "Calendar — Clipping AI",
+	title: "Publishing Calendar — Clipping AI",
 	description:
-		"Every queued post across every brand in one calendar.",
+		"See every scheduled post for every brand on a single, shared calendar.",
 	alternates: { canonical: "/calendar" },
 };
 

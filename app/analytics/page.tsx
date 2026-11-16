@@ -5,9 +5,9 @@ import { SOCIAL_PAGES } from "@/lib/social-pages";
 const page = SOCIAL_PAGES.analytics;
 
 export const metadata: Metadata = {
-	title: "Analytics — Clipping AI",
+	title: "Performance Analytics — Clipping AI",
 	description:
-		"Impressions and engagement per platform, per brand.",
+		"Track views and engagement, broken out by platform and by brand.",
 	alternates: { canonical: "/analytics" },
 };
 

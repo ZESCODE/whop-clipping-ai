@@ -5,9 +5,9 @@ import { SOCIAL_PAGES } from "@/lib/social-pages";
 const page = SOCIAL_PAGES.upload;
 
 export const metadata: Metadata = {
-	title: "Upload — Clipping AI",
+	title: "Publish Your Clips — Clipping AI",
 	description:
-		"Send one clip to TikTok, Reels, Shorts and the rest, now or scheduled.",
+		"Push a single clip to TikTok, Reels, Shorts and everywhere else — instantly or on a schedule.",
 	alternates: { canonical: "/upload" },
 };
 

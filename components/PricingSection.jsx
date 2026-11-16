@@ -11,8 +11,8 @@ import SegmentedControl from './ui/SegmentedControl';
 
 const PLAN_ORDER = ['starter', 'creator', 'pro'];
 const PLAN_BLURB = {
-  starter: 'For getting started',
-  creator: 'For regular creators',
+  starter: 'For first-timers',
+  creator: 'For everyday creators',
   pro: 'For power users & teams',
 };
 const HIGHLIGHT = 'creator';
@@ -78,7 +78,7 @@ export default function PricingSection({ onRequireLogin }) {
     } catch (e) {
       track('CheckoutFailed', { props: { ...props, reason: String(e?.detail || e?.message || 'unknown').slice(0, 120) } });
       setBusyPrice(null);
-      alert(e?.detail || 'Could not start checkout. Please try again.');
+      alert(e?.detail || "Couldn't start checkout. Give it another go.");
     }
   };
 
@@ -144,26 +144,26 @@ export default function PricingSection({ onRequireLogin }) {
         {/* Free tier — no card, Google sign-in only */}
         <div className="relative card p-6 flex flex-col">
           <h3 className="font-display lowercase text-xl text-ink">free</h3>
-          <p className="text-muted text-sm mb-4 lowercase">Try it on your own videos</p>
+          <p className="text-muted text-sm mb-4 lowercase">Test it on your own footage</p>
           <div className="mb-4 flex items-baseline gap-1.5">
             <span className="font-display text-4xl text-ink tabular-nums">$0</span>
             <span className="readout">/mo</span>
           </div>
           <ul className="space-y-2 text-sm text-ink2 mb-6 flex-1">
-            <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>{FREE_MINUTES} min</b> of video / month</span></li>
-            <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span>YouTube URL or upload</span></li>
+            <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>{FREE_MINUTES} min</b> of video each month</span></li>
+            <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span>Paste a YouTube URL or upload a file</span></li>
             <li className="flex items-start gap-2"><Cpu size={16} className="text-ok shrink-0 mt-0.5" /> <span>Same <b>GPU rendering</b>, about 50s per 8-min video</span></li>
-            <li className="flex items-start gap-2"><KeyRound size={16} className="text-ok shrink-0 mt-0.5" /> <span>Gemini key included, no setup</span></li>
-            <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span>No credit card — Google sign-in</span></li>
-            <li className="flex items-start gap-2"><Check size={16} className="text-muted shrink-0 mt-0.5" /> <span className="text-muted">Watermark · clips kept 7 days</span></li>
+            <li className="flex items-start gap-2"><KeyRound size={16} className="text-ok shrink-0 mt-0.5" /> <span>Gemini key included — zero setup</span></li>
+            <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span>No card needed — just Google sign-in</span></li>
+            <li className="flex items-start gap-2"><Check size={16} className="text-muted shrink-0 mt-0.5" /> <span className="text-muted">Watermark · clips stored 7 days</span></li>
           </ul>
           <button
             onClick={() => { window.location.hash = '#app'; }}
             className="w-full btn-ghost"
           >
-            Start free
+            Start for free
           </button>
-          <p className="text-center text-xs text-muted mt-2 lowercase">free minutes reset monthly.</p>
+          <p className="text-center text-xs text-muted mt-2 lowercase">your free minutes reset every month.</p>
         </div>
 
         {PLAN_ORDER.map((plan) => {
@@ -177,7 +177,7 @@ export default function PricingSection({ onRequireLogin }) {
             >
               {highlight && (
                 <span className="absolute -top-3 left-1/2 -translate-x-1/2 badge-float">
-                  Most popular
+                  Creator favorite
                 </span>
               )}
               <h3 className="font-display lowercase text-xl text-ink">{plan}</h3>
@@ -187,21 +187,21 @@ export default function PricingSection({ onRequireLogin }) {
                 <span className="readout">/{interval === 'month' ? 'mo' : 'yr'}</span>
               </div>
               <ul className="space-y-2 text-sm text-ink2 mb-6 flex-1">
-                <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>{entry.minutes} min</b> of video / month</span></li>
-                <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>No watermark</b>, no 7-day clip expiry</span></li>
-                <li className="flex items-start gap-2"><Cpu size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>GPU rendering</b>, about 50s per 8-min video</span></li>
-                <li className="flex items-start gap-2"><KeyRound size={16} className="text-ok shrink-0 mt-0.5" /> <span>Gemini key + auto-posting included</span></li>
+                <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>{entry.minutes} min</b> of video each month</span></li>
+                <li className="flex items-start gap-2"><Check size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>No watermark</b>, and no 7-day clip expiry</span></li>
+                <li className="flex items-start gap-2"><Cpu size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>GPU rendering</b> — roughly 50s per 8-min video</span></li>
+                <li className="flex items-start gap-2"><KeyRound size={16} className="text-ok shrink-0 mt-0.5" /> <span>Gemini key and auto-posting on us</span></li>
                 <li className="flex items-start gap-2"><Bot size={16} className="text-ok shrink-0 mt-0.5" /> <span><b>MCP + API access</b> for AI agents &amp; automations</span></li>
-                {plan === 'pro' && <li className="flex items-start gap-2"><Zap size={16} className="text-brass shrink-0 mt-0.5" /> <span>Priority processing queue</span></li>}
+                {plan === 'pro' && <li className="flex items-start gap-2"><Zap size={16} className="text-brass shrink-0 mt-0.5" /> <span>Priority render queue</span></li>}
               </ul>
               <button
                 onClick={() => checkout(entry)}
                 disabled={busyPrice === entry.price_id}
                 className={`w-full ${highlight ? 'btn-primary' : 'btn-ghost'}`}
               >
-                {busyPrice === entry.price_id ? <Loader2 size={18} className="animate-spin" /> : `Get ${plan}`}
+                {busyPrice === entry.price_id ? <Loader2 size={18} className="animate-spin" /> : `Choose ${plan}`}
               </button>
-              <p className="text-center text-xs text-muted mt-2 lowercase">billed {interval === 'month' ? 'monthly' : 'yearly'}. cancel anytime.</p>
+              <p className="text-center text-xs text-muted mt-2 lowercase">billed {interval === 'month' ? 'monthly' : 'yearly'}. cancel whenever you like.</p>
             </div>
           );
         })}
@@ -211,15 +211,15 @@ export default function PricingSection({ onRequireLogin }) {
       <div className="mt-10 grid md:grid-cols-2 gap-4">
         <div className="card p-6">
           <div className="mb-4">
-            <span className="badge-ok"><Check size={12} /> Included in every plan</span>
+            <span className="badge-ok"><Check size={12} /> In Every Plan</span>
           </div>
           <ul className="space-y-2 text-sm text-ink2">
-            <li className="flex items-start gap-2"><Cpu size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>Our NVIDIA GPU does the rendering.</b> An 8-minute video is clipped in about 50 seconds, instead of the 5 to 8 minutes it takes on a typical CPU.</span></li>
-            <li className="flex items-start gap-2"><KeyRound size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>The Gemini API key is included.</b> Nothing to sign up for, nothing to paste, no per-request quota of your own to babysit.</span></li>
-            <li className="flex items-start gap-2"><Send size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>Auto-posting is already wired up</b> for TikTok, Instagram Reels and YouTube Shorts.</span></li>
-            <li className="flex items-start gap-2"><HardDrive size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>Clips are stored and served for you</b>, ready to re-open and re-edit from any browser.</span></li>
+            <li className="flex items-start gap-2"><Cpu size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>Our NVIDIA GPU handles the rendering.</b> An 8-minute video is clipped in about 50 seconds, versus the 5 to 8 minutes a typical CPU needs.</span></li>
+            <li className="flex items-start gap-2"><KeyRound size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>The Gemini API key is on us.</b> No signup, no pasting, no personal per-request quota to keep an eye on.</span></li>
+            <li className="flex items-start gap-2"><Send size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>Auto-posting comes ready to go</b> for TikTok, Instagram Reels and YouTube Shorts.</span></li>
+            <li className="flex items-start gap-2"><HardDrive size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>We store and serve your clips</b>, so you can reopen and re-edit them from any browser.</span></li>
             <li className="flex items-start gap-2"><Check size={15} className="text-ok shrink-0 mt-0.5" /> <span>Full <b>YouTube Studio</b>: titles, thumbnails and descriptions.</span></li>
-            <li className="flex items-start gap-2"><Bot size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>MCP server &amp; API for agents.</b> Connect Claude, ChatGPT or n8n to an always-on endpoint and automate clipping end to end. API calls use the same minutes, nothing extra to buy. <a href="/mcp" className="underline underline-offset-2 hover:text-ink" target="_blank" rel="noopener">Guide</a>.</span></li>
+            <li className="flex items-start gap-2"><Bot size={15} className="text-ok shrink-0 mt-0.5" /> <span><b>MCP server &amp; API for agents.</b> Connect Claude, ChatGPT or n8n to an always-on endpoint and automate the whole clipping flow. API calls use the same minutes — nothing extra to buy. <a href="/mcp" className="underline underline-offset-2 hover:text-ink" target="_blank" rel="noopener">Guide</a>.</span></li>
           </ul>
           <p className="text-xs text-muted mt-3 pt-3 border-t border-rule">
             Your monthly minutes cover video processing. Titles &amp; descriptions are free;
@@ -228,19 +228,19 @@ export default function PricingSection({ onRequireLogin }) {
         </div>
         <div className="card p-6">
           <div className="mb-4">
-            <span className="badge-warn"><Zap size={12} /> Bring your own key</span>
+            <span className="badge-warn"><Zap size={12} /> Bring Your Own Keys</span>
           </div>
           <p className="text-sm text-muted mb-3 leading-relaxed">
-            <b className="text-ink2">AI Shorts</b> (AI-actor UGC videos) and <b className="text-ink2">voice dubbing</b> use premium generation from
-            <b className="text-ink2"> Pollinations</b> and <b className="text-ink2">ElevenLabs</b>. Connect your own keys for those — you're billed by those
-            providers directly (typically ~$0.65-2 per video). Your plan still covers the script &amp; orchestration.
+            <b className="text-ink2">AI Shorts</b> (AI-actor ad videos) and <b className="text-ink2">voice dubbing</b> tap premium generation from
+            <b className="text-ink2"> Pollinations</b> and <b className="text-ink2">ElevenLabs</b>. Plug in your own keys for those — those
+            providers bill you directly (typically ~$0.65-2 per video). Your plan still covers the script &amp; orchestration.
           </p>
-          <p className="text-xs text-muted">Managed credits for these are coming later — no keys needed.</p>
+          <p className="text-xs text-muted">Managed credits for these are on the way — no keys to juggle then.</p>
         </div>
       </div>
 
       <p className="text-center text-muted text-xs mt-8 lowercase">
-        start free right here, upgrade for more minutes and no watermark, or run it yourself on your own hardware.
+        start free here, move up for more minutes and no watermark, or run it all on your own hardware.
       </p>
     </div>
   );

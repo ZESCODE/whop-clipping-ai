@@ -24,38 +24,38 @@ export type SocialPageContent = {
 	secondary: { href: string; label: string };
 };
 
-const CTA = "Connect your accounts";
-const SECONDARY = { href: "/platforms", label: "See every platform" };
+const CTA = "Connect Your Accounts";
+const SECONDARY = { href: "/platforms", label: "See All Platforms" };
 
 export const SOCIAL_PAGES: Record<SocialSlug, SocialPageContent> = {
 	user: {
 		slug: "user",
-		navLabel: "Accounts",
-		eyebrow: "Publish",
-		title: "Your social accounts, connected once",
+		navLabel: "Connections",
+		eyebrow: "Go Live",
+		title: "Link Every Social Account Once",
 		lede:
-			"TikTok, Instagram, YouTube, LinkedIn and eighteen more networks behind one connect link. Each network runs its own sign-in screen, so no password ever reaches Clipping AI or the publishing layer.",
+			"Bring TikTok, Instagram, YouTube, LinkedIn and eighteen other networks together with a single connect link. Every network handles its own sign-in, so no password ever touches Clipping AI or the publishing layer.",
 		preview: "accounts",
 		features: [
 			{
-				title: "One link per brand",
+				title: "A Link for Every Brand",
 				body:
-					"The connect page carries your logo, your title and your button. Send it once; the accounts stay attached to that brand, not to a device.",
+					"Your connect page carries your logo, your headline and your button. Share it once — the accounts stay tied to the brand, not to any one device.",
 			},
 			{
-				title: "Read-only option",
+				title: "View-Only Mode",
 				body:
-					"Prefer to stay hands-off? The link can open a view-only calendar, so a client sees what is queued without being able to change it.",
+					"Want to stay hands-off? The link can open a read-only calendar, so a client sees what's queued without changing a thing.",
 			},
 			{
-				title: "Reconnect, don't rebuild",
+				title: "Reconnect Without Redoing",
 				body:
-					"Expired tokens are flagged and re-signed in place. Nothing to re-upload, no captions to redo.",
+					"Expired tokens get flagged and re-signed in place. Nothing to re-upload, no captions to rewrite.",
 			},
 		],
 		steps: [
-			"Create a profile for the brand",
-			"Share the branded connect link",
+			"Set up a profile for the brand",
+			"Share your branded connect link",
 			"Sign in on each network's own screen",
 		],
 		cta: CTA,
@@ -63,101 +63,101 @@ export const SOCIAL_PAGES: Record<SocialSlug, SocialPageContent> = {
 	},
 	upload: {
 		slug: "upload",
-		navLabel: "Upload",
-		eyebrow: "Publish",
-		title: "One clip out to every platform",
+		navLabel: "Publish",
+		eyebrow: "Distribute",
+		title: "One Clip, Every Platform",
 		lede:
-			"Send a finished vertical video to TikTok, Reels, Shorts, LinkedIn and the rest from a single request. Publish now or queue it for later; each network gets its own title and caption.",
+			"Ship a finished vertical video to TikTok, Reels, Shorts, LinkedIn and beyond in one go. Post immediately or schedule it — every network gets its own title and caption.",
 		preview: "upload",
 		features: [
 			{
-				title: "Per-network captions",
+				title: "Captions per Network",
 				body:
-					"Write one caption per platform in the same request. Hashtags, mentions and link limits stop being a copy-paste chore.",
+					"Write a separate caption for each platform in the same request. Hashtags, mentions and link limits stop being a copy-paste headache.",
 			},
 			{
-				title: "Schedule while you sleep",
+				title: "Set It and Schedule It",
 				body:
-					"Attach a publish time and the queue holds it. The calendar page shows exactly what goes out when.",
+					"Add a publish time and the queue holds it. The calendar shows exactly what goes out, and when.",
 			},
 			{
-				title: "Cancellation and retry",
+				title: "Pull Back or Retry",
 				body:
-					"Pull a queued post before it fires, or retry one that failed on a single network without touching the others.",
+					"Cancel a queued post before it fires, or retry one that flopped on a single network without touching the rest.",
 			},
 		],
 		steps: [
-			"Pick the clip from your library",
-			"Choose the networks and write the caption",
-			"Send now, or schedule it",
+			"Grab a clip from your library",
+			"Pick networks and write captions",
+			"Post now or schedule it",
 		],
 		cta: CTA,
-		secondary: { href: "/app", label: "Open the clipper" },
+		secondary: { href: "/app", label: "Open the studio" },
 	},
 	calendar: {
 		slug: "calendar",
 		navLabel: "Calendar",
-		eyebrow: "Publish",
-		title: "Your month at a glance",
+		eyebrow: "Plan",
+		title: "Your Whole Month at a Glance",
 		lede:
-			"Everything queued across every brand, in one calendar. Move a post to another day, open a preview, or delete a slot before it goes out.",
+			"Every queued post across every brand, on one calendar. Shift a post to another day, open a preview, or delete a slot before it goes live.",
 		preview: "calendar",
 		features: [
 			{
-				title: "One queue, many brands",
+				title: "One Queue, Many Brands",
 				body:
-					"Each brand keeps its own profile, so the calendar never mixes one client's posts into another's.",
+					"Each brand keeps its own profile, so one client's posts never bleed into another's.",
 			},
 			{
-				title: "Preview before it posts",
+				title: "Preview Before Publishing",
 				body:
-					"Each scheduled item carries a preview of the video as it will appear, caption included.",
+					"Every scheduled item shows the video exactly as it will appear, caption included.",
 			},
 			{
-				title: "Share the view",
+				title: "Share the View",
 				body:
-					"Send the read-only link to whoever approves the plan. They can look, not touch.",
+					"Send the view-only link to whoever signs off on the plan. They can look, not touch.",
 			},
 		],
 		steps: [
-			"Open the calendar for a brand",
+			"Open a brand's calendar",
 			"Drop clips onto a day",
-			"Share the read-only link for approval",
+			"Share the view-only link for approval",
 		],
 		cta: CTA,
-		secondary: { href: "/tools", label: "Free tools" },
+		secondary: { href: "/tools", label: "Free Tools" },
 	},
 	analytics: {
 		slug: "analytics",
 		navLabel: "Analytics",
-		eyebrow: "Publish",
-		title: "Numbers per platform",
+		eyebrow: "Measure",
+		title: "Stats by Platform",
 		lede:
-			"Impressions, engagement and per-post results for each connected account, pulled per brand so a report is one request rather than seven logins.",
+			"Impressions, engagement and per-post results for every connected account — pulled per brand, so a report takes one request instead of seven logins.",
 		preview: "analytics",
 		features: [
 			{
-				title: "Per profile, per platform",
+				title: "By Profile, by Platform",
 				body:
-					"Ask for one brand and one network, or all of them. The numbers stay attached to the profile that owns the accounts.",
+					"Pull one brand and one network, or all of them. The numbers stay tied to the profile that owns the accounts.",
 			},
 			{
-				title: "Per post detail",
+				title: "Down to Each Post",
 				body:
 					"Drill from a total into a single clip: which network carried it and how it landed.",
 			},
 			{
-				title: "Fits your own dashboard",
+				title: "Fits Your Dashboard",
 				body:
-					"Plain JSON over HTTPS, so the numbers land in your own reporting without exporting a CSV first.",
+					"Plain JSON over HTTPS, so the numbers land in your own reporting — no CSV export needed.",
 			},
 		],
 		steps: [
-			"Connect the accounts",
+			"Connect your accounts",
 			"Publish for a few days",
-			"Read the totals per network",
+			"Read totals per network",
 		],
 		cta: CTA,
-		secondary: { href: "/pricing", label: "See plans" },
+		secondary: { href: "/pricing", label: "See Plans" },
 	},
 };

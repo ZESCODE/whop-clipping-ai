@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
 	title: "Clipping AI",
 	description:
-		"Clip long videos into shorts for Whop bounties — generate, review, submit, get paid.",
+		"Turn long videos into shorts for Whop bounties — create, review, submit, and get paid.",
 };
 
 export default function RootLayout({

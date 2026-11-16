@@ -8,8 +8,8 @@ export default function LegalDoc({ path }: { path: string }) {
 		return (
 			<main className="ambient-page min-h-screen bg-paper text-ink2 px-6 py-20">
 				<div className="max-w-3xl mx-auto">
-					<h1 className="font-display text-3xl lowercase text-ink mb-4">Not found</h1>
-					<p className="text-muted">This legal document does not exist.</p>
+					<h1 className="font-display text-3xl lowercase text-ink mb-4">Page not found</h1>
+					<p className="text-muted">That legal document is not available.</p>
 				</div>
 			</main>
 		);
@@ -17,9 +17,9 @@ export default function LegalDoc({ path }: { path: string }) {
 	return (
 		<main className="ambient-page min-h-screen bg-paper text-ink2 px-6 py-20">
 			<article className="max-w-3xl mx-auto legal-prose">
-				<p className="eyebrow mb-3">Legal</p>
-				<h1 className="font-display text-4xl lowercase text-ink mb-2">{doc.h1}</h1>
-				{doc.updated ? <p className="readout mb-8">Updated {doc.updated}</p> : null}
+					<p className="eyebrow mb-3">Legal documents</p>
+					<h1 className="font-display text-4xl lowercase text-ink mb-2">{doc.h1}</h1>
+					{doc.updated ? <p className="readout mb-8">Revised {doc.updated}</p> : null}
 				{doc.tldr?.length ? (
 					<ul className="card p-5 mb-8 space-y-2 text-sm text-ink2">
 						{doc.tldr.map((t: string, i: number) => (

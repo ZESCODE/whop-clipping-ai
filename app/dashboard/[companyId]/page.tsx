@@ -23,9 +23,9 @@ export default async function DashboardPage({
 	if (access.access_level !== "admin") {
 		return (
 			<div className="flex flex-col p-8 gap-4">
-				<h1 className="text-9">Admin access required</h1>
+				<h1 className="text-9">Admin Access Required</h1>
 				<p className="text-3 text-gray-10">
-					The creator dashboard is restricted to account admins.
+					Only account admins can open the creator dashboard.
 				</p>
 			</div>
 		);
@@ -45,22 +45,22 @@ export default async function DashboardPage({
 		<div className="flex flex-col p-8 gap-8 max-w-6xl">
 			<div className="flex justify-between items-center gap-4">
 				<h1 className="text-9">
-					{displayName}&apos;s <strong>Clipping HQ</strong>
+					{displayName}&apos;s <strong>Creator Hub</strong>
 				</h1>
 				<Link href="https://docs.whop.com/apps" target="_blank">
 					<Button variant="classic" className="w-full" size="3">
-						Developer Docs
+						Dev Docs
 					</Button>
 				</Link>
 			</div>
 
 			<p className="text-3 text-gray-10">
-				Review clipping submissions against your content-rewards bounties, then approve and pay
-				out in Whop.
+				Check clip submissions against your content-reward bounties, then approve and pay
+				creators through Whop.
 			</p>
 
 			{overviewError && (
-				<p className="text-3 text-red-10">Whop data unavailable: {overviewError}</p>
+				<p className="text-3 text-red-10">Couldn&apos;t load Whop data: {overviewError}</p>
 			)}
 
 			{overview && (

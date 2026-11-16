@@ -5,9 +5,9 @@ import { SOCIAL_PAGES } from "@/lib/social-pages";
 const page = SOCIAL_PAGES.user;
 
 export const metadata: Metadata = {
-	title: "Accounts — Clipping AI",
+	title: "Connected Accounts — Clipping AI",
 	description:
-		"Connect TikTok, Instagram, YouTube and the rest once, then publish from the clipper.",
+		"Link TikTok, Instagram, YouTube and more just once, then publish right from the studio.",
 	alternates: { canonical: "/user" },
 };
 

@@ -64,9 +64,9 @@ export default function SocialFeaturePage({ page }) {
 						</a>
 					</div>
 					<p className="text-xs text-muted mt-4">
-						Publishing runs on Upload-Post. Your social passwords go to the network, never to us.{" "}
+						Publishing is powered by Upload-Post. Your social logins go straight to each network — never through us.{" "}
 						<a href={UPLOAD_POST_URL} className="underline hover:text-ink2" target="_blank" rel="noreferrer">
-							Open Upload-Post directly
+							Open Upload-Post now
 						</a>
 						.
 					</p>
@@ -81,7 +81,7 @@ export default function SocialFeaturePage({ page }) {
 
 			<section className="px-6 py-14 border-t border-rule">
 				<div className="max-w-3xl mx-auto">
-					<h2 className="font-display lowercase text-2xl text-ink mb-8">how it works</h2>
+					<h2 className="font-display lowercase text-2xl text-ink mb-8">How It Works</h2>
 					<ol className="space-y-4">
 						{page.steps.map((step, i) => (
 							<li key={step} className="flex gap-4">
@@ -109,22 +109,22 @@ export default function SocialFeaturePage({ page }) {
 			<section className="px-6 py-16 border-t border-rule">
 				<div className="max-w-3xl mx-auto card p-6 sm:p-8 text-center">
 					<h2 className="font-display lowercase text-2xl sm:text-3xl text-ink mb-3">
-						connect once, publish from the clipper.
+						Connect once, publish right from the studio.
 					</h2>
 					<p className="text-muted mb-6">
-						Clip the video here, send it to every network from the publishing tab. One queue, one
-						calendar, one set of numbers.
+						Cut your clips here, then send them to every network from the publishing tab. One
+						queue, one calendar, one set of numbers.
 					</p>
 					<div className="flex flex-wrap justify-center gap-3">
 						<a href={CONNECT_HREF} className="btn-primary">
 							{page.cta}
 						</a>
 						<a href="/#app" className="btn-ghost px-4 py-2 text-sm">
-							Open the clipper
+							Open the studio
 						</a>
 					</div>
 					<p className="text-xs text-muted mt-4 inline-flex items-center gap-1.5">
-						<ShieldCheck size={13} /> OAuth on each network · encrypted tokens · revoke any time
+						<ShieldCheck size={13} /> Native OAuth per network · encrypted tokens · revoke whenever you want
 					</p>
 				</div>
 			</section>
@@ -132,25 +132,25 @@ export default function SocialFeaturePage({ page }) {
 			<footer className="border-t border-rule py-10 px-6">
 				<div className="max-w-3xl mx-auto flex flex-wrap items-center gap-x-5 gap-y-2 text-sm text-muted">
 					<a href="/user" className="hover:text-ink transition-colors">
-						accounts
+						Accounts
 					</a>
 					<a href="/upload" className="hover:text-ink transition-colors">
-						upload
+						Upload
 					</a>
 					<a href="/calendar" className="hover:text-ink transition-colors">
-						calendar
+						Calendar
 					</a>
 					<a href="/analytics" className="hover:text-ink transition-colors">
-						analytics
+						Analytics
 					</a>
 					<a href="/tools" className="hover:text-ink transition-colors">
-						free tools
+						Free Tools
 					</a>
 					<a href="/pricing" className="hover:text-ink transition-colors">
-						pricing
+						Pricing
 					</a>
 					<span className="ml-auto inline-flex items-center gap-1.5">
-						<Check size={13} /> powered by Upload-Post
+						<Check size={13} /> Powered by Upload-Post
 					</span>
 				</div>
 			</footer>

@@ -8,13 +8,13 @@ type Avatar = (typeof data.avatars)[number];
 
 const STYLE_LABEL: Record<string, string> = {
 	ugc: "UGC",
-	shock: "Shock hook",
-	story: "Story",
-	educational: "Educational",
-	comparison: "Comparison",
+	shock: "Bold hook",
+	story: "Narrative",
+	educational: "Explainer",
+	comparison: "Side-by-side",
 };
 
-function CopyButton({ text, label = "Copy script" }: { text: string; label?: string }) {
+function CopyButton({ text, label = "Grab script" }: { text: string; label?: string }) {
 	const [copied, setCopied] = useState(false);
 	return (
 		<button
@@ -58,7 +58,7 @@ function VideoCard({ video }: { video: Video }) {
 					type="button"
 					onClick={() => setOpen(true)}
 					className="group relative aspect-[9/16] w-full overflow-hidden bg-black"
-					aria-label={`Play ${video.title}`}
+					aria-label={`Watch ${video.title}`}
 				>
 					{/* biome-ignore lint/performance/noImgElement: static template poster */}
 					<img
@@ -78,14 +78,14 @@ function VideoCard({ video }: { video: Video }) {
 			<div className="flex flex-1 flex-col gap-2 p-4">
 				<div className="flex flex-wrap items-center gap-1.5 text-[11px]">
 					<span className="badge-ok">{STYLE_LABEL[video.style] || video.style}</span>
-					<span className="badge-float">{video.mode === "premium" ? "Premium" : "Low cost"}</span>
+					<span className="badge-float">{video.mode === "premium" ? "Premium" : "Budget"}</span>
 					<span className="badge-float">{length}</span>
 				</div>
 				<h3 className="text-base font-semibold leading-snug text-ink">{video.title}</h3>
 				{video.hook && <p className="text-sm text-muted">“{video.hook}”</p>}
 				{video.productName && (
 					<p className="text-xs text-muted">
-						Product:{" "}
+						Promoting:{" "}
 						{video.productUrl ? (
 							<a
 								href={video.productUrl}
@@ -117,13 +117,13 @@ function AvatarCard({ avatar }: { avatar: Avatar }) {
 			{/* biome-ignore lint/performance/noImgElement: static template image */}
 			<img
 				src={avatar.file}
-				alt={avatar.description || "AI actor avatar"}
+				alt={avatar.description || "AI avatar"}
 				loading="lazy"
 				className="aspect-[3/4] w-full object-cover"
 			/>
 			<figcaption className="flex flex-col gap-2 p-3">
 				<p className="line-clamp-4 text-xs leading-relaxed text-muted">{avatar.description}</p>
-				<CopyButton text={avatar.description || ""} label="Copy prompt" />
+				<CopyButton text={avatar.description || ""} label="Grab prompt" />
 			</figcaption>
 		</figure>
 	);
@@ -151,11 +151,11 @@ export default function TemplatesGallery() {
 		<div className="ambient-page min-h-screen">
 			<div className="mx-auto w-full max-w-6xl px-5 py-10">
 				<header className="mb-6 flex flex-col gap-3">
-					<p className="eyebrow">Templates</p>
-					<h1 className="text-3xl font-semibold text-ink">Video &amp; avatar templates</h1>
+					<p className="eyebrow">Template Library</p>
+					<h1 className="text-3xl font-semibold text-ink">Video &amp; Avatar Templates</h1>
 					<p className="max-w-2xl text-sm text-muted">
 						{videos.length} short-form video templates and {data.avatars.length} AI actor avatars,
-						hosted here. Play one, copy its script, or reuse an actor prompt in your own clips.
+						all right here. Watch one, grab its script, or reuse an actor prompt in your own clips.
 					</p>
 				</header>
 
@@ -180,7 +180,7 @@ export default function TemplatesGallery() {
 						type="search"
 						value={query}
 						onChange={(e) => setQuery(e.target.value)}
-						placeholder={tab === "videos" ? "Search videos…" : "Search avatars…"}
+						placeholder={tab === "videos" ? "Search templates…" : "Search avatars…"}
 						className="input-field max-w-xs flex-1"
 					/>
 					<a
@@ -200,7 +200,7 @@ export default function TemplatesGallery() {
 							))}
 						</div>
 					) : (
-						<p className="text-sm text-muted">No videos match “{query}”.</p>
+						<p className="text-sm text-muted">No templates match “{query}”.</p>
 					)
 				) : avatars.length ? (
 					<div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
@@ -209,7 +209,7 @@ export default function TemplatesGallery() {
 						))}
 					</div>
 				) : (
-					<p className="text-sm text-muted">No avatars match “{query}”.</p>
+					<p className="text-sm text-muted">No avatars fit “{query}”.</p>
 				)}
 			</div>
 		</div>

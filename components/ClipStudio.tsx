@@ -29,7 +29,7 @@ type Clip = {
   hook_score?: number;
 };
 
-const STEPS = ["Pick a bounty", "Clip it", "Submit"] as const;
+const STEPS = ["Choose a bounty", "Make clips", "Submit"] as const;
 
 export default function ClipStudio({
   bounties,
@@ -66,7 +66,7 @@ export default function ClipStudio({
           setClips(finished);
           if (j.status === "completed" || j.status === "failed") {
             setBusy(false);
-            if (j.status === "failed") setError(j.error || j.message || "clip job failed");
+            if (j.status === "failed") setError(j.error || j.message || "clipping job failed");
             return;
           }
           setTimeout(tick, 2000);
@@ -82,7 +82,7 @@ export default function ClipStudio({
 
   const startClipping = async () => {
     setError(""); setDone(""); setClips([]); setJob(null);
-    if (!videoUrl.trim()) { setError("Paste a source video URL"); return; }
+    if (!videoUrl.trim()) { setError("Paste a source video link"); return; }
     setBusy(true);
     try {
       const res = await fetch("/api/clips", {
@@ -91,7 +91,7 @@ export default function ClipStudio({
         body: JSON.stringify({ video_url: videoUrl.trim(), captions: true }),
       });
       const j = await res.json();
-      if (!res.ok || !j.job_id) throw new Error(j.detail || j.error || "failed to start");
+      if (!res.ok || !j.job_id) throw new Error(j.detail || j.error || "couldn't start the job");
       setJobId(j.job_id);
       setStep(1);
       poll(j.job_id);
@@ -112,12 +112,12 @@ export default function ClipStudio({
         body: JSON.stringify({
           bounty_id: bounty.id,
           urls: [`/api/media?path=${encodeURIComponent(picked)}`],
-          caption: `Clip generated with Clipping AI by @${userId}`,
+          caption: `Clip made with Clipping AI by @${userId}`,
         }),
       });
       const j = await res.json();
-      if (!res.ok) throw new Error(j.detail || j.error || "submission failed");
-      setDone("Submitted to the bounty — the creator reviews it next.");
+      if (!res.ok) throw new Error(j.detail || j.error || "submitting failed");
+      setDone("Sent to the bounty — the creator will review it shortly.");
       setStep(2);
     } catch (e: any) {
       setError(String(e?.message || e));
@@ -142,9 +142,9 @@ export default function ClipStudio({
 
       {/* 1 — bounties */}
       <section className="flex flex-col gap-3">
-        <h2 className="text-6 font-bold">Open bounties in this community</h2>
+        <h2 className="text-6 font-bold">Open Bounties in This Community</h2>
         {bounties.length === 0 && (
-          <p className="text-3 text-gray-10">No open bounties right now. Check back later.</p>
+          <p className="text-3 text-gray-10">No bounties are open right now. Swing back soon.</p>
         )}
         <div className="grid gap-3 md:grid-cols-2">
           {bounties.map((b) => (
@@ -169,14 +169,15 @@ export default function ClipStudio({
 
       {/* 2 — clip pipeline */}
       <section className="flex flex-col gap-3">
-        <h2 className="text-6 font-bold">Clip a video</h2>
+        <h2 className="text-6 font-bold">Clip a Video</h2>
         <p className="text-2 text-gray-10">
-          Paste a long-form link (YouTube, Twitch, or a direct mp4). The pipeline transcribes, finds
-          viral moments, reframes to 9:16 and burns captions — then you pick the clip to submit.
+          Drop in a long-form link (YouTube, Twitch, or a direct mp4). The pipeline transcribes,
+          spots the standout moments, reframes to 9:16 and burns in captions — then you choose the
+          clip to submit.
         </p>
         <div className="flex flex-wrap gap-3 items-end">
           <label className="flex flex-col gap-1 grow">
-            <span className="text-2 text-gray-10">Source video URL</span>
+            <span className="text-2 text-gray-10">Source Video URL</span>
             <input
               value={videoUrl}
               onChange={(e) => setVideoUrl(e.target.value)}
@@ -185,10 +186,10 @@ placeholder="https://youtube.com/watch?v=..."
             />
           </label>
           <Button variant="classic" size="3" onClick={startClipping} disabled={busy || !videoUrl.trim()}>
-            {busy && !jobId ? "Starting…" : "Generate clips"}
+            {busy && !jobId ? "Getting started…" : "Create clips"}
           </Button>
         </div>
-        <p className="text-1 text-gray-9">Company {companyId} · clipper {userId}</p>
+        <p className="text-1 text-gray-9">Company {companyId} · creator {userId}</p>
       </section>
 
       {/* job + clips */}
@@ -214,7 +215,7 @@ placeholder="https://youtube.com/watch?v=..."
                     src={`/api/media?path=${encodeURIComponent(c.video_url || "")}`}
                   />
                   <figcaption className="p-2 flex flex-col gap-2">
-                    <span className="text-2 text-gray-10 line-clamp-1">{c.title || "clip"}</span>
+                    <span className="text-2 text-gray-10 line-clamp-1">{c.title || "untitled clip"}</span>
                     {c.duration ? <span className="text-1 text-gray-9">{Math.round(c.duration)}s</span> : null}
                     <Button
                       variant={picked === c.video_url ? "classic" : "surface"}
@@ -222,7 +223,7 @@ placeholder="https://youtube.com/watch?v=..."
                       onClick={() => c.video_url && setPicked(c.video_url)}
                       disabled={busy}
                     >
-                      {picked === c.video_url ? "Selected" : "Select for submission"}
+                      {picked === c.video_url ? "Selected" : "Select to submit"}
                     </Button>
                   </figcaption>
                 </figure>
@@ -235,14 +236,14 @@ placeholder="https://youtube.com/watch?v=..."
       {/* 3 — submit */}
       {picked && (
         <section className="flex flex-col gap-3 frost-card p-4">
-          <h3 className="text-5 font-bold">Submit to “{bounty?.title || bounty?.name || bounty?.id}”</h3>
+          <h3 className="text-5 font-bold">Send to “{bounty?.title || bounty?.name || bounty?.id}”</h3>
           <p className="text-2 text-gray-10">
-            The selected clip goes to the bounty creator for review. Approvals are paid out from the
-            bounty pool.
+            Your chosen clip goes to the bounty creator for review. Approved clips are paid out from
+            the bounty pool.
           </p>
           <div>
             <Button variant="classic" size="3" onClick={submitClip} disabled={busy || !bounty}>
-              {busy ? "Submitting…" : "Submit clip"}
+              {busy ? "Sending…" : "Send clip"}
             </Button>
           </div>
         </section>

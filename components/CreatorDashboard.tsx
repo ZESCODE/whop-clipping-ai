@@ -58,11 +58,11 @@ export default function CreatorDashboard({
 		<div className="flex flex-col gap-8">
 			<div className="grid gap-4 md:grid-cols-3">
 				<div className="frost-card p-4">
-					<div className="text-2 text-gray-10">Open bounties</div>
+					<div className="text-2 text-gray-10">Open Bounties</div>
 					<div className="text-9 font-bold mt-1">{bounties.length}</div>
 				</div>
 				<div className="frost-card p-4">
-					<div className="text-2 text-gray-10">Submissions in queue</div>
+					<div className="text-2 text-gray-10">Clips in Queue</div>
 					<div className="text-9 font-bold mt-1">
 						{bounties.reduce((n, b) => n + b.submissions.length, 0)}
 					</div>
@@ -75,8 +75,8 @@ export default function CreatorDashboard({
 
 			{bounties.length === 0 && (
 				<p className="text-3 text-gray-10">
-					No bounties yet. Create one in your Whop dashboard and clipping submissions will show
-					up here.
+					No bounties yet. Spin one up in your Whop dashboard and clip submissions will land
+					right here.
 				</p>
 			)}
 
@@ -87,18 +87,18 @@ export default function CreatorDashboard({
 							<h2 className="text-6 font-bold">{b.title}</h2>
 							<p className="text-2 text-gray-10">
 								{b.id} · {b.submissions.length} submission{b.submissions.length === 1 ? "" : "s"}
-								{b.reward != null ? ` · $${b.reward} reward` : ""}
+								{b.reward != null ? ` · $${b.reward} prize` : ""}
 							</p>
 						</div>
 						<a href="https://whop.com/dashboard" target="_blank" rel="noreferrer">
 							<Button variant="classic" size="2">
-								Review in Whop
+								Review on Whop
 							</Button>
 						</a>
 					</header>
 
 					{b.submissions.length === 0 && (
-						<p className="text-2 text-gray-9">No submissions yet.</p>
+						<p className="text-2 text-gray-9">Nothing here yet.</p>
 					)}
 
 					<div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
@@ -121,7 +121,7 @@ export default function CreatorDashboard({
 									<div className="p-3 flex flex-col gap-2">
 										<div className="flex justify-between items-center gap-2">
 											<strong className="text-3">
-												{s.user?.name || s.user?.username || s.user?.id || "clipper"}
+												{s.user?.name || s.user?.username || s.user?.id || "creator"}
 											</strong>
 											<span
 												className={`text-1 px-2 py-0.5 rounded-full border ${STATUS_TONE[s.status] || "text-gray-11 border-gray-a4"}`}

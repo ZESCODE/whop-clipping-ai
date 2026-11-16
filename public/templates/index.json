@@ -1,0 +1,3474 @@
+{
+ "source": "https://www.openshorts.app/#app",
+ "videos": [
+  {
+   "id": "e1fc2d12",
+   "title": "Stop the Complexity Tax",
+   "hook": "Is your offer confusing?",
+   "caption": "Your clients shouldn't have to study your website to understand your offer. Make it simple. #marketingtips #conversionrate #businessgrowth",
+   "hashtags": [
+    "#marketingtips",
+    "#conversionrate",
+    "#businessgrowth"
+   ],
+   "narration": "Stop losing clients just because your business process is too hard to explain. Most people write huge walls of text that nobody actually reads. I finally found DrawnToSell, a service that turns your messy process into a simple, high-converting whiteboard animation. Look at how clean this looks. It breaks everything down so clients actually get it immediately. Stop overcomplicating it, check the link in my bio.",
+   "actorDescription": "a 29 year old european man, short dark hair, light stubble, wearing a navy t-shirt, smart casual look",
+   "style": "ugc",
+   "language": "en",
+   "duration": 25.63,
+   "mode": "lowcost",
+   "productName": "DrawnToSell",
+   "productUrl": "https://www.drawntosell.com",
+   "createdAt": "2026-08-28T21:02:47.824696Z",
+   "video": "/templates/videos/e1fc2d12/video.mp4",
+   "poster": "/templates/videos/e1fc2d12/poster.webp",
+   "actor": "/templates/videos/e1fc2d12/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Stop losing clients just because your business process is too hard to explain.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "serious",
+     "subtitle_text": "Stop losing clients"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Most people write huge walls of text that nobody actually reads.",
+     "visual": "broll",
+     "broll_prompt": "A close-up shot of someone scrolling past a long, boring text-heavy landing page on a phone with an annoyed expression.",
+     "emotion": "frustrated",
+     "subtitle_text": "Stop writing walls of text"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "I finally found DrawnToSell, a service that turns your messy process into a simple, high-converting whiteboard animation.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "relieved",
+     "subtitle_text": "Try DrawnToSell"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Look at how clean this looks. It breaks everything down so clients actually get it immediately.",
+     "visual": "broll",
+     "broll_prompt": "Screen recording of a smooth, professional whiteboard animation video showing a simple business workflow.",
+     "emotion": "excited",
+     "subtitle_text": "See the results"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Stop overcomplicating it, check the link in my bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/e1fc2d12/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/e1fc2d12/actor.png"
+  },
+  {
+   "id": "8305c10a",
+   "title": "The Math Hack Flex",
+   "hook": "Disney Dining Plan Hack",
+   "caption": "Disney doesn't want you to see this math. \ud83e\udd2b Save hundreds on your 2026 trip with Beat The DDP! Link in bio. \ud83c\udff0\u2728",
+   "hashtags": [
+    "#disneyworld",
+    "#disneytips",
+    "#disneydiningplan",
+    "#travelhacks"
+   ],
+   "narration": "Disney literally counts on you losing hundreds of dollars on their dining plan, but I found the hack. Most people just guess and end up with a stack of unused snack credits and zero savings. I started using Beat The DDP. I jump on create a trip with my family, then each day log what we eat. It show me the price, the value and the best part is all in one place for me to track. Check out the link in the bio to track your vacation!",
+   "actorDescription": "a 24 year old attractive european woman, blonde wavy hair, wearing a white tank top, natural minimal makeup, friendly face",
+   "style": "shock",
+   "language": "en",
+   "duration": 28.55,
+   "mode": "lowcost",
+   "productName": "Beat The DDP",
+   "productUrl": "https://beattheddp.com",
+   "createdAt": "2026-07-09T16:08:14.760676Z",
+   "video": "/templates/videos/8305c10a/video.mp4",
+   "poster": "/templates/videos/8305c10a/poster.webp",
+   "actor": "/templates/videos/8305c10a/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Disney literally counts on you losing hundreds of dollars on their dining plan, but I found the hack.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Disney's hidden math secret"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Most people just guess and end up with a stack of unused snack credits and zero savings.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a frustrated person staring at a messy pile of Disney World receipts on a hotel bed, looking overwhelmed.",
+     "emotion": "frustrated",
+     "subtitle_text": "Stop wasting money"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "I started using Beat The DDP. It's a data-driven calculator that tracks your ROI in real-time using actual 2026 menu prices.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Real-time ROI tracking"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "You just log your meals and it tells you exactly how much you've saved vs. what you paid out of pocket.",
+     "visual": "broll",
+     "broll_prompt": "A sleek digital dashboard on a smartphone showing 'Value Eaten' at $150 and 'Cost Paid' at $90 with a green checkmark.",
+     "emotion": "excited",
+     "subtitle_text": "See your savings"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Stop overpaying and check the link in my bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/8305c10a/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/8305c10a/actor.png"
+  },
+  {
+   "id": "e6988173",
+   "title": "The Disney Hack Reveal",
+   "hook": "Stop wasting Disney credits",
+   "caption": "Stop leaving money on the table at Disney! \ud83c\udff0 Beat The DDP is the secret weapon for your 2026 trip. Check the link in bio! \u2728",
+   "hashtags": [
+    "#disneyhacks",
+    "#disneytips",
+    "#disneydiningplan",
+    "#wdw2026"
+   ],
+   "narration": "Stop letting Disney profit off your unused snack credits because you can't keep track of them. Most families lose hundreds of dollars because they treat the Dining Plan like a prepaid trap. I started using Beat The DDP. It's a calculator and tracker that uses the real-time 2026 menu prices. It literally shows you exactly how much 'extra' value you've squeezed out of your plan in seconds. Link in bio, go try it!",
+   "actorDescription": "a 24 year old attractive european woman, blonde wavy hair, wearing a white tank top, natural minimal makeup, friendly face",
+   "style": "shock",
+   "language": "en",
+   "duration": 28.24,
+   "mode": "lowcost",
+   "productName": "Beat The DDP",
+   "productUrl": "https://beattheddp.com",
+   "createdAt": "2026-07-09T15:55:18.945777Z",
+   "video": "/templates/videos/e6988173/video.mp4",
+   "poster": "/templates/videos/e6988173/poster.webp",
+   "actor": "/templates/videos/e6988173/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Stop letting Disney profit off your unused snack credits because you can't keep track of them.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop wasting Disney credits!"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Most families lose hundreds of dollars because they treat the Dining Plan like a prepaid trap.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person looking stressed, holding a crumpled Disney receipt in a crowded, blurry theme park background.",
+     "emotion": "frustrated",
+     "subtitle_text": "Don't fall for the trap"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "I started using Beat The DDP. It's a calculator and tracker that uses the real-time 2026 menu prices.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Use Beat The DDP instead"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "It literally shows you exactly how much 'extra' value you've squeezed out of your plan in seconds.",
+     "visual": "broll",
+     "broll_prompt": "A clean, modern mobile app interface showing a 'Savings Tracker' with a bright green progress bar showing $250 in value extracted.",
+     "emotion": "excited",
+     "subtitle_text": "Track your real ROI"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Link in bio, go try it!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/e6988173/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/e6988173/actor.png"
+  },
+  {
+   "id": "bc43df4c",
+   "title": "Boredom Buster",
+   "hook": "I was wasting hours...",
+   "caption": "Stop wasting time on boring videos! \ud83d\udcfa\u2728 #youtubeshorts #hacks",
+   "hashtags": [
+    "#youtubeshorts",
+    "#productivity",
+    "#lifehacks"
+   ],
+   "narration": "I can't believe nobody told me about this sooner. I was literally wasting my whole day on boring videos. I used to spend so much time scrubbing through long intros just to find one little piece of info. Then I started using YouTube Shorts. It's basically all the best parts of the internet delivered in under sixty seconds. The content is super high energy and I actually learn things or get entertained without the filler. Go check the link in my bio to try it now!",
+   "actorDescription": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "style": "story",
+   "language": "en",
+   "duration": 30.22,
+   "mode": "lowcost",
+   "productName": "youtube shorts",
+   "productUrl": "",
+   "createdAt": "2026-06-26T12:10:58.535528Z",
+   "video": "/templates/videos/bc43df4c/video.mp4",
+   "poster": "/templates/videos/bc43df4c/poster.webp",
+   "actor": "/templates/videos/bc43df4c/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about this sooner. I was literally wasting my whole day on boring videos.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "I was wasting hours..."
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "I used to spend so much time scrubbing through long intros just to find one little piece of info.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person's hand repeatedly clicking a video progress bar on a laptop, looking visibly annoyed in the reflection of the screen.",
+     "emotion": "frustrated",
+     "subtitle_text": "Too many long intros"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 15,
+     "narration": "Then I started using YouTube Shorts. It's basically all the best parts of the internet delivered in under sixty seconds.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Enter YouTube Shorts"
+    },
+    {
+     "type": "demo",
+     "start": 15,
+     "end": 20,
+     "narration": "The content is super high energy and I actually learn things or get entertained without the filler.",
+     "visual": "broll",
+     "broll_prompt": "A smartphone screen showing a fast-paced montage of YouTube Shorts, featuring colorful DIY projects and travel clips, swiping up rapidly.",
+     "emotion": "excited",
+     "subtitle_text": "Pure entertainment"
+    },
+    {
+     "type": "cta",
+     "start": 20,
+     "end": 22,
+     "narration": "Go check the link in my bio to try it now!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/bc43df4c/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/bc43df4c/actor.png"
+  },
+  {
+   "id": "5636c585",
+   "title": "The Aggressive Shake Test",
+   "hook": "FINALLY leakproof Stanley?",
+   "caption": "The shake test doesn't lie! \ud83e\udd64 Finally a Stanley that doesn't ruin my bag. Link in bio! \u2728",
+   "hashtags": [
+    "#watertok",
+    "#stanleycup",
+    "#gymhacks",
+    "#stanleyquencher"
+   ],
+   "narration": "I can't believe nobody told me about this sooner, but the era of leaking Stanleys is officially over. The original Quencher literally spills everywhere if it even tips an inch in your gym bag. It's so frustrating. But look at this. The ProTour Flip Straw version is actually leakproof while keeping that same aesthetic we all love. I'm literally shaking this upside down and not a single drop is coming out. It\u2019s a total game changer for my commute. Grab yours at the link in bio while the sale is still on!",
+   "actorDescription": "a 24 year old attractive european woman, long blonde wavy hair, wearing a simple white tank top, natural minimal makeup, friendly and energetic face",
+   "style": "ugc",
+   "language": "en",
+   "duration": 34.17,
+   "mode": "premium",
+   "productName": "The Quencher ProTour Flip Straw Tumbler",
+   "productUrl": "https://www.stanley1913.com/products/quencher-protour-flipstraw-tumbler?variant=53973685829992",
+   "createdAt": "2026-06-10T00:53:24.312867Z",
+   "video": "/templates/videos/5636c585/video.mp4",
+   "poster": "/templates/videos/5636c585/poster.webp",
+   "actor": "/templates/videos/5636c585/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about this sooner, but the era of leaking Stanleys is officially over.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "I can't believe nobody told me..."
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "The original Quencher literally spills everywhere if it even tips an inch in your gym bag. It's so frustrating.",
+     "visual": "broll",
+     "broll_prompt": "Close up shot of an original Stanley tumbler tipping over on a car seat, water spilling out of the straw hole onto the leather.",
+     "emotion": "frustrated",
+     "subtitle_text": "Spills everywhere!"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "But look at this. The ProTour Flip Straw version is actually leakproof while keeping that same aesthetic we all love.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Meet the ProTour Flip Straw"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "I'm literally shaking this upside down and not a single drop is coming out. It\u2019s a total game changer for my commute.",
+     "visual": "broll",
+     "broll_prompt": "A close up, high-energy shot of a hand aggressively shaking the ProTour Stanley upside down over a expensive looking white laptop to show no leaks.",
+     "emotion": "excited",
+     "subtitle_text": "Zero leaks, I promise."
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Grab yours at the link in bio while the sale is still on!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/5636c585/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/5636c585/actor.png"
+  },
+  {
+   "id": "50ae606e",
+   "title": "The Leakproof Shake Test",
+   "hook": "It actually doesn't leak!",
+   "caption": "Finally a Stanley that survives my clumsy era \ud83d\ude05 No leaks, no mess. Get the ProTour at the link in bio!",
+   "hashtags": [
+    "#stanleycup",
+    "#watertok",
+    "#spillproof",
+    "#lifestylehacks"
+   ],
+   "narration": "Okay, so I finally found the one Stanley that actually won't ruin your car seats. No more water puddles every time your bottle tips over in the passenger seat. This is the ProTour Flip Straw and it's literally a 100% leakproof game changer. See this? I'm shaking it upside down and not a single drop is coming out. You need this\u2014link's in my bio to grab one!",
+   "actorDescription": "A 24 year old attractive european woman, blonde hair in a messy bun, wearing a white tank top, natural minimal makeup, friendly face.",
+   "style": "ugc",
+   "language": "en",
+   "duration": 25.08,
+   "mode": "lowcost",
+   "productName": "Stanley Quencher ProTour Flip Straw Tumbler",
+   "productUrl": "https://www.stanley1913.com/products/quencher-protour-flipstraw-tumbler?variant=53973685829992",
+   "createdAt": "2026-06-09T18:58:59.010206Z",
+   "video": "/templates/videos/50ae606e/video.mp4",
+   "poster": "/templates/videos/50ae606e/poster.webp",
+   "actor": "/templates/videos/50ae606e/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Okay, so I finally found the one Stanley that actually won't ruin your car seats.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stanley that doesn't leak?"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "No more water puddles every time your bottle tips over in the passenger seat.",
+     "visual": "broll",
+     "broll_prompt": "Close up cinematic shot of a different travel tumbler lying on its side on a car seat with a wet puddle forming on the fabric.",
+     "emotion": "frustrated",
+     "subtitle_text": "Tired of spills?"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "This is the ProTour Flip Straw and it's literally a 100% leakproof game changer.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Meet the ProTour"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "See this? I'm shaking it upside down and not a single drop is coming out.",
+     "visual": "broll",
+     "broll_prompt": "Hand holding a Stanley ProTour upside down over a clean white table and shaking it vigorously; no water escapes.",
+     "emotion": "excited",
+     "subtitle_text": "100% leakproof"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "You need this\u2014link's in my bio to grab one!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/50ae606e/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/50ae606e/actor.png"
+  },
+  {
+   "id": "43c53814",
+   "title": "The Leakproof Shake Test",
+   "hook": "It actually doesn't leak!",
+   "caption": "Finally a Stanley that survives my clumsy era \ud83d\ude05 No leaks, no mess. Get the ProTour at the link in bio!",
+   "hashtags": [
+    "#stanleycup",
+    "#watertok",
+    "#spillproof",
+    "#lifestylehacks"
+   ],
+   "narration": "Okay, so I finally found the one Stanley that actually won't ruin your car seats. No more water puddles every time your bottle tips over in the passenger seat. This is the ProTour Flip Straw and it's literally a 100% leakproof game changer. See this? I'm shaking it upside down and not a single drop is coming out. You need this\u2014link's in my bio to grab one!",
+   "actorDescription": "A 24 year old attractive european woman, blonde hair in a messy bun, wearing a white tank top, natural minimal makeup, friendly face.",
+   "style": "ugc",
+   "language": "en",
+   "duration": 26.33,
+   "mode": "lowcost",
+   "productName": "Stanley Quencher ProTour Flip Straw Tumbler",
+   "productUrl": "https://www.stanley1913.com/products/quencher-protour-flipstraw-tumbler?variant=53973685829992",
+   "createdAt": "2026-06-09T18:45:02.712080Z",
+   "video": "/templates/videos/43c53814/video.mp4",
+   "poster": "/templates/videos/43c53814/poster.webp",
+   "actor": "/templates/videos/43c53814/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Okay, so I finally found the one Stanley that actually won't ruin your car seats.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stanley that doesn't leak?"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "No more water puddles every time your bottle tips over in the passenger seat.",
+     "visual": "broll",
+     "broll_prompt": "Close up cinematic shot of a different travel tumbler lying on its side on a car seat with a wet puddle forming on the fabric.",
+     "emotion": "frustrated",
+     "subtitle_text": "Tired of spills?"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "This is the ProTour Flip Straw and it's literally a 100% leakproof game changer.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Meet the ProTour"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "See this? I'm shaking it upside down and not a single drop is coming out.",
+     "visual": "broll",
+     "broll_prompt": "Hand holding a Stanley ProTour upside down over a clean white table and shaking it vigorously; no water escapes.",
+     "emotion": "excited",
+     "subtitle_text": "100% leakproof"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "You need this\u2014link's in my bio to grab one!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/43c53814/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/43c53814/actor.png"
+  },
+  {
+   "id": "6d29f945",
+   "title": "UI-TARS Surprise Discovery",
+   "hook": "AI CAN SEE YOUR SCREEN",
+   "caption": "I can't believe AI can do this now \ud83e\udd2f No more manual clicking. #uitars #aitools",
+   "hashtags": [
+    "#ai",
+    "#productivity",
+    "#techtools",
+    "#uitars"
+   ],
+   "narration": "Okay, stop what you\u2019re doing. I just found the AI that can actually use your computer for you. We\u2019re all tired of clicking through fifty tabs and apps just to get one simple task done manually. It\u2019s called UI-TARS. It's a new AI model that literally 'sees' your screen and clicks buttons just like a human would. Watch it navigate this complex software and fill out forms instantly without me touching the mouse. This is the future. Check the link in my bio to see it!",
+   "actorDescription": "a 24 year old attractive european woman, blonde straight hair, wearing a grey camisole, natural minimal makeup, friendly face",
+   "style": "shock",
+   "language": "en",
+   "duration": 33.93,
+   "mode": "lowcost",
+   "productName": "UI-TARS explained",
+   "productUrl": "",
+   "createdAt": "2026-06-05T14:55:16.703561Z",
+   "video": "/templates/videos/6d29f945/video.mp4",
+   "poster": "/templates/videos/6d29f945/poster.webp",
+   "actor": "/templates/videos/6d29f945/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Okay, stop what you\u2019re doing. I just found the AI that can actually use your computer for you.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop everything. AI can use your computer now."
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "We\u2019re all tired of clicking through fifty tabs and apps just to get one simple task done manually.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person's hands frantically clicking a mouse and switching between dozens of messy browser tabs on a glowing monitor.",
+     "emotion": "frustrated",
+     "subtitle_text": "Manual clicking is the worst."
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "It\u2019s called UI-TARS. It's a new AI model that literally 'sees' your screen and clicks buttons just like a human would.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Meet UI-TARS. It has eyes for your UI."
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Watch it navigate this complex software and fill out forms instantly without me touching the mouse.",
+     "visual": "broll",
+     "broll_prompt": "Screen recording showing a desktop interface where an autonomous cursor is highlights buttons and filling text fields in a CRM software at high speed.",
+     "emotion": "excited",
+     "subtitle_text": "It handles the boring stuff."
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "This is the future. Check the link in my bio to see it!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/6d29f945/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/6d29f945/actor.png"
+  },
+  {
+   "id": "a355c8df",
+   "title": "El agujero negro del coche",
+   "hook": "\u00bfHartos de perderlo todo?",
+   "caption": "\u00a1Adi\u00f3s al agujero negro de debajo del asiento! \ud83d\ude97\u2728 No m\u00e1s perder el m\u00f3vil o las llaves. \u00a1Lo necesit\u00e1is ya! Link en la bio. \ud83d\udd17",
+   "hashtags": [
+    "#coches",
+    "#gadgets",
+    "#limpiezacoche",
+    "#trucos",
+    "#lifehacks"
+   ],
+   "narration": "Oye, decidme que no soy la \u00fanica que siente que su coche se traga las cosas. Se te caen las llaves o el m\u00f3vil por ese hueco del asiento y recuperarlos es misi\u00f3n imposible. Pues mirad esto, es un protector universal que tapa ese agujero negro para siempre. Se instala en un segundo. Es super flexible, queda s\u00faper discreto y ya nada se vuelve a caer ah\u00ed abajo. \u00a1Es un inventazo! Ten\u00e9is el enlace en mi bio, \u00a1corred a por el vuestro!",
+   "actorDescription": "A 24 year old attractive european woman, blonde hair tied in a messy bun, wearing a white tank top, natural minimal makeup, friendly face, tech-savvy vibe.",
+   "style": "ugc",
+   "language": "en",
+   "duration": 30.96,
+   "mode": "lowcost",
+   "productName": "https://www.alibaba.com/product-detail/Universal-Car-Seat-Ga",
+   "productUrl": "",
+   "createdAt": "2026-05-24T17:29:50.564312Z",
+   "video": "/templates/videos/a355c8df/video.mp4",
+   "poster": "/templates/videos/a355c8df/poster.webp",
+   "actor": "/templates/videos/a355c8df/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Oye, decidme que no soy la \u00fanica que siente que su coche se traga las cosas.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "\u00bfCoche trag\u00f3n?"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Se te caen las llaves o el m\u00f3vil por ese hueco del asiento y recuperarlos es misi\u00f3n imposible.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a smartphone sliding down the dark gap between a car seat and the center console, person struggling to reach it with fingers.",
+     "emotion": "frustrated",
+     "subtitle_text": "Es imposible sacarlo"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Pues mirad esto, es un protector universal que tapa ese agujero negro para siempre. Se instala en un segundo.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "La soluci\u00f3n definitiva"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Es super flexible, queda s\u00faper discreto y ya nada se vuelve a caer ah\u00ed abajo. \u00a1Es un inventazo!",
+     "visual": "broll",
+     "broll_prompt": "Detailed shot of a person sliding a sleek, black leather-textured gap filler into the car seat seam, showing how it fits perfectly around the seatbelt buckle.",
+     "emotion": "excited",
+     "subtitle_text": "Instalaci\u00f3n en segundos"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Ten\u00e9is el enlace en mi bio, \u00a1corred a por el vuestro!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/a355c8df/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/a355c8df/actor.png"
+  },
+  {
+   "id": "f8d3449f",
+   "title": "Natural Flavor Discovery",
+   "hook": "Stop drinking chemicals!",
+   "caption": "Finally a drink that tastes as good as it looks! \ud83e\udd6d No fake flavors here. Link in bio!",
+   "hashtags": [
+    "#sparklingwater",
+    "#healthylifestyle",
+    "#drinkeaze",
+    "#wellness"
+   ],
+   "narration": "Stop settling for drinks that taste like chemicals. Seriously, there's a better way to refresh. Most sodas are just sugar water and fake flavors that leave you feeling pretty gross. I just found Eaze. It's a premium sparkling drink made with real fruit extracts and zero artificial flavors. The Mango Bliss is a literal game changer. It's indulgent but still super light and crisp. Seriously, go upgrade your fridge. Check the link in my bio!",
+   "actorDescription": "A 24 year old attractive european woman, long blonde hair, wearing a simple white camisole, natural look, friendly and energetic.",
+   "style": "ugc",
+   "language": "en",
+   "duration": 31.11,
+   "mode": "lowcost",
+   "productName": "Eaze Sparkling Refreshment is a premium 250ml sparkling drin",
+   "productUrl": "",
+   "createdAt": "2026-05-19T14:35:14.214747Z",
+   "video": "/templates/videos/f8d3449f/video.mp4",
+   "poster": "/templates/videos/f8d3449f/poster.webp",
+   "actor": "/templates/videos/f8d3449f/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Stop settling for drinks that taste like chemicals. Seriously, there's a better way to refresh.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop drinking chemicals!"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Most sodas are just sugar water and fake flavors that leave you feeling pretty gross.",
+     "visual": "broll",
+     "broll_prompt": "A person looking confused while reading a long list of artificial ingredients on a brightly colored, generic soda bottle.",
+     "emotion": "frustrated",
+     "subtitle_text": "Tired of fake stuff"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "I just found Eaze. It's a premium sparkling drink made with real fruit extracts and zero artificial flavors.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "The Eaze solution"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "The Mango Bliss is a literal game changer. It's indulgent but still super light and crisp.",
+     "visual": "broll",
+     "broll_prompt": "A close-up shot of an ice-cold Mango Bliss slim can being cracked open with visible condensation and steam.",
+     "emotion": "excited",
+     "subtitle_text": "Real fruit extract"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "Seriously, go upgrade your fridge. Check the link in my bio!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/f8d3449f/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/f8d3449f/actor.png"
+  },
+  {
+   "id": "1e86d09a",
+   "title": "Side Sleeper Solution",
+   "hook": "Side sleeper hack",
+   "caption": "Your 'dead arm' mornings are over. \ud83d\udecc Finally a pillow that gets side sleepers. Link in bio!",
+   "hashtags": [
+    "#sidesleeper",
+    "#recovery",
+    "#sleepbetter",
+    "#ergonomics"
+   ],
+   "narration": "I can't believe nobody told me about the 'dead arm' fix for side sleepers. This is a game changer. Waking up with shoulder pressure and numb arms is a sign your pillow is failing you. The CozeyAlign is specifically engineered for shoulder relief. It's like a high-performance recovery service while you sleep. The airflow structure also stops the night sweats, so you stay cool and comfortable all night. Don't settle for bad sleep. Check the link in my bio.",
+   "actorDescription": "a 31 year old attractive european woman, dark brunette hair in a ponytail, wearing a grey casual t-shirt, intelligent and slight tech-vibe",
+   "style": "shock",
+   "language": "en",
+   "duration": 30.33,
+   "mode": "lowcost",
+   "productName": "CozeyCare (CozeyAlign\u2122)",
+   "productUrl": "https://cozeycare.com/",
+   "createdAt": "2026-05-05T17:37:21.584302Z",
+   "video": "/templates/videos/1e86d09a/video.mp4",
+   "poster": "/templates/videos/1e86d09a/poster.webp",
+   "actor": "/templates/videos/1e86d09a/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about the 'dead arm' fix for side sleepers. This is a game changer.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Side sleepers, watch this"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Waking up with shoulder pressure and numb arms is a sign your pillow is failing you.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic shot of a woman in bed tossing and turning, looking distressed as she shakes her arm to get the blood flowing again.",
+     "emotion": "frustrated",
+     "subtitle_text": "No more numb arms"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "The CozeyAlign is specifically engineered for shoulder relief. It's like a high-performance recovery service while you sleep.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Engineered for recovery"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "The airflow structure also stops the night sweats, so you stay cool and comfortable all night.",
+     "visual": "broll",
+     "broll_prompt": "A detailed shot of the pillow's breathable mesh cover and a cross-section of the foam showing the cooling airflow channels.",
+     "emotion": "excited",
+     "subtitle_text": "Breathable cooling foam"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "Don't settle for bad sleep. Check the link in my bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Check the link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/1e86d09a/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/1e86d09a/actor.png"
+  },
+  {
+   "id": "dbc44dc3",
+   "title": "The Morning Neck Discovery",
+   "hook": "Your pillow is aging you",
+   "caption": "Stop waking up with a stiff neck! \ud83d\uded1 The difference this 6-zone pillow makes is actually insane. Use the link in my bio to save your spine. \u2601\ufe0f\u2728",
+   "hashtags": [
+    "#neckpain",
+    "#sleephack",
+    "#wellness",
+    "#cozeyalign"
+   ],
+   "narration": "I can\u2019t believe nobody told me my pillow was the reason I woke up feeling 20 years older every day. Waking up with a stiff, locked neck and a tension headache is not normal, guys. Then I found the CozeyAlign. It has this proprietary 6-zone system that actually cradles your neck and aligns your spine. Look at that alignment. It\u2019s orthopedic memory foam that doesn't flatten out like those cheap ones. Fix your sleep. Link in bio to grab yours!",
+   "actorDescription": "a 24 year old attractive european woman, blonde hair in a messy bun, wearing a white cotton tank top, natural look, friendly and relatable face",
+   "style": "shock",
+   "language": "en",
+   "duration": 31.84,
+   "mode": "lowcost",
+   "productName": "CozeyAlign\u2122 Pillow (CozeyCare)",
+   "productUrl": "https://cozeycare.com/products/cozeypillow",
+   "createdAt": "2026-05-05T17:29:47.159669Z",
+   "video": "/templates/videos/dbc44dc3/video.mp4",
+   "poster": "/templates/videos/dbc44dc3/poster.webp",
+   "actor": "/templates/videos/dbc44dc3/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can\u2019t believe nobody told me my pillow was the reason I woke up feeling 20 years older every day.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Pillow is RUINING you"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Waking up with a stiff, locked neck and a tension headache is not normal, guys.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person in bed grimacing and clutching their neck in pain as they try to sit up in the morning.",
+     "emotion": "frustrated",
+     "subtitle_text": "This isn't normal"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Then I found the CozeyAlign. It has this proprietary 6-zone system that actually cradles your neck and aligns your spine.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Found the CozeyAlign"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Look at that alignment. It\u2019s orthopedic memory foam that doesn't flatten out like those cheap ones.",
+     "visual": "broll",
+     "broll_prompt": "High-angle shot showing the unique butterfly-style 6-zone contours of the pillow with a person's head resting perfectly in the center.",
+     "emotion": "excited",
+     "subtitle_text": "Perfect spinal alignment"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Fix your sleep. Link in bio to grab yours!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/dbc44dc3/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/dbc44dc3/actor.png"
+  },
+  {
+   "id": "e1f24baa",
+   "title": "The Neck Gap Reality Check",
+   "hook": "Stop ruining your posture",
+   "caption": "POV: You finally found the cure for your morning neck stiffness \ud83d\ude34\u2728 #sleeprecovery #neckpain",
+   "hashtags": [
+    "#neckpainrelief",
+    "#sleephack",
+    "#posturecorrection",
+    "#techneck",
+    "#cozeyalign"
+   ],
+   "narration": "Stop sleeping on a flat pillow that\u2019s literally ruining your posture and causing that morning stiffness. See that massive gap under the neck? That's why you wake up with a massive headache every single day. I finally switched to the CozeyAlign Pillow. It has this ergonomic contour that actually fills that gap and aligns your spine. It\u2019s high-density memory foam so it doesn\u2019t go flat, and it literally cradles your head like a cloud. No more neck pain. Seriously, grab one at the link in my bio while the sale is live!",
+   "actorDescription": "a 24 year old attractive european woman, blonde hair in a messy bun, wearing a white ribbed tank top, natural makeup, friendly and relatable look",
+   "style": "comparison",
+   "language": "en",
+   "duration": 39.37,
+   "mode": "premium",
+   "productName": "CozeyAlign\u2122 Pillow",
+   "productUrl": "https://cozeycare.com/products/cozeypillow",
+   "createdAt": "2026-05-05T17:21:37.085559Z",
+   "video": "/templates/videos/e1f24baa/video.mp4",
+   "poster": "/templates/videos/e1f24baa/poster.webp",
+   "actor": "/templates/videos/e1f24baa/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Stop sleeping on a flat pillow that\u2019s literally ruining your posture and causing that morning stiffness.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop ruining your posture!"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "See that massive gap under the neck? That's why you wake up with a massive headache every single day.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic side-profile shot of a person lying on a standard flat pillow, showing a visible empty space between their neck and the mattress, person looks uncomfortable.",
+     "emotion": "frustrated",
+     "subtitle_text": "Look at that gap..."
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "I finally switched to the CozeyAlign Pillow. It has this ergonomic contour that actually fills that gap and aligns your spine.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "CozeyAlign is the fix."
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "It\u2019s high-density memory foam so it doesn\u2019t go flat, and it literally cradles your head like a cloud.",
+     "visual": "broll",
+     "broll_prompt": "Close-up of the CozeyAlign pillow's unique contour shape, followed by a person laying their head into the cervical nook, showing perfect neck alignment.",
+     "emotion": "excited",
+     "subtitle_text": "Perfect alignment."
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "No more neck pain. Seriously, grab one at the link in my bio while the sale is live!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/e1f24baa/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/e1f24baa/actor.png"
+  },
+  {
+   "id": "92be8f69",
+   "title": "The Pillow Graveyard Angle",
+   "hook": "Stop buying cheap pillows",
+   "caption": "Your 'pillow graveyard' stops here \ud83d\uded1 The CozeyAlign is the literal 8-hour fix for morning neck pain. Link in bio! \u2728",
+   "hashtags": [
+    "#neckpainrelief",
+    "#sleephack",
+    "#orthopedicpillow",
+    "#ugc"
+   ],
+   "narration": "I can't believe nobody told me about this sooner, I've been wasting so much money. I used to have a 'pillow graveyard' because every single one went flat in a month. Then I found the CozeyAlign. It\u2019s an orthopedic memory foam pillow that actually keeps its shape and fixes your alignment. Look at this rebound. It has a specific neck nook for side and back sleepers to keep your spine straight. Stop waking up with a kink in your neck. Link is in my bio to grab yours!",
+   "actorDescription": "a 24 year old attractive european woman, blonde wavy hair, wearing a simple white ribbed tank top, natural minimal makeup, friendly and relatable face",
+   "style": "ugc",
+   "language": "en",
+   "duration": 27.82,
+   "mode": "lowcost",
+   "productName": "CozeyAlign\u2122\ufe0f Pillow",
+   "productUrl": "https://cozeycare.com/products/cozeypillow",
+   "createdAt": "2026-05-05T17:08:15.890204Z",
+   "video": "/templates/videos/92be8f69/video.mp4",
+   "poster": "/templates/videos/92be8f69/poster.webp",
+   "actor": "/templates/videos/92be8f69/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about this sooner, I've been wasting so much money.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "I can't believe I didn't know this!"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "I used to have a 'pillow graveyard' because every single one went flat in a month.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic shot of a pile of 5-6 different flat, yellowish, or lumpy pillows tossed on a bedroom floor, looking messy and unsupportive.",
+     "emotion": "frustrated",
+     "subtitle_text": "The pillow graveyard is real..."
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Then I found the CozeyAlign. It\u2019s an orthopedic memory foam pillow that actually keeps its shape and fixes your alignment.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "CozeyAlign is the fix."
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Look at this rebound. It has a specific neck nook for side and back sleepers to keep your spine straight.",
+     "visual": "broll",
+     "broll_prompt": "Extreme close-up of a hand pressing deep into the CozeyAlign foam and watching it slowly and perfectly rebound to its original shape.",
+     "emotion": "excited",
+     "subtitle_text": "Perfect spinal alignment."
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "Stop waking up with a kink in your neck. Link is in my bio to grab yours!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Check the link in my bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/92be8f69/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/92be8f69/actor.png"
+  },
+  {
+   "id": "bdb5fcca",
+   "title": "La multa de 15 euros",
+   "hook": "Ojo a la multa de 15\u20ac",
+   "caption": "\u26a0\ufe0f \u00a1Atenci\u00f3n aut\u00f3nomos y Pymes en Francia! La reforma de 2026 no es broma. Evita las multas de 15\u20ac por factura con Fidacta. Es gratis e independiente. \ud83d\ude80 Enlace en la bio.",
+   "hashtags": [
+    "#finanzas",
+    "#autonomos",
+    "#emprendedores",
+    "#facturaelectronica"
+   ],
+   "narration": "Tu savais qu'on peut te coller 150 balles d'amende par facture si tu ne fais pas \u00e7a ? En septembre, la facturation \u00e9lectronique est obligatoire en France m\u00eame pour les entreprises non soumises \u00e0 la TVA, et le casse-t\u00eate avec les plateformes est bien r\u00e9el. \nPrends le temps de te renseigner par piti\u00e9, il y a encore tellement d'entrepreneurs freelance qui ne savent pas et qui vont se faire avoir ! Abonne toi pour avoir acc\u00e8s \u00e0 toutes mes futures explications !",
+   "actorDescription": "A 28 year old attractive European woman, brunette wavy hair, wearing a simple beige tank top, natural minimal makeup, friendly and tech-savvy look.",
+   "style": "ugc",
+   "language": "en",
+   "duration": 26.33,
+   "mode": "premium",
+   "productName": "Fidacta",
+   "productUrl": "https://fidacta.fr",
+   "createdAt": "2026-04-30T18:03:06.822279Z",
+   "video": "/templates/videos/bdb5fcca/video.mp4",
+   "poster": "/templates/videos/bdb5fcca/poster.webp",
+   "actor": "/templates/videos/bdb5fcca/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 4,
+     "narration": "\u00bfSab\u00edas que te pueden clavar 15 pavos por cada factura si no haces esto?",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Cuidado con la multa de 15\u20ac"
+    },
+    {
+     "type": "problem",
+     "start": 4,
+     "end": 8,
+     "narration": "En 2026 la factura electr\u00f3nica es obligatoria en Francia y el l\u00edo con las plataformas es real.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person looking stressed at a computer screen showing complex legal documents and a ticking clock",
+     "emotion": "frustrated",
+     "subtitle_text": "Reforma 2026: Un caos total"
+    },
+    {
+     "type": "solution",
+     "start": 8,
+     "end": 14,
+     "narration": "He descubierto Fidacta, un comparador 100% neutral que te ahorra horas de leer tecnicismos.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Usa Fidacta y olv\u00eddate"
+    },
+    {
+     "type": "demo",
+     "start": 14,
+     "end": 18,
+     "narration": "Respondes 6 preguntas y te dan el software perfecto para tu negocio. Sin sesgos y gratis.",
+     "visual": "broll",
+     "broll_prompt": "Detailed screen recording of a smartphone quickly navigating a clean 6-question quiz and showing a list of software logos",
+     "emotion": "excited",
+     "subtitle_text": "Tu software en 2 minutos"
+    },
+    {
+     "type": "cta",
+     "start": 18,
+     "end": 22,
+     "narration": "Evita multas y l\u00edos innecesarios. Te dejo el enlace directo en mi bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Enlace en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/bdb5fcca/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/bdb5fcca/actor.png"
+  },
+  {
+   "id": "807d906b",
+   "title": "E-Invoicing 2026 Alert",
+   "hook": "Business is changing forever",
+   "caption": "POV: Your business is about to change forever on Sept 1st, 2026. \ud83d\udcc9 Are you ready for mandatory e-invoicing? Don't wait until the last minute! #businessowner #freelancer #taxreform",
+   "hashtags": [
+    "#businessreform",
+    "#entrepreneurtips",
+    "#einvoicing",
+    "#accounting",
+    "#productivity"
+   ],
+   "narration": " Vous \u00eates entrepreneur ? Alors en 2026, vous n'avez plus le choix : la facturation \u00e9lectronique devient obligatoire. Et si vous n'\u00eates pas pr\u00eat\u2026 vous risquez des amendes.\nLe probl\u00e8me ? Il existe des dizaines de plateformes de d\u00e9mat\u00e9rialisation partenaires. Chorus Pro, Pennylane, Axonaut, Sellsy\u2026 Comparer leurs fonctionnalit\u00e9s, leurs tarifs, trouver celle qui correspond vraiment \u00e0 votre activit\u00e9\u2026 \u00e7a prend des heures. Des heures que vous n'avez pas.\nAlors j'ai trouv\u00e9 la solution : un outil qui vous pose 5 questions simples sur votre activit\u00e9, et vous recommande les plateformes faites pour vous. En moins d'une minute.\nLe lien est dans la bio.",
+   "actorDescription": "A 28-year-old attractive European woman with blonde wavy hair, wearing a casual white ribbed tank top, natural makeup, and a friendly but serious expression.",
+   "style": "shock",
+   "language": "en",
+   "duration": 40.96,
+   "mode": "lowcost",
+   "productName": "\"Alerte ! Le 1er septembre 2026",
+   "productUrl": "",
+   "createdAt": "2026-04-30T11:23:23.271648Z",
+   "video": "/templates/videos/807d906b/video.mp4",
+   "poster": "/templates/videos/807d906b/poster.webp",
+   "actor": "/templates/videos/807d906b/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about this sooner, but business as we know it is changing forever on September 1st, 2026.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Business is changing forever."
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Forget sending simple PDFs via email. That's officially going extinct.",
+     "visual": "broll",
+     "broll_prompt": "Close-up of a laptop screen showing a messy email inbox cluttered with attachments named 'Invoice.pdf', followed by a 'Deleted' animation.",
+     "emotion": "frustrated",
+     "subtitle_text": "PDFs are going extinct."
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Every business, even if you're just a freelancer, will be required to use a secure e-invoicing platform to receive payments.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "New e-invoice rules."
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "It means way faster payments, zero manual data entry, and way less tax drama.",
+     "visual": "broll",
+     "broll_prompt": "A modern, clean digital dashboard with a green progress bar reaching 100% and a notification that says 'Payment Confirmed Instantly'.",
+     "emotion": "excited",
+     "subtitle_text": "Get paid faster."
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 25,
+     "narration": "Don't get caught off guard by this reform. Check the link in my bio to get ready!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Check the link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/807d906b/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/807d906b/actor.png"
+  },
+  {
+   "id": "f031e0bd",
+   "title": "E-Invoicing 2026 Alert",
+   "hook": "Business is changing forever",
+   "caption": "POV: Your business is about to change forever on Sept 1st, 2026. \ud83d\udcc9 Are you ready for mandatory e-invoicing? Don't wait until the last minute! #businessowner #freelancer #taxreform",
+   "hashtags": [
+    "#businessreform",
+    "#entrepreneurtips",
+    "#einvoicing",
+    "#accounting",
+    "#productivity"
+   ],
+   "narration": "\"Alerte ! Le 1er septembre 2026, la paperasse change de dimension pour les auto entrepreneurs. Tu n'es pas pr\u00eat ? \u00c9coute bien.\n\nFini le simple PDF envoy\u00e9 par mail ! La facture \u00e9lectronique devient la norme. C\u2019est un format de fichier cod\u00e9 qui passe obligatoirement par une plateforme s\u00e9curis\u00e9e.\n\nLe calendrier est pr\u00e9cis :\nD\u00e8s le 1er septembre 2026, TOUTES les entreprises, m\u00eame les micro, ont l\u2019obligation de pouvoir recevoir ces factures. C'est aussi le jour J pour les grandes entreprises qui devront obligatoirement les \u00e9mettre.\n\nPour les PME et les ind\u00e9pendants, vous avez jusqu'\u00e0 septembre 2027 pour l'\u00e9mission, mais l'adaptation commence maintenant !\n\nLe but ? Des paiements plus rapides, moins de saisie manuelle et une lutte renforc\u00e9e contre la fraude \u00e0 la TVA avec l'e-reporting.\n\nTon plan d'action : choisis ta plateforme, contacte ton expert-comptable et surtout, abonne-toi pour ne pas te laisser surprendre par la r\u00e9forme !\"",
+   "actorDescription": "A 28-year-old attractive European woman with blonde wavy hair, wearing a casual white ribbed tank top, natural makeup, and a friendly but serious expression.",
+   "style": "shock",
+   "language": "en",
+   "duration": 59.79,
+   "mode": "lowcost",
+   "productName": "\"Alerte ! Le 1er septembre 2026",
+   "productUrl": "",
+   "createdAt": "2026-04-30T11:11:38.542074Z",
+   "video": "/templates/videos/f031e0bd/video.mp4",
+   "poster": "/templates/videos/f031e0bd/poster.webp",
+   "actor": "/templates/videos/f031e0bd/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about this sooner, but business as we know it is changing forever on September 1st, 2026.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Business is changing forever."
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Forget sending simple PDFs via email. That's officially going extinct.",
+     "visual": "broll",
+     "broll_prompt": "Close-up of a laptop screen showing a messy email inbox cluttered with attachments named 'Invoice.pdf', followed by a 'Deleted' animation.",
+     "emotion": "frustrated",
+     "subtitle_text": "PDFs are going extinct."
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Every business, even if you're just a freelancer, will be required to use a secure e-invoicing platform to receive payments.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "New e-invoice rules."
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "It means way faster payments, zero manual data entry, and way less tax drama.",
+     "visual": "broll",
+     "broll_prompt": "A modern, clean digital dashboard with a green progress bar reaching 100% and a notification that says 'Payment Confirmed Instantly'.",
+     "emotion": "excited",
+     "subtitle_text": "Get paid faster."
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 25,
+     "narration": "Don't get caught off guard by this reform. Check the link in my bio to get ready!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Check the link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/f031e0bd/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/f031e0bd/actor.png"
+  },
+  {
+   "id": "09375702",
+   "title": "2026 E-Invoice Hack",
+   "hook": "French Business Owners Listen Up",
+   "caption": "Stop panicking about the 2026 e-invoice mandate! \ud83c\uddeb\ud83c\uddf7 Fidacta is the ONLY independent tool that helps you pick the right platform in under 2 minutes. No bias, no fees, just the best tech for YOUR business. Link in bio to get your Top 5! \ud83d\ude80",
+   "hashtags": [
+    "#entrepreneur",
+    "#francebusiness",
+    "#fintech",
+    "#smallbusiness",
+    "#productivity"
+   ],
+   "narration": "[0:00 - 0:05] L'Accroche (Visuel : Alerte rouge clignotante)\n\nAudio : \"Alerte ! Le 1er septembre 2026, la paperasse change de dimension. Tu n'es pas pr\u00eat ? Regarde \u00e7a.\"\n\n[0:05 - 0:15] Le Quoi ? (Visuel : Un PDF barr\u00e9 d'une croix rouge)\n\nAudio : \"Fini le simple PDF envoy\u00e9 par mail ! La facture \u00e9lectronique, c'est d\u00e9sormais un format structur\u00e9 (comme le Factur-X) qui passe obligatoirement par une plateforme agr\u00e9\u00e9e.\"\n\n[0:15 - 0:35] Le Calendrier (Visuel : Frise chronologique rapide)\n\nAudio :\n\n\"1er Septembre 2026 : TOUTES les entreprises, m\u00eame les micro, doivent \u00eatre capables de recevoir des factures \u00e9lectroniques.\"\n\n\"C'est aussi le jour J pour les Grandes Entreprises et ETI qui devront obligatoirement les \u00e9mettre.\"\n\n\"Pour les PME et TPE, vous avez jusqu'\u00e0 septembre 2027 pour l'\u00e9mission, mais pr\u00e9parez-vous d\u00e8s maintenant !\"\n\n[0:35 - 0:50] Pourquoi ? (Visuel : Ic\u00f4nes rapides : Bouclier, \u00c9clair, Loupe)\n\nAudio : \"Pourquoi ce big bang ? 1. Moins de paperasse. 2. Des paiements plus rapides. 3. Et surtout, l'\u00c9tat veut traquer la fraude \u00e0 la TVA en temps r\u00e9el via l'e-reporting.\"\n\n[0:50 - 1:00] L'Action (Visuel : Smartphone avec le site impots.gouv.fr)\n\nAudio : \"Ton plan d'action : Choisis ta plateforme (PDP ou portail public) et contacte ton expert-comptable. Abonne-toi pour ne rien rater de la r\u00e9forme !\"",
+   "actorDescription": "A 28 year old attractive European woman, blonde hair in a messy bun, wearing a simple gray t-shirt, natural look, tech-savvy and friendly vibe.",
+   "style": "educational",
+   "language": "en",
+   "duration": 99.32,
+   "mode": "lowcost",
+   "productName": "Fidacta",
+   "productUrl": "https://fidacta.fr",
+   "createdAt": "2026-04-30T11:03:00.518375Z",
+   "video": "/templates/videos/09375702/video.mp4",
+   "poster": "/templates/videos/09375702/poster.webp",
+   "actor": "/templates/videos/09375702/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 4,
+     "narration": "I can't believe nobody told me about this sooner, but French business owners, you need to listen up.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Nobody told me about this..."
+    },
+    {
+     "type": "problem",
+     "start": 4,
+     "end": 8,
+     "narration": "The 2026 e-invoicing mandate is coming, and picking from 146 different platforms is honestly a nightmare.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person looking stressed and overwhelmed while scrolling through a massive, endless list of technical software names on a computer screen.",
+     "emotion": "frustrated",
+     "subtitle_text": "146 platforms is a nightmare"
+    },
+    {
+     "type": "solution",
+     "start": 8,
+     "end": 15,
+     "narration": "Use Fidacta instead. It\u2019s a 100% independent tool that does the heavy lifting for you without any biased sales pitches.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Fidacta does the heavy lifting"
+    },
+    {
+     "type": "demo",
+     "start": 15,
+     "end": 20,
+     "narration": "Just answer 6 quick questions and you get a personalized Top 5 list that actually works with your current software.",
+     "visual": "broll",
+     "broll_prompt": "Fast-paced screen recording of the Fidacta website showing a clean UI, selecting 6 simple options, and instantly generating a 'Your Top 5 Recommendations' page with logos.",
+     "emotion": "excited",
+     "subtitle_text": "Get your personalized Top 5"
+    },
+    {
+     "type": "cta",
+     "start": 20,
+     "end": 23,
+     "narration": "Stop the guessing game. Check the link in my bio to try it for free!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio to try free!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/09375702/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/09375702/actor.png"
+  },
+  {
+   "id": "365ec7e9",
+   "title": "Escape DM Chaos",
+   "hook": "Stop selling in DMs",
+   "caption": "Selling online shouldn't be this hard. \ud83d\ude80 Gxpanse is officially LIVE! Stop the DM madness and own your business properly. Link in bio to join!",
+   "hashtags": [
+    "#socialcommerce",
+    "#ecommerce",
+    "#smallbizowner",
+    "#gxpanse"
+   ],
+   "narration": "If you're still trying to run a whole business through WhatsApp or Instagram DMs, you're literally working too hard. Between lost orders, fake payment alerts, and messy delivery chats, it's just a total nightmare to scale. But Gxpanse is finally live! It's an all-in-one platform where you get your own digital space, live selling, and integrated logistics. Your followers actually stay yours, and you can go live and sell products with one tap. It\u2019s so seamless. Go check it out, link in bio!",
+   "actorDescription": "A 24 year old attractive European woman, blonde hair in a messy bun, wearing a white tank top, natural minimal makeup, friendly tech-savvy look.",
+   "style": "story",
+   "language": "en",
+   "duration": 35.42,
+   "mode": "lowcost",
+   "productName": "WHAT IS GXPANSE?\n\nGxpanse is a global social commerce platfo",
+   "productUrl": "",
+   "createdAt": "2026-04-28T11:32:40.680327Z",
+   "video": "/templates/videos/365ec7e9/video.mp4",
+   "poster": "/templates/videos/365ec7e9/poster.webp",
+   "actor": "/templates/videos/365ec7e9/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "If you're still trying to run a whole business through WhatsApp or Instagram DMs, you're literally working too hard.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop selling in DMs"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Between lost orders, fake payment alerts, and messy delivery chats, it's just a total nightmare to scale.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person frantically scrolling through endless messy chat notifications on a smartphone, looking stressed",
+     "emotion": "frustrated",
+     "subtitle_text": "DM chaos is real"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "But Gxpanse is finally live! It's an all-in-one platform where you get your own digital space, live selling, and integrated logistics.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Gxpanse is finally live!"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Your followers actually stay yours, and you can go live and sell products with one tap. It\u2019s so seamless.",
+     "visual": "broll",
+     "broll_prompt": "A high-quality screen recording of the Gxpanse app showing a vibrant digital storefront and a 'Go Live' interface with tagged products",
+     "emotion": "excited",
+     "subtitle_text": "Own your brand"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Go check it out, link in bio!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/365ec7e9/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/365ec7e9/actor.png"
+  },
+  {
+   "id": "739fbd54",
+   "title": "Stop DM Selling",
+   "hook": "Stop selling in DMs",
+   "caption": "Selling in DMs is holding your business back. \ud83d\uded1 Switch to Gxpanse and actually own your customer relationships. Link in bio! \ud83d\ude80",
+   "hashtags": [
+    "#socialcommerce",
+    "#smallbiztips",
+    "#ecommerce",
+    "#gxpanse"
+   ],
+   "narration": "If you're still running a business through Instagram DMs or WhatsApp, we seriously need to talk. You\u2019re losing customers and orders are getting lost in the clutter every single day. Gxpanse gives you a real digital space where followers stay yours, not the platform's. It's social commerce done right. You get a branded shop, live selling tools, and followers who get notified for every new drop. Stop the DM madness. Link in bio to start.",
+   "actorDescription": "a 24 year old attractive european woman, blonde straight hair, wearing a white tank top, natural look, friendly and energetic",
+   "style": "ugc",
+   "language": "en",
+   "duration": 31.61,
+   "mode": "lowcost",
+   "productName": "WHAT IS GXPANSE?\n\nGxpanse is a global social commerce platfo",
+   "productUrl": "",
+   "createdAt": "2026-04-28T11:15:09.613179Z",
+   "video": "/templates/videos/739fbd54/video.mp4",
+   "poster": "/templates/videos/739fbd54/poster.webp",
+   "actor": "/templates/videos/739fbd54/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 4,
+     "narration": "If you're still running a business through Instagram DMs or WhatsApp, we seriously need to talk.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "DMs are not for business"
+    },
+    {
+     "type": "problem",
+     "start": 4,
+     "end": 8,
+     "narration": "You\u2019re losing customers and orders are getting lost in the clutter every single day.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a smartphone screen showing a messy, overflowing list of unread WhatsApp and Instagram DM notifications.",
+     "emotion": "frustrated",
+     "subtitle_text": "Stop losing orders"
+    },
+    {
+     "type": "solution",
+     "start": 8,
+     "end": 15,
+     "narration": "Gxpanse gives you a real digital space where followers stay yours, not the platform's. It's social commerce done right.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Own your brand"
+    },
+    {
+     "type": "demo",
+     "start": 15,
+     "end": 20,
+     "narration": "You get a branded shop, live selling tools, and followers who get notified for every new drop.",
+     "visual": "broll",
+     "broll_prompt": "High-quality screen recording of the Gxpanse app interface showing a beautiful branded storefront and a 'Follow' button being clicked.",
+     "emotion": "excited",
+     "subtitle_text": "Branded storefront"
+    },
+    {
+     "type": "cta",
+     "start": 20,
+     "end": 22,
+     "narration": "Stop the DM madness. Link in bio to start.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/739fbd54/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/739fbd54/actor.png"
+  },
+  {
+   "id": "65645267",
+   "title": "The $20 Barber Challenge",
+   "hook": "Stop paying for haircuts",
+   "caption": "Why are we still paying $40 for a trim? \ud83d\udc80 This $20 hack is a lifesaver. #mensgrooming #budgetfinds",
+   "hashtags": [
+    "#grooming",
+    "#budgethacks",
+    "#mensstyle",
+    "#philips3000"
+   ],
+   "narration": "Okay, stop paying forty bucks for a haircut you can literally do at home for twenty. Barber prices are getting insane and those cheap disposables just don't cut it anymore. I found the Philips Multigroom 3000. It's under twenty-five dollars and it's basically indestructible. You get thirteen attachments for your face, head, and even your nose. Super easy to clean too. Your wallet will thank you. Link in bio!",
+   "actorDescription": "a 24 year old attractive european woman, blonde wavy hair, wearing a white tank top, natural minimal makeup, friendly face",
+   "style": "ugc",
+   "language": "en",
+   "duration": 32.31,
+   "mode": "lowcost",
+   "productName": "Philips Multigroom 3000 (13-Piece Trimmer)",
+   "productUrl": "https://www.amazon.ca/Philips-Multigroom-3000-13-Piece-Trimmer/dp/B0G6M7HMFM/ref=CA_LNY25_ASIN_HW?pf_rd_p=34ca7269-4da2-4ca8-80c7-acef66cdd15d&pf_rd_r=PZJ7K6ZTXA9ZPDSE59FY&sr=1-2-0eb775f4-a908-4a1c-b7d1-e131f5eb0406&th=1",
+   "createdAt": "2026-04-25T06:57:35.485233Z",
+   "video": "/templates/videos/65645267/video.mp4",
+   "poster": "/templates/videos/65645267/poster.webp",
+   "actor": "/templates/videos/65645267/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Okay, stop paying forty bucks for a haircut you can literally do at home for twenty.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop paying for haircuts!"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Barber prices are getting insane and those cheap disposables just don't cut it anymore.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a man looking frustrated while looking at a receipt for a $45 haircut in his hand.",
+     "emotion": "frustrated",
+     "subtitle_text": "Barber prices are insane"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "I found the Philips Multigroom 3000. It's under twenty-five dollars and it's basically indestructible.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "The Philips Multigroom 3000"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "You get thirteen attachments for your face, head, and even your nose. Super easy to clean too.",
+     "visual": "broll",
+     "broll_prompt": "Fast-paced montage of the 13 different trimmer heads being clicked onto the device and a hand rinsing the blades under a faucet.",
+     "emotion": "excited",
+     "subtitle_text": "13 tools in 1"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Your wallet will thank you. Link in bio!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/65645267/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/65645267/actor.png"
+  },
+  {
+   "id": "698ec2e7",
+   "title": "Anti-SaaS Manifesto",
+   "hook": "Stop paying monthly subscriptions",
+   "caption": "Subscription fatigue is real. \ud83d\uded1 Stop paying $20/month for tools you can own for $20 once. These 'Smart Templates' are a game changer for my budget. Link in bio! \ud83d\udcb8",
+   "hashtags": [
+    "#subscriptionfatigue",
+    "#productivitytips",
+    "#personalfinance",
+    "#excel"
+   ],
+   "narration": "You think you spend like $50 a month on subscriptions\u2026\nbut the real number is usually 2x or 3x higher.\n\nIt\u2019s not your fault \u2014 subscriptions are designed to feel invisible.\nSmall charges, different dates, scattered across cards.\n\nI built this tracker because I was tired of guessing.\nYou drop your subscriptions in, and it shows your real monthly and yearly spend instantly.\n\nMost people find $80 to $100 they\u2019re wasting without even noticing.\n\nThis is the first video \u2014 I\u2019ll show you how to cut them next.\nLink in bio.",
+   "actorDescription": "A 27 year old attractive European woman, shoulder-length brunette hair, wearing a simple grey camisole, natural look, friendly and intelligent expression.",
+   "style": "story",
+   "language": "en",
+   "duration": 33.33,
+   "mode": "premium",
+   "productName": "BravePicks",
+   "productUrl": "https://bravepicks.com/templates",
+   "createdAt": "2026-04-24T19:31:35.403590Z",
+   "video": "/templates/videos/698ec2e7/video.mp4",
+   "poster": "/templates/videos/698ec2e7/poster.webp",
+   "actor": "/templates/videos/698ec2e7/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I'm officially done paying monthly subscriptions for tools that should just be a one-time buy.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop the monthly subs"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "I was losing hundreds a year on apps just to track my business and my budget.",
+     "visual": "broll",
+     "broll_prompt": "Close-up cinematic shot of a smartphone screen scrolling through a bank statement, highlighting multiple recurring $19.99 subscription charges in red.",
+     "emotion": "frustrated",
+     "subtitle_text": "Losing hundreds annually"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "So I switched to BravePicks. It is basically SaaS-level software built into professional, high-end Excel templates.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Enter BravePicks"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "You get automated dashboards with zero recurring fees. You pay once and you own it forever.",
+     "visual": "broll",
+     "broll_prompt": "Screen recording of a high-end, aesthetic Excel dashboard. A cursor enters data and the bar charts and line graphs instantly animate and update with a 'SaaS' software look.",
+     "emotion": "excited",
+     "subtitle_text": "Pay once, own forever"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Seriously, stop the money leaks. Link in bio!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/698ec2e7/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/698ec2e7/actor.png"
+  },
+  {
+   "id": "a5038ebb",
+   "title": "Anti-Subscription Hack",
+   "hook": "Stop wasting subscription money",
+   "caption": "POV: You finally stopped paying $50/mo for tools you can just own forever \ud83d\udcb8 Check out BravePicks for the best aesthetic trackers.",
+   "hashtags": [
+    "#productivity",
+    "#personalfinance",
+    "#sidehustle",
+    "#stopsubscriptions"
+   ],
+   "narration": "You think you spend like $50 a month on subscriptions\u2026\nbut the real number is usually 2x or 3x higher.\n\nIt\u2019s not your fault \u2014 subscriptions are designed to feel invisible.\nSmall charges, different dates, scattered across cards.\n\nI built this tracker because I was tired of guessing.\nYou drop your subscriptions in, and it shows your real monthly and yearly spend instantly.\n\nMost people find $80 to $100 they\u2019re wasting without even noticing.\n\nThis is the first video \u2014 I\u2019ll show you how to cut them next.\nLink in bio.",
+   "actorDescription": "a 24 year old attractive european woman, blonde hair in a messy bun, wearing a white ribbed tank top, natural look, friendly and tech-savvy vibe",
+   "style": "ugc",
+   "language": "en",
+   "duration": 33.2,
+   "mode": "lowcost",
+   "productName": "BravePicks",
+   "productUrl": "https://bravepicks.com/templates",
+   "createdAt": "2026-04-24T16:23:49.144259Z",
+   "video": "/templates/videos/a5038ebb/video.mp4",
+   "poster": "/templates/videos/a5038ebb/poster.webp",
+   "actor": "/templates/videos/a5038ebb/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 4,
+     "narration": "Stop donating fifty bucks a month to software companies you barely use.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "annoyed",
+     "subtitle_text": "Stop wasting your money"
+    },
+    {
+     "type": "problem",
+     "start": 4,
+     "end": 8,
+     "narration": "Subscription fatigue is real and those little monthly fees are draining your bank account.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a bank statement on a laptop screen showing multiple $19.99 and $49.99 recurring charges being highlighted in red.",
+     "emotion": "frustrated",
+     "subtitle_text": "Sub fatigue is real"
+    },
+    {
+     "type": "solution",
+     "start": 8,
+     "end": 14,
+     "narration": "I found BravePicks. They make these insane dark-mode templates that replace those expensive SaaS tools for a one-time fee.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Found a better way"
+    },
+    {
+     "type": "demo",
+     "start": 14,
+     "end": 19,
+     "narration": "Look at this dashboard. It\u2019s clean, it\u2019s fast, and you own it forever. No more monthly bills.",
+     "visual": "broll",
+     "broll_prompt": "A high-quality screen recording of a sleek, dark-mode Excel dashboard with neon accents, showing smooth navigation through financial charts.",
+     "emotion": "confident",
+     "subtitle_text": "Own it forever"
+    },
+    {
+     "type": "cta",
+     "start": 19,
+     "end": 22,
+     "narration": "Ditch the subs and grab these at the link in bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "happy",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/a5038ebb/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/a5038ebb/actor.png"
+  },
+  {
+   "id": "fd45400a",
+   "title": "Anti-Subscription Hack",
+   "hook": "Stop wasting subscription money",
+   "caption": "POV: You finally stopped paying $50/mo for tools you can just own forever \ud83d\udcb8 Check out BravePicks for the best aesthetic trackers.",
+   "hashtags": [
+    "#productivity",
+    "#personalfinance",
+    "#sidehustle",
+    "#stopsubscriptions"
+   ],
+   "narration": "You think you spend like $50 a month on subscriptions\u2026\nbut the real number is usually 2x or 3x higher.\n\nIt\u2019s not your fault \u2014 subscriptions are designed to feel invisible.\nSmall charges, different dates, scattered across cards.\n\nI built this tracker because I was tired of guessing.\nYou drop your subscriptions in, and it shows your real monthly and yearly spend instantly.\n\nMost people find $80 to $100 they\u2019re wasting without even noticing.\n\nThis is the first video \u2014 I\u2019ll show you how to cut them next.\nLink in bio.",
+   "actorDescription": "a 24 year old attractive european woman, blonde hair in a messy bun, wearing a white ribbed tank top, natural look, friendly and tech-savvy vibe",
+   "style": "ugc",
+   "language": "en",
+   "duration": 33.04,
+   "mode": "lowcost",
+   "productName": "BravePicks",
+   "productUrl": "https://bravepicks.com/templates",
+   "createdAt": "2026-04-24T16:05:33.585230Z",
+   "video": "/templates/videos/fd45400a/video.mp4",
+   "poster": "/templates/videos/fd45400a/poster.webp",
+   "actor": "/templates/videos/fd45400a/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 4,
+     "narration": "Stop donating fifty bucks a month to software companies you barely use.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "annoyed",
+     "subtitle_text": "Stop wasting your money"
+    },
+    {
+     "type": "problem",
+     "start": 4,
+     "end": 8,
+     "narration": "Subscription fatigue is real and those little monthly fees are draining your bank account.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a bank statement on a laptop screen showing multiple $19.99 and $49.99 recurring charges being highlighted in red.",
+     "emotion": "frustrated",
+     "subtitle_text": "Sub fatigue is real"
+    },
+    {
+     "type": "solution",
+     "start": 8,
+     "end": 14,
+     "narration": "I found BravePicks. They make these insane dark-mode templates that replace those expensive SaaS tools for a one-time fee.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Found a better way"
+    },
+    {
+     "type": "demo",
+     "start": 14,
+     "end": 19,
+     "narration": "Look at this dashboard. It\u2019s clean, it\u2019s fast, and you own it forever. No more monthly bills.",
+     "visual": "broll",
+     "broll_prompt": "A high-quality screen recording of a sleek, dark-mode Excel dashboard with neon accents, showing smooth navigation through financial charts.",
+     "emotion": "confident",
+     "subtitle_text": "Own it forever"
+    },
+    {
+     "type": "cta",
+     "start": 19,
+     "end": 22,
+     "narration": "Ditch the subs and grab these at the link in bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "happy",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/fd45400a/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/fd45400a/actor.png"
+  },
+  {
+   "id": "d9eae15f",
+   "title": "Organization Overload",
+   "hook": "Stop saving IG reels!",
+   "caption": "Your IG saved folder is a graveyard for recipes. \ud83e\udea6 Move them to CookTranslate and actually cook them! Link in bio to download free. \ud83c\udf73",
+   "hashtags": [
+    "#organizationhacks",
+    "#mealplanning",
+    "#kitchenessentials",
+    "#cookingsimplified"
+   ],
+   "narration": "Stop doing this manually! There\u2019s a way better way to save recipes from Instagram and YouTube. I used to have folders of saved reels that I'd literally never look at again because they're so disorganized. Now I use CookTranslate. It extracts the ingredients and steps automatically from any video and puts them in my personal cookbook. I just hit share on this YouTube video, and boom\u2014clean ingredients list, meal planner added, and zero clutter. Go grab it for free and start your family cookbook. Link is in my bio!",
+   "actorDescription": "a 30 year old attractive european woman, sleek dark brown hair, wearing a light blue camisole, smart casual look, expressive eyes",
+   "style": "ugc",
+   "language": "en",
+   "duration": 32.21,
+   "mode": "premium",
+   "productName": "Save recipes from Instagram & YouTube",
+   "productUrl": "",
+   "createdAt": "2026-04-22T11:31:18.540594Z",
+   "video": "/templates/videos/d9eae15f/video.mp4",
+   "poster": "/templates/videos/d9eae15f/poster.webp",
+   "actor": "/templates/videos/d9eae15f/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Stop doing this manually! There\u2019s a way better way to save recipes from Instagram and YouTube.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop manual saving"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "I used to have folders of saved reels that I'd literally never look at again because they're so disorganized.",
+     "visual": "broll",
+     "broll_prompt": "First-person view of someone scrolling endlessly through a cluttered 'Saved' folder on Instagram, looking stressed.",
+     "emotion": "frustrated",
+     "subtitle_text": "Social media chaos"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Now I use CookTranslate. It extracts the ingredients and steps automatically from any video and puts them in my personal cookbook.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Auto-extract recipes"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "I just hit share on this YouTube video, and boom\u2014clean ingredients list, meal planner added, and zero clutter.",
+     "visual": "broll",
+     "broll_prompt": "Screen recording of a user clicking 'share' on a YouTube cooking video and the CookTranslate app instantly generating a clean, bulleted ingredient list.",
+     "emotion": "excited",
+     "subtitle_text": "Clean & organized"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 25,
+     "narration": "Go grab it for free and start your family cookbook. Link is in my bio!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/d9eae15f/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/d9eae15f/actor.png"
+  },
+  {
+   "id": "abe6b55d",
+   "title": "Stop the Screenshot Mess",
+   "hook": "Stop screenshotting recipes!",
+   "caption": "No more scrolling through 5,000 screenshots to find that one pasta recipe \ud83c\udf5d CookTranslate is a game changer! Link in bio.",
+   "hashtags": [
+    "#cookinghacks",
+    "#organizationtips",
+    "#cooktranslate",
+    "#foodie"
+   ],
+   "narration": "Okay so I just found this tool and it's literally saving my camera roll from a recipe disaster. We all have thousands of screenshots of Reels and YouTube recipes we can never actually find when we're hungry. But now I just use CookTranslate. It imports recipes directly from any link and turns them into a clean, organized cookbook. It extracts every ingredient and step automatically. No more lost links or messy notes, just pure organization. You seriously need this. Check the link in my bio to download it for free!",
+   "actorDescription": "a 24 year old attractive european woman, blonde wavy hair, wearing a simple black camisole, natural minimal makeup, friendly and tech-savvy vibe",
+   "style": "ugc",
+   "language": "en",
+   "duration": 33.04,
+   "mode": "premium",
+   "productName": "Save recipes from Instagram & YouTube",
+   "productUrl": "",
+   "createdAt": "2026-04-21T08:15:11.451425Z",
+   "video": "/templates/videos/abe6b55d/video.mp4",
+   "poster": "/templates/videos/abe6b55d/poster.webp",
+   "actor": "/templates/videos/abe6b55d/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Okay so I just found this tool and it's literally saving my camera roll from a recipe disaster.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Stop screenshotting recipes!"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "We all have thousands of screenshots of Reels and YouTube recipes we can never actually find when we're hungry.",
+     "visual": "broll",
+     "broll_prompt": "A close-up of a smartphone screen scrolling endlessly through a cluttered photo gallery filled with blurry screenshots of food recipes from Instagram.",
+     "emotion": "frustrated",
+     "subtitle_text": "Too many screenshots..."
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "But now I just use CookTranslate. It imports recipes directly from any link and turns them into a clean, organized cookbook.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Use CookTranslate instead"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "It extracts every ingredient and step automatically. No more lost links or messy notes, just pure organization.",
+     "visual": "broll",
+     "broll_prompt": "Detailed screen recording of the CookTranslate app showing a YouTube link being pasted and instantly turning into a formatted recipe list.",
+     "emotion": "excited",
+     "subtitle_text": "Instant organization"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "You seriously need this. Check the link in my bio to download it for free!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/abe6b55d/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/abe6b55d/actor.png"
+  },
+  {
+   "id": "74476ded",
+   "title": "Stop Screenshots Angle",
+   "hook": "Stop screenshotting recipes!",
+   "caption": "Stop losing your favorite recipes in your camera roll! \ud83c\udf73 CookTranslate is the ultimate hack for saving recipes from IG & TikTok. Link in bio! \u2728",
+   "hashtags": [
+    "#cookinghacks",
+    "#recipeorganizer",
+    "#kitchenhacks",
+    "#cooktranslate"
+   ],
+   "narration": "I can't believe nobody told me about this sooner. My recipe folder was a total mess. I used to have thousands of messy screenshots from TikTok and Instagram that I could never find. Then I found CookTranslate. You just paste any link from social media and it extracts everything into a clean recipe. It pulls the ingredients and steps automatically. No more lost links or endless scrolling through your photos. It's a total game changer for home cooks. Link in bio to try it for free!",
+   "actorDescription": "a 24 year old attractive european woman, blonde wavy hair, wearing a simple white tank top, natural look, friendly and expressive face",
+   "style": "ugc",
+   "language": "en",
+   "duration": 29.68,
+   "mode": "lowcost",
+   "productName": "Save recipes from Instagram & YouTube",
+   "productUrl": "",
+   "createdAt": "2026-04-21T07:53:38.693517Z",
+   "video": "/templates/videos/74476ded/video.mp4",
+   "poster": "/templates/videos/74476ded/poster.webp",
+   "actor": "/templates/videos/74476ded/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about this sooner. My recipe folder was a total mess.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "I can't believe nobody told me about this sooner."
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "I used to have thousands of messy screenshots from TikTok and Instagram that I could never find.",
+     "visual": "broll",
+     "broll_prompt": "A close-up POV of a hand frantically scrolling through a smartphone camera roll filled with hundreds of blurry recipe screenshots and food photos.",
+     "emotion": "frustrated",
+     "subtitle_text": "My camera roll was just messy screenshots."
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Then I found CookTranslate. You just paste any link from social media and it extracts everything into a clean recipe.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Then I found CookTranslate."
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "It pulls the ingredients and steps automatically. No more lost links or endless scrolling through your photos.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a smartphone screen using CookTranslate; a link is pasted and the app instantly populates a clean, organized recipe list with photos.",
+     "emotion": "excited",
+     "subtitle_text": "It extracts everything automatically!"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "It's a total game changer for home cooks. Link in bio to try it for free!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio to try it for free!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/74476ded/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/74476ded/actor.png"
+  },
+  {
+   "id": "d0ed74a1",
+   "title": "Stop Screenshots Angle",
+   "hook": "Stop screenshotting recipes!",
+   "caption": "Stop losing your favorite recipes in your camera roll! \ud83c\udf73 CookTranslate is the ultimate hack for saving recipes from IG & TikTok. Link in bio! \u2728",
+   "hashtags": [
+    "#cookinghacks",
+    "#recipeorganizer",
+    "#kitchenhacks",
+    "#cooktranslate"
+   ],
+   "narration": "I can't believe nobody told me about this sooner. My recipe folder was a total mess. I used to have thousands of messy screenshots from TikTok and Instagram that I could never find. Then I found CookTranslate. You just paste any link from social media and it extracts everything into a clean recipe. It pulls the ingredients and steps automatically. No more lost links or endless scrolling through your photos. It's a total game changer for home cooks. Link in bio to try it for free!",
+   "actorDescription": "a 24 year old attractive european woman, blonde wavy hair, wearing a simple white tank top, natural look, friendly and expressive face",
+   "style": "ugc",
+   "language": "en",
+   "duration": 29.34,
+   "mode": "lowcost",
+   "productName": "Save recipes from Instagram & YouTube",
+   "productUrl": "",
+   "createdAt": "2026-04-21T07:42:45.180598Z",
+   "video": "/templates/videos/d0ed74a1/video.mp4",
+   "poster": "/templates/videos/d0ed74a1/poster.webp",
+   "actor": "/templates/videos/d0ed74a1/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about this sooner. My recipe folder was a total mess.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "I can't believe nobody told me about this sooner."
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "I used to have thousands of messy screenshots from TikTok and Instagram that I could never find.",
+     "visual": "broll",
+     "broll_prompt": "A close-up POV of a hand frantically scrolling through a smartphone camera roll filled with hundreds of blurry recipe screenshots and food photos.",
+     "emotion": "frustrated",
+     "subtitle_text": "My camera roll was just messy screenshots."
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Then I found CookTranslate. You just paste any link from social media and it extracts everything into a clean recipe.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Then I found CookTranslate."
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "It pulls the ingredients and steps automatically. No more lost links or endless scrolling through your photos.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a smartphone screen using CookTranslate; a link is pasted and the app instantly populates a clean, organized recipe list with photos.",
+     "emotion": "excited",
+     "subtitle_text": "It extracts everything automatically!"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "It's a total game changer for home cooks. Link in bio to try it for free!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio to try it for free!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/d0ed74a1/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/d0ed74a1/actor.png"
+  },
+  {
+   "id": "c1006618",
+   "title": "Finding Quality Peptides",
+   "hook": "Real Peptides in Europe?",
+   "caption": "Finally found a reliable peptide source in Europe! \ud83e\uddec 99.5% purity is insane. Link in bio!",
+   "hashtags": [
+    "#peptides",
+    "#healthhack",
+    "#biohacking",
+    "#europehealth"
+   ],
+   "narration": "I can't believe nobody told me about this sooner, especially if you're in Europe. Finding high-quality peptides with actual proof of purity used to be a total nightmare. Then I found PrePeps. They have 99.5% purity and every batch comes with a certificate of analysis. You can get Reta, NAD+, and GHK-CU at the best prices without worrying about the quality. Link in bio to check them out!",
+   "actorDescription": "A 24 year old attractive european woman, blonde wavy hair, wearing a simple white tank top, natural minimal makeup, friendly face.",
+   "style": "ugc",
+   "language": "en",
+   "duration": 24.69,
+   "mode": "premium",
+   "productName": "PrePeps is a Peptide store offering the highest quality Pept",
+   "productUrl": "",
+   "createdAt": "2026-04-14T14:18:36.782351Z",
+   "video": "/templates/videos/c1006618/video.mp4",
+   "poster": "/templates/videos/c1006618/poster.webp",
+   "actor": "/templates/videos/c1006618/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "I can't believe nobody told me about this sooner, especially if you're in Europe.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "I can't believe nobody told me this"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Finding high-quality peptides with actual proof of purity used to be a total nightmare.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person looking frustrated at a laptop screen showing blurry, sketchy supplement websites.",
+     "emotion": "frustrated",
+     "subtitle_text": "Finding quality is a nightmare"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Then I found PrePeps. They have 99.5% purity and every batch comes with a certificate of analysis.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "PrePeps has 99.5% purity"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "You can get Reta, NAD+, and GHK-CU at the best prices without worrying about the quality.",
+     "visual": "broll",
+     "broll_prompt": "Smooth panning shot of the PrePeps website showing a clear 'Certificate of Analysis' document and high-end peptide vials.",
+     "emotion": "excited",
+     "subtitle_text": "Premium quality, best prices"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Link in bio to check them out!",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link in bio!"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/c1006618/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/c1006618/actor.png"
+  },
+  {
+   "id": "b391da95",
+   "title": "El hack de los 7 pavos",
+   "hook": "Ahorra miles en modelos",
+   "caption": "Deja de tirar el dinero en sesiones de fotos \ud83d\udcb8 Con Pluxe tienes modelos de IA por lo que cuesta un caf\u00e9. Link en bio! \ud83d\ude80",
+   "hashtags": [
+    "#ecommerce",
+    "#ia",
+    "#marketingdigital",
+    "#emprendedores"
+   ],
+   "narration": "No puedo creer que nadie me haya contado esto antes. Posta, me hubiese ahorrado una fortuna con mi marca.\n\n  Yo me gastaba mucho dinero en estudios fotogr\u00e1ficos y modelos cada vez que sacaba una colecci\u00f3n nueva. Cada temporada lo mismo \u2014 coordin\u00e1 la sesi\u00f3n, pag\u00e1 el fot\u00f3grafo, pag\u00e1 las\n  modelos, el maquillaje, el lugar... un quilombo y un gasto tremendo.\n\n  Hasta que descubr\u00ed Pluxe.\n\n  Vos agarr\u00e1s una foto com\u00fan de tu prenda \u2014 una remera, un vestido, lo que sea \u2014 la sub\u00eds a la app y en segundos te genera una sesi\u00f3n profesional completa con modelos de\n  inteligencia artificial. Literal, en segundos.\n\n  Y no es solo para ropa, eh. Sirve para cualquier producto \u2014 cosm\u00e9tica, accesorios, comida, lo que vendas. Pero para indumentaria es un antes y un despu\u00e9s. Mir\u00e1 esta calidad.\n  [muestra ejemplos] Esto sali\u00f3 de una foto sacada con el celu en mi living.\n\n  El plan arranca en siete d\u00f3lares por mes. Siete d\u00f3lares. Yo antes me gastaba eso en un caf\u00e9 con medialunas y ac\u00e1 ten\u00e9s una herramienta que te resuelve toda la producci\u00f3n\n  visual.\n\n  Tienen el link en mi bio. Vayan a probarlo ya, despu\u00e9s me cuentan.",
+   "actorDescription": "a 24 year old attractive european woman, blonde wavy hair, wearing a white tank top, natural minimal makeup, friendly face",
+   "style": "ugc",
+   "language": "en",
+   "duration": 81.32,
+   "mode": "lowcost",
+   "productName": "Pluxe",
+   "productUrl": "https://www.pluxe.app/",
+   "createdAt": "2026-03-20T22:04:34.711957Z",
+   "video": "/templates/videos/b391da95/video.mp4",
+   "poster": "/templates/videos/b391da95/poster.webp",
+   "actor": "/templates/videos/b391da95/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "T\u00edo, no me puedo creer que nadie me haya dicho esto antes para ahorrar con mi marca.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "\u00a1No me lo creo!"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Me gastaba una pasta en estudios y modelos cada vez que sacaba algo nuevo. Un aut\u00e9ntico drama.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic shot of a frustrated entrepreneur sitting at a desk surrounded by expensive photography equipment and bills, looking stressed.",
+     "emotion": "frustrated",
+     "subtitle_text": "Gastaba una pasta"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Pero descubr\u00ed Pluxe. Por solo siete d\u00f3lares conviertes cualquier foto b\u00e1sica en una sesi\u00f3n profesional con modelos de IA.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Descubr\u00ed Pluxe"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Literalmente subes la foto y en segundos tienes diez variaciones brutales. Mirad qu\u00e9 calidad.",
+     "visual": "broll",
+     "broll_prompt": "A screen recording of the Pluxe app interface, showing a flat-lay t-shirt being transformed into 10 different high-quality lifestyle shots with realistic AI models.",
+     "emotion": "excited",
+     "subtitle_text": "Calidad brutal"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "Ten\u00e9is el enlace en la bio, id a probarlo ya.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Enlace en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/b391da95/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/b391da95/actor.png"
+  },
+  {
+   "id": "43e76c0a",
+   "title": "Oportunidad Laboral Construcci\u00f3n",
+   "hook": "\u00bfSin trabajo y con futuro?",
+   "caption": "Deja de buscar y empieza a construir tu futuro. \ud83c\udfd7\ufe0f El sector necesita profesionales y t\u00fa puedes ser uno de ellos. Info en el link de la bio. #construccion #trabajo",
+   "hashtags": [
+    "#construccion",
+    "#formacionprofesional",
+    "#empleo",
+    "#espa\u00f1a"
+   ],
+   "narration": "Che, no puedo creer que sigas laburando en obra sin dominar ni los fundamentos. Lo peor es tirar tiempo y guita ejecutando mal para que despu\u00e9s aparezcan fisuras y asentamientos diferenciales. Con nuestra capacitaci\u00f3n vas a aprender construcci\u00f3n en serio, desde la fundaci\u00f3n hasta la cubierta con t\u00e9cnicas profesionales. Vas a aprender a interpretar planos, dosificar mezclas y levantar mamposter\u00eda que aguante toda la vida. Invert\u00ed en tu futuro. Ten\u00e9s el link en la bio para inscribirte.",
+   "actorDescription": "a 28 year old attractive European man, short blonde hair, blue eyes, wearing a gray high-quality hoodie, clean-shaven, tech-savvy vibe",
+   "style": "educational",
+   "language": "en",
+   "duration": 36.73,
+   "mode": "lowcost",
+   "productName": "Ense\u00f1anza de la construcci\u00f3n",
+   "productUrl": "",
+   "createdAt": "2026-03-20T13:10:07.727489Z",
+   "video": "/templates/videos/43e76c0a/video.mp4",
+   "poster": "/templates/videos/43e76c0a/poster.webp",
+   "actor": "/templates/videos/43e76c0a/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "\u00bfT\u00edo, te has dado cuenta de que encontrar un buen curro hoy en d\u00eda es casi imposible?",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "\u00bfBuscando curro de verdad?"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Mucha gente se queda estancada en oficinas cobrando el m\u00ednimo sin ninguna motivaci\u00f3n.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic shot of a young man looking bored and exhausted at a cluttered office desk, dim lighting, blue tones",
+     "emotion": "frustrated",
+     "subtitle_text": "No te estanques"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Pero la construcci\u00f3n es una mina de oro si sabes c\u00f3mo moverte. No es solo cargar ladrillos, es t\u00e9cnica y oficio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Es una mina de oro"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Con nuestra formaci\u00f3n aprendes lo que de verdad piden las empresas ahora mismo.",
+     "visual": "broll",
+     "broll_prompt": "Close-up of professional hands reviewing architectural plans on a tablet at a modern construction site, bright sunlight",
+     "emotion": "excited",
+     "subtitle_text": "Aprende lo que se pide"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 23,
+     "narration": "P\u00e1sate por el link de la bio y empieza ya.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Enlace en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/43e76c0a/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/43e76c0a/actor.png"
+  },
+  {
+   "id": "cdceec1b",
+   "title": "Biohacking for Investors",
+   "hook": "Anal\u00edticas como un P&L",
+   "caption": "\u00bfTratas tu cuerpo con la misma seriedad que tu negocio? \ud83d\udcc8 Gonzalo Ruiz Utrilla te ense\u00f1a el Pareto de la longevidad. #mentalidad #biohacking",
+   "hashtags": [
+    "#biomarcadores",
+    "#emprendedores",
+    "#biohackingespa\u00f1ol",
+    "#exito"
+   ],
+   "narration": "Tu edad biol\u00f3gica y tu edad cronol\u00f3gica no son lo mismo.\nPuedes tener 45 a\u00f1os en el DNI y un cuerpo de 55. O al rev\u00e9s. La diferencia la marcan tus h\u00e1bitos acumulados durante d\u00e9cadas: c\u00f3mo duermes, qu\u00e9 comes, cu\u00e1nto te mueves y c\u00f3mo gestionas el estr\u00e9s. Tu cuerpo lleva la cuenta de todo eso, aunque t\u00fa no lo hagas.\nSi no mides tu edad biol\u00f3gica, est\u00e1s jugando a ciegas con tu salud.",
+   "actorDescription": "A 28 year old european man, blond hair styled neatly, wearing a navy blue hoodie, smart casual tech-vibe.",
+   "style": "educational",
+   "language": "en",
+   "duration": 27.59,
+   "mode": "lowcost",
+   "productName": "Gonzalo Ruiz Utrilla - Longevidad y Biohacking",
+   "productUrl": "https://gonzaloruizutrilla.com/articulos/93-semana-2232024-como-entenderte-a-ti-mismo",
+   "createdAt": "2026-03-20T11:45:46.675211Z",
+   "video": "/templates/videos/cdceec1b/video.mp4",
+   "poster": "/templates/videos/cdceec1b/poster.webp",
+   "actor": "/templates/videos/cdceec1b/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Yo trato mis anal\u00edticas de sangre como si fueran el balance de resultados de mi empresa.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Tu salud es tu empresa"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Muchos CEOs optimizan sus negocios pero descuidan sus propios biomarcadores.",
+     "visual": "broll",
+     "broll_prompt": "A man in a suit looking at complex financial charts on a laptop, but looking physically exhausted with dark circles under his eyes.",
+     "emotion": "frustrated",
+     "subtitle_text": "No descuides tu motor"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Gonzalo Ruiz aplica mentalidad de ingeniero a la salud. Sin filtros y con total transparencia de datos.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Salud con mentalidad de ingeniero"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Su newsletter te ense\u00f1a los modelos mentales para decidir mejor y vivir mucho m\u00e1s tiempo.",
+     "visual": "broll",
+     "broll_prompt": "POV shot of someone reading a high-quality newsletter on a tablet featuring scientific graphs, DNA icons, and clear, bold Spanish text.",
+     "emotion": "excited",
+     "subtitle_text": "Newsletter de alto nivel"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "Empieza a optimizarte ya. Tienes el enlace en la bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/cdceec1b/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/cdceec1b/actor.png"
+  },
+  {
+   "id": "8ab7de92",
+   "title": "El Secreto de los Agentes de IA",
+   "hook": "Postea con IA mientras duermes",
+   "caption": "As\u00ed es como los pro est\u00e1n escalando canales sin tocar un bot\u00f3n. \ud83e\udd16 Usa Upload-Post para tus agentes de IA.",
+   "hashtags": [
+    "#ia",
+    "#n8n",
+    "#automatizacion",
+    "#indiehackers"
+   ],
+   "narration": "\u00bfQuieres crear un imperio de canales autom\u00e1ticos? Escucha esto. Gestionar tokens de API y flujos de OAuth para cada red social es una pesadilla t\u00e9cnica. Upload-Post lo unifica todo. Conectas n8n o Make y el agente hace todo el trabajo sucio. Subes un archivo a Google Drive y \u00a1pum!, directo a 10 plataformas en segundos. Ten\u00e9is el enlace en la bio para probar la API.",
+   "actorDescription": "A 30 year old european woman, dark brunette hair in a ponytail, wearing stylish glasses and a green camisole, looks like a professional developer.",
+   "style": "ugc",
+   "language": "en",
+   "duration": 24.37,
+   "mode": "premium",
+   "productName": "Upload-Post",
+   "productUrl": "https://www.upload-post.com/",
+   "createdAt": "2026-03-19T19:08:47.935051Z",
+   "video": "/templates/videos/8ab7de92/video.mp4",
+   "poster": "/templates/videos/8ab7de92/poster.webp",
+   "actor": "/templates/videos/8ab7de92/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 4,
+     "narration": "\u00bfQuieres crear un imperio de canales autom\u00e1ticos? Escucha esto.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Crea canales autom\u00e1ticos"
+    },
+    {
+     "type": "problem",
+     "start": 4,
+     "end": 8,
+     "narration": "Gestionar tokens de API y flujos de OAuth para cada red social es una pesadilla t\u00e9cnica.",
+     "visual": "broll",
+     "broll_prompt": "Dark cinematic shot of complex code on a monitor with red error messages related to OAuth and Token Expiration.",
+     "emotion": "overwhelmed",
+     "subtitle_text": "OAuth es una pesadilla"
+    },
+    {
+     "type": "solution",
+     "start": 8,
+     "end": 14,
+     "narration": "Upload-Post lo unifica todo. Conectas n8n o Make y el agente hace todo el trabajo sucio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Upload-Post lo unifica todo"
+    },
+    {
+     "type": "demo",
+     "start": 14,
+     "end": 19,
+     "narration": "Subes un archivo a Google Drive y \u00a1pum!, directo a 10 plataformas en segundos.",
+     "visual": "broll",
+     "broll_prompt": "Clean visual of an n8n workflow connecting a Google Drive node to an Upload-Post node, showing data flowing smoothly.",
+     "emotion": "excited",
+     "subtitle_text": "De Drive a 10 plataformas"
+    },
+    {
+     "type": "cta",
+     "start": 19,
+     "end": 22,
+     "narration": "Ten\u00e9is el enlace en la bio para probar la API.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/8ab7de92/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/8ab7de92/actor.png"
+  },
+  {
+   "id": "d3a80b6b",
+   "title": "Secret Weapon for Devs",
+   "hook": "Odio las APIs de redes",
+   "caption": "Devs, esto os va a cambiar la vida \ud83d\udc68\u200d\ud83d\udcbb Una sola API para dominarlas a todas. Menos errores, m\u00e1s c\u00f3digo limpio. Link en la bio. \ud83d\udd17",
+   "hashtags": [
+    "#programacion",
+    "#desarrolloweb",
+    "#api",
+    "#tecnologia",
+    "#coding"
+   ],
+   "narration": "T\u00edo, si eres dev, sabr\u00e1s que pelearse con la API de TikTok o Instagram es un aut\u00e9ntico infierno. Tokens que caducan, documentaci\u00f3n que no se entiende... es para volverse loco. Pero Upload-Post lo unifica todo en un solo endpoint. Un POST y el v\u00eddeo est\u00e1 subido en todos lados. Es una API REST s\u00faper limpia. Te ahorras semanas de desarrollo y dolores de cabeza. Chequ\u00e9alo, enlace en la bio.",
+   "actorDescription": "a 32 year old european man, dark hair, short beard, wearing a black t-shirt and glasses, smart casual appearance",
+   "style": "ugc",
+   "language": "en",
+   "duration": 30.51,
+   "mode": "lowcost",
+   "productName": "Upload-Post.com",
+   "productUrl": "https://upload-post.com",
+   "createdAt": "2026-03-19T17:59:28.703934Z",
+   "video": "/templates/videos/d3a80b6b/video.mp4",
+   "poster": "/templates/videos/d3a80b6b/poster.webp",
+   "actor": "/templates/videos/d3a80b6b/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "T\u00edo, si eres dev, sabr\u00e1s que pelearse con la API de TikTok o Instagram es un aut\u00e9ntico infierno.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "Pelearse con las APIs es un infierno"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Tokens que caducan, documentaci\u00f3n que no se entiende... es para volverse loco.",
+     "visual": "broll",
+     "broll_prompt": "Macro shot of a dark computer screen with complex code and error messages in red, reflecting on the glasses of a tired developer",
+     "emotion": "frustrated",
+     "subtitle_text": "Tokens rotos y errores 400"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Pero Upload-Post lo unifica todo en un solo endpoint. Un POST y el v\u00eddeo est\u00e1 subido en todos lados.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Un solo endpoint para todo"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 20,
+     "narration": "Es una API REST s\u00faper limpia. Te ahorras semanas de desarrollo y dolores de cabeza.",
+     "visual": "broll",
+     "broll_prompt": "Clean code editor (VS Code) showing a simple and elegant JSON request being sent to upload-post.com with a 200 OK response",
+     "emotion": "excited",
+     "subtitle_text": "Ahorra semanas de c\u00f3digo"
+    },
+    {
+     "type": "cta",
+     "start": 20,
+     "end": 22,
+     "narration": "Chequ\u00e9alo, enlace en la bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Enlace en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/d3a80b6b/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/d3a80b6b/actor.png"
+  },
+  {
+   "id": "d40ec0a8",
+   "title": "Automatizaci\u00f3n Canales Faceless",
+   "hook": "No subas v\u00eddeos a mano",
+   "caption": "El secreto de los canales de IA que publican 24/7 \ud83e\udd16 No m\u00e1s uploads manuales. \u00danete al futuro con Upload-Post. Enlace en la bio. \ud83d\udc47",
+   "hashtags": [
+    "#canalesfaceless",
+    "#ia",
+    "#n8n",
+    "#make",
+    "#producciondevideo"
+   ],
+   "narration": "Si quieres escalar canales de IA, deja de subir v\u00eddeos a mano. Es una p\u00e9rdida de tiempo brutal. Pasarte el d\u00eda redimensionando y subiendo el mismo Reel a tres redes distintas te quita horas de vida. Con Upload-Post y n8n puedes crear un bot que lo haga solo. Una sola llamada a la API y listo. Incluso te adapta el formato del v\u00eddeo autom\u00e1ticamente. Es literalmente el sue\u00f1o de cualquier 'automator'. M\u00f3ntatelo hoy mismo. Enlace en la bio.",
+   "actorDescription": "a 24 year old european man, blonde hair, clean shaven, wearing a gray hoodie, looks like a young developer",
+   "style": "ugc",
+   "language": "en",
+   "duration": 22.41,
+   "mode": "lowcost",
+   "productName": "Upload-Post.com",
+   "productUrl": "https://upload-post.com",
+   "createdAt": "2026-03-18T22:40:41.813778Z",
+   "video": "/templates/videos/d40ec0a8/video.mp4",
+   "poster": "/templates/videos/d40ec0a8/poster.webp",
+   "actor": "/templates/videos/d40ec0a8/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 5,
+     "narration": "Si quieres escalar canales de IA, deja de subir v\u00eddeos a mano. Es una p\u00e9rdida de tiempo brutal.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "\u00a1Deja de subir v\u00eddeos a mano!"
+    },
+    {
+     "type": "problem",
+     "start": 5,
+     "end": 9,
+     "narration": "Pasarte el d\u00eda redimensionando y subiendo el mismo Reel a tres redes distintas te quita horas de vida.",
+     "visual": "broll",
+     "broll_prompt": "Time-lapse of a person frustrated, switching between multiple browser tabs to upload the same video file repeatedly",
+     "emotion": "frustrated",
+     "subtitle_text": "Horas perdidas subiendo contenido"
+    },
+    {
+     "type": "solution",
+     "start": 9,
+     "end": 16,
+     "narration": "Con Upload-Post y n8n puedes crear un bot que lo haga solo. Una sola llamada a la API y listo.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Automatiza con Upload-Post y n8n"
+    },
+    {
+     "type": "demo",
+     "start": 16,
+     "end": 21,
+     "narration": "Incluso te adapta el formato del v\u00eddeo autom\u00e1ticamente. Es literalmente el sue\u00f1o de cualquier 'automator'.",
+     "visual": "broll",
+     "broll_prompt": "Clean screen recording showing an n8n workflow connecting a 'Google Drive' node to an 'Upload-Post' node, very smooth",
+     "emotion": "excited",
+     "subtitle_text": "Auto-adaptaci\u00f3n de formato"
+    },
+    {
+     "type": "cta",
+     "start": 21,
+     "end": 24,
+     "narration": "M\u00f3ntatelo hoy mismo. Enlace en la bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/d40ec0a8/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/d40ec0a8/actor.png"
+  },
+  {
+   "id": "33767be5",
+   "title": "Hack para Canales Automatizados",
+   "hook": "Hack Canales Faceless",
+   "caption": "El secreto de los canales de IA que publican 24/7 \ud83e\udd16 Se llama Upload-Post y es una joya. \ud83d\udc8e M\u00e1s info en el link de la bio.",
+   "hashtags": [
+    "#inteligenciaartificial",
+    "#canalesfaceless",
+    "#automatizacion",
+    "#sidehustle"
+   ],
+   "narration": "\u00bfQuieres saber c\u00f3mo los canales autom\u00e1ticos publican tanto contenido sin esfuerzo? El problema es que crear el contenido con IA es f\u00e1cil, pero distribuirlo manualmente es un infierno. La pieza que te falta es Upload-Post. Conectas tu stack de IA directamente a su API y publicas en masa. Es literalmente el puente perfecto para que tus agentes de IA dominen todas las redes. Si vas en serio con la IA, necesitas esto. Enlace en la bio.",
+   "actorDescription": "a 26 year old attractive redhead european woman, wearing a casual black camisole, natural look, friendly and enthusiastic expression",
+   "style": "ugc",
+   "language": "en",
+   "duration": 32.86,
+   "mode": "premium",
+   "productName": "Upload-Post",
+   "productUrl": "https://upload-post.com",
+   "createdAt": "2026-03-18T22:30:58.717334Z",
+   "video": "/templates/videos/33767be5/video.mp4",
+   "poster": "/templates/videos/33767be5/poster.webp",
+   "actor": "/templates/videos/33767be5/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 4,
+     "narration": "\u00bfQuieres saber c\u00f3mo los canales autom\u00e1ticos publican tanto contenido sin esfuerzo?",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "El secreto de los canales AI"
+    },
+    {
+     "type": "problem",
+     "start": 4,
+     "end": 8,
+     "narration": "El problema es que crear el contenido con IA es f\u00e1cil, pero distribuirlo manualmente es un infierno.",
+     "visual": "broll",
+     "broll_prompt": "A montage of many video files in a folder being dragged one by one into a browser, looking chaotic and slow.",
+     "emotion": "frustrated",
+     "subtitle_text": "Subir todo es un infierno"
+    },
+    {
+     "type": "solution",
+     "start": 8,
+     "end": 15,
+     "narration": "La pieza que te falta es Upload-Post. Conectas tu stack de IA directamente a su API y publicas en masa.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "La pieza que faltaba"
+    },
+    {
+     "type": "demo",
+     "start": 15,
+     "end": 19,
+     "narration": "Es literalmente el puente perfecto para que tus agentes de IA dominen todas las redes.",
+     "visual": "broll",
+     "broll_prompt": "Stylized 3D animation of a central node (Upload-Post) sending glowing data lines to various social media icons simultaneously.",
+     "emotion": "excited",
+     "subtitle_text": "Domina las redes"
+    },
+    {
+     "type": "cta",
+     "start": 19,
+     "end": 22,
+     "narration": "Si vas en serio con la IA, necesitas esto. Enlace en la bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/33767be5/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/33767be5/actor.png"
+  },
+  {
+   "id": "e52788bb",
+   "title": "Ahorra tiempo con n8n",
+   "hook": "Deja de subir a mano",
+   "caption": "Deja de perder 4 horas al d\u00eda subiendo v\u00eddeos. \ud83d\ude80 Automatiza tus redes con Upload-Post. Link en la bio. #marketingdigital",
+   "hashtags": [
+    "#automatizacion",
+    "#n8n",
+    "#creadoresdecontenido",
+    "#saas"
+   ],
+   "narration": "T\u00edo, no me puedo creer que nadie me haya dicho esto antes... Perder horas subiendo el mismo v\u00eddeo a diez redes sociales diferentes es una pesadilla total. Descubr\u00ed Upload-Post. Con una sola API o su nodo oficial de n8n, publicas en todo a la vez autom\u00e1ticamente. \u00c9l solo adapta el formato y el bitrate para que se vea perfecto en TikTok, Reels y Shorts. Pru\u00e9balo gratis hoy. Tienes el enlace en mi bio.",
+   "actorDescription": "24 year old attractive european woman, blonde straight hair, wearing a black tank top, natural minimal makeup, tech-savvy look.",
+   "style": "ugc",
+   "language": "en",
+   "duration": 24.79,
+   "mode": "lowcost",
+   "productName": "Upload-Post.com",
+   "productUrl": "https://upload-post.com",
+   "createdAt": "2026-03-18T14:18:09.513512Z",
+   "video": "/templates/videos/e52788bb/video.mp4",
+   "poster": "/templates/videos/e52788bb/poster.webp",
+   "actor": "/templates/videos/e52788bb/actor.webp",
+   "segments": [
+    {
+     "type": "hook",
+     "start": 0,
+     "end": 4,
+     "narration": "T\u00edo, no me puedo creer que nadie me haya dicho esto antes...",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "excited",
+     "subtitle_text": "\u00a1No me lo creo!"
+    },
+    {
+     "type": "problem",
+     "start": 4,
+     "end": 8,
+     "narration": "Perder horas subiendo el mismo v\u00eddeo a diez redes sociales diferentes es una pesadilla total.",
+     "visual": "broll",
+     "broll_prompt": "Cinematic close-up of a person looking exhausted at a laptop with 10 browser tabs open, clicking 'Upload' repeatedly in a dark room.",
+     "emotion": "frustrated",
+     "subtitle_text": "Vaya p\u00e9rdida de tiempo..."
+    },
+    {
+     "type": "solution",
+     "start": 8,
+     "end": 15,
+     "narration": "Descubr\u00ed Upload-Post. Con una sola API o su nodo oficial de n8n, publicas en todo a la vez autom\u00e1ticamente.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Usa Upload-Post.com"
+    },
+    {
+     "type": "demo",
+     "start": 15,
+     "end": 19,
+     "narration": "\u00c9l solo adapta el formato y el bitrate para que se vea perfecto en TikTok, Reels y Shorts.",
+     "visual": "broll",
+     "broll_prompt": "Dynamic screen recording showing a clean n8n workflow connecting a folder to the Upload-Post node, followed by 3 phone screens showing the video live.",
+     "emotion": "excited",
+     "subtitle_text": "Todo automatizado"
+    },
+    {
+     "type": "cta",
+     "start": 19,
+     "end": 22,
+     "narration": "Pru\u00e9balo gratis hoy. Tienes el enlace en mi bio.",
+     "visual": "actor_talking",
+     "broll_prompt": null,
+     "emotion": "confident",
+     "subtitle_text": "Link en la bio"
+    }
+   ],
+   "sourceVideoUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/e52788bb/video.mp4",
+   "sourceActorUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/videos/e52788bb/actor.png"
+  }
+ ],
+ "avatars": [
+  {
+   "file": "/templates/avatars/actor_actor_option_0_9cd36031.webp",
+   "description": "A fictional adult woman around 28 with loose dark brown hair, wearing a plain navy T-shirt, sitting at a kitchen table beside a window in soft natural daylight. Casual phone-camera portrait, medium chest-up framing, relaxed friendly expression, natural skin texture, minimal makeup, ordinary lived-in home, a notebook with travel notes on the table. No logos, no text, no beauty-ad styling, no imitation of a real person.",
+   "createdAt": "2026-10-01T17:49:15+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_9cd36031.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_4895bc7d.webp",
+   "description": "A fictional adult woman around 28 with loose dark brown hair, wearing a plain navy T-shirt, sitting at a kitchen table beside a window in soft natural daylight. Casual phone-camera portrait, medium chest-up framing, relaxed friendly expression, natural skin texture, minimal makeup, ordinary lived-in home, a notebook with travel notes on the table. No logos, no text, no beauty-ad styling, no imitation of a real person.",
+   "createdAt": "2026-10-01T17:49:15+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_4895bc7d.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_13ee5d45.webp",
+   "description": "A fictional adult woman around 28 with loose dark brown hair, wearing a plain navy T-shirt, sitting at a kitchen table beside a window in soft natural daylight. Casual phone-camera portrait, medium chest-up framing, relaxed friendly expression, natural skin texture, minimal makeup, ordinary lived-in home, a notebook with travel notes on the table. No logos, no text, no beauty-ad styling, no imitation of a real person.",
+   "createdAt": "2026-10-01T17:49:15+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_13ee5d45.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_232214c1.webp",
+   "description": "a 42 year old attractive european woman, brunette bob hair, wearing a beige linen camisole, natural makeup, kind expression",
+   "createdAt": "2026-09-17T00:58:49+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_232214c1.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_c592b3ca.webp",
+   "description": "a 42 year old attractive european woman, brunette bob hair, wearing a beige linen camisole, natural makeup, kind expression",
+   "createdAt": "2026-09-17T00:58:49+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_c592b3ca.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_19b45b98.webp",
+   "description": "a 42 year old attractive european woman, brunette bob hair, wearing a beige linen camisole, natural makeup, kind expression",
+   "createdAt": "2026-09-17T00:58:49+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_19b45b98.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_160edc33.webp",
+   "description": "a 54 year old european man, short dark hair, light stubble, wearing a navy t-shirt, smart casual look standing in sunny home living room",
+   "createdAt": "2026-09-15T13:43:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_160edc33.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_4e890ea6.webp",
+   "description": "a 54 year old european man, short dark hair, light stubble, wearing a navy t-shirt, smart casual look standing in sunny home living room",
+   "createdAt": "2026-09-15T13:43:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_4e890ea6.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_928333d4.webp",
+   "description": "a 54 year old european man, short dark hair, light stubble, wearing a navy t-shirt, smart casual look standing in sunny home living room",
+   "createdAt": "2026-09-15T13:43:24+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_928333d4.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_6c44f6a6.webp",
+   "description": "a 54 year old european man, short dark hair, light stubble, wearing a navy t-shirt, smart casual look",
+   "createdAt": "2026-09-15T13:42:47+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_6c44f6a6.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_ecd7c044.webp",
+   "description": "a 54 year old european man, short dark hair, light stubble, wearing a navy t-shirt, smart casual look",
+   "createdAt": "2026-09-15T13:42:47+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_ecd7c044.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_c5752a62.webp",
+   "description": "a 54 year old european man, short dark hair, light stubble, wearing a navy t-shirt, smart casual look",
+   "createdAt": "2026-09-15T13:42:46+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_c5752a62.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_b9ccddac.webp",
+   "description": "a 40 year old european man, short dark hair, light stubble, wearing a sports t-shirt, smart casual look, on a gym environment.",
+   "createdAt": "2026-09-12T04:40:59+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_b9ccddac.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_8f96e30a.webp",
+   "description": "a 40 year old european man, short dark hair, light stubble, wearing a sports t-shirt, smart casual look, on a gym environment.",
+   "createdAt": "2026-09-12T04:40:59+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_8f96e30a.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_75f07f90.webp",
+   "description": "a 40 year old european man, short dark hair, light stubble, wearing a sports t-shirt, smart casual look, on a gym environment.",
+   "createdAt": "2026-09-12T04:40:59+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_75f07f90.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_18aab8f1.webp",
+   "description": "a 27 year old white male, short blonde hair, wearing a clean sports clothe, on a gym/sports environment.",
+   "createdAt": "2026-09-12T04:18:04+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_18aab8f1.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_8f1eba36.webp",
+   "description": "a 27 year old white male, short blonde hair, wearing a clean sports clothe, on a gym/sports environment.",
+   "createdAt": "2026-09-12T04:18:04+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_8f1eba36.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_cf96636b.webp",
+   "description": "a 27 year old white male, short blonde hair, wearing a clean sports clothe, on a gym/sports environment.",
+   "createdAt": "2026-09-12T04:18:04+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_cf96636b.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_2093488b.webp",
+   "description": "A highly realistic 4K talking-head video of a 50-year-old Brazilian small business owner looking directly at the camera with a confident yet humble and welcoming smile. Warm Latino features, natural expression lines, short salt-and-pepper hair, and a neatly trimmed short gray beard. He is wearing thin, simple modern eyeglasses and a clean, casual dark gray polo shirt. Background is a softly blurred, brightly lit local commercial store, neighborhood bakery, or small grocery shop with warm, natural lighting. High-definition skin texture showing real pores, warm cinematic tones, 35mm lens photography style, authentic local merchant look, no smooth plastic skin filters.",
+   "createdAt": "2026-08-21T14:41:34+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_2093488b.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_0523ed1a.webp",
+   "description": "A highly realistic 4K talking-head video of a 50-year-old Brazilian small business owner looking directly at the camera with a confident yet humble and welcoming smile. Warm Latino features, natural expression lines, short salt-and-pepper hair, and a neatly trimmed short gray beard. He is wearing thin, simple modern eyeglasses and a clean, casual dark gray polo shirt. Background is a softly blurred, brightly lit local commercial store, neighborhood bakery, or small grocery shop with warm, natural lighting. High-definition skin texture showing real pores, warm cinematic tones, 35mm lens photography style, authentic local merchant look, no smooth plastic skin filters.",
+   "createdAt": "2026-08-21T14:41:34+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_0523ed1a.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_a2892162.webp",
+   "description": "A highly realistic 4K talking-head video of a 50-year-old Brazilian small business owner looking directly at the camera with a confident yet humble and welcoming smile. Warm Latino features, natural expression lines, short salt-and-pepper hair, and a neatly trimmed short gray beard. He is wearing thin, simple modern eyeglasses and a clean, casual dark gray polo shirt. Background is a softly blurred, brightly lit local commercial store, neighborhood bakery, or small grocery shop with warm, natural lighting. High-definition skin texture showing real pores, warm cinematic tones, 35mm lens photography style, authentic local merchant look, no smooth plastic skin filters.",
+   "createdAt": "2026-08-21T14:41:34+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_a2892162.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_f037a425.webp",
+   "description": "a 35 year old attractive European woman, light brown wavy hair, wearing a smart suit, natural minimal makeup - no headphones around neck.",
+   "createdAt": "2026-08-03T20:28:41+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_f037a425.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_5645dda4.webp",
+   "description": "a 35 year old attractive European woman, light brown wavy hair, wearing a smart suit, natural minimal makeup - no headphones around neck.",
+   "createdAt": "2026-08-03T20:28:40+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_5645dda4.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_84166165.webp",
+   "description": "a 35 year old attractive European woman, light brown wavy hair, wearing a smart suit, natural minimal makeup - no headphones around neck.",
+   "createdAt": "2026-08-03T20:28:40+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_84166165.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_65e7073f.webp",
+   "description": "a 35 year old attractive European woman, light brown wavy hair, wearing a white tank top, natural minimal makeup.",
+   "createdAt": "2026-08-03T20:27:50+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_65e7073f.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_89c37cf1.webp",
+   "description": "a 35 year old attractive European woman, light brown wavy hair, wearing a white tank top, natural minimal makeup.",
+   "createdAt": "2026-08-03T20:27:50+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_89c37cf1.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_f1dfc74b.webp",
+   "description": "a 35 year old attractive European woman, light brown wavy hair, wearing a white tank top, natural minimal makeup.",
+   "createdAt": "2026-08-03T20:27:50+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_f1dfc74b.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_4842e23f.webp",
+   "description": "a 24 year old attractive American woman, blonde wavy hair, wearing a white tank top, natural minimal makeup, friendly face in a theme park outside",
+   "createdAt": "2026-07-09T16:03:08+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_4842e23f.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_c315a64d.webp",
+   "description": "a 24 year old attractive American woman, blonde wavy hair, wearing a white tank top, natural minimal makeup, friendly face in a theme park outside",
+   "createdAt": "2026-07-09T16:03:07+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_c315a64d.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_3c3e0807.webp",
+   "description": "a 24 year old attractive American woman, blonde wavy hair, wearing a white tank top, natural minimal makeup, friendly face in a theme park outside",
+   "createdAt": "2026-07-09T16:03:07+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_3c3e0807.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_6ad40840.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:07:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_6ad40840.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_5458a15f.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:07:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_5458a15f.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_7655ef9e.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:07:24+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_7655ef9e.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_681ba94b.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:06:31+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_681ba94b.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_96be2c89.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:06:31+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_96be2c89.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_d5b29f85.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:06:31+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_d5b29f85.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_bbdd1ce6.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:02:52+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_bbdd1ce6.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_06a960e9.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:02:52+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_06a960e9.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_d85db497.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T12:02:51+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_d85db497.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_fa053d3c.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:55:10+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_fa053d3c.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_ae4ae552.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:55:09+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_ae4ae552.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_8e72d7a5.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:55:09+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_8e72d7a5.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_a589a94a.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:54:07+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_a589a94a.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_56dac2c2.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:54:07+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_56dac2c2.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_00285be3.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:54:07+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_00285be3.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_fc7acd1b.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:45:59+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_fc7acd1b.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_13245e55.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:45:59+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_13245e55.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_d9008a04.webp",
+   "description": "A 24 year old attractive European woman, blonde wavy hair, wearing a white ribbed tank top, natural minimal makeup, friendly and energetic face.",
+   "createdAt": "2026-06-26T11:45:58+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_d9008a04.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_e0dc6341.webp",
+   "description": "A 24 year old attractive european woman, long blonde hair, wearing a simple white camisole, natural look, friendly and energetic.",
+   "createdAt": "2026-05-19T14:31:32+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_e0dc6341.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_07a068fc.webp",
+   "description": "A 24 year old attractive european woman, long blonde hair, wearing a simple white camisole, natural look, friendly and energetic.",
+   "createdAt": "2026-05-19T14:31:32+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_07a068fc.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_d5a2aa1d.webp",
+   "description": "A 24 year old attractive european woman, long blonde hair, wearing a simple white camisole, natural look, friendly and energetic.",
+   "createdAt": "2026-05-19T14:31:31+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_d5a2aa1d.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_79e3b263.webp",
+   "description": "A 28 year old attractive European woman, brunette wavy hair, wearing a casual secretary top with very large decollet\u00e9, sitting in accountant office.",
+   "createdAt": "2026-04-30T17:51:34+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_79e3b263.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_84fcc1f2.webp",
+   "description": "A 28 year old attractive European woman, brunette wavy hair, wearing a casual secretary top with very large decollet\u00e9, sitting in accountant office.",
+   "createdAt": "2026-04-30T17:51:34+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_84fcc1f2.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_a18b2b73.webp",
+   "description": "A 28 year old attractive European woman, brunette wavy hair, wearing a casual secretary top with very large decollet\u00e9, sitting in accountant office.",
+   "createdAt": "2026-04-30T17:51:34+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_a18b2b73.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_54378aaf.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, looking serious, secretary glasses, large d\u00e9collet\u00e9, working girl in office with great lights, no headset",
+   "createdAt": "2026-04-30T11:17:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_54378aaf.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_c2dfa73e.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, looking serious, secretary glasses, large d\u00e9collet\u00e9, working girl in office with great lights, no headset",
+   "createdAt": "2026-04-30T11:17:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_c2dfa73e.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_b92f70ab.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, looking serious, secretary glasses, large d\u00e9collet\u00e9, working girl in office with great lights, no headset",
+   "createdAt": "2026-04-30T11:17:24+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_b92f70ab.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_d92efb29.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, looking serious, secretary glasses, large d\u00e9collet\u00e9, working girl in office with great lights",
+   "createdAt": "2026-04-30T11:16:32+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_d92efb29.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_de858d53.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, looking serious, secretary glasses, large d\u00e9collet\u00e9, working girl in office with great lights",
+   "createdAt": "2026-04-30T11:16:32+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_de858d53.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_cc278438.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, looking serious, secretary glasses, large d\u00e9collet\u00e9, working girl in office with great lights",
+   "createdAt": "2026-04-30T11:16:32+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_cc278438.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_6cc9c842.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, wearing accountant outfits with decollet\u00e9, natural makeup, and a friendly but serious expression.",
+   "createdAt": "2026-04-30T11:06:57+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_6cc9c842.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_aabccb2e.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, wearing accountant outfits with decollet\u00e9, natural makeup, and a friendly but serious expression.",
+   "createdAt": "2026-04-30T11:06:57+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_aabccb2e.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_74378842.webp",
+   "description": "A 28-year-old attractive European woman with blonde wavy hair, wearing accountant outfits with decollet\u00e9, natural makeup, and a friendly but serious expression.",
+   "createdAt": "2026-04-30T11:06:56+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_74378842.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_23c726a2.webp",
+   "description": "naturally beautiful woman in her late 20s, light olive skin with visible freckles across nose and cheeks, green-hazel eyes, full natural lips slightly parted. Soft, relaxed expression, intimate eye contact with camera.\n\nMedium-length light brown hair, slightly messy, natural texture, loose strands framing the face. One hand resting on her head.\n\nLighting: bright natural sunlight, soft shadows, outdoor setting.\n\nBackground: blurred garden with pool, vibrant greens and blues, shallow depth of field (bokeh).\n\nCamera style: smartphone selfie, 28mm lens, slight wide-angle distortion, high detail skin texture, realistic imperfections.\n\nStyle: Instagram selfie, candid, natural beauty, no heavy makeup, minimal retouching, warm tones.",
+   "createdAt": "2026-04-24T16:19:40+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_23c726a2.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_e2b23f73.webp",
+   "description": "naturally beautiful woman in her late 20s, light olive skin with visible freckles across nose and cheeks, green-hazel eyes, full natural lips slightly parted. Soft, relaxed expression, intimate eye contact with camera.\n\nMedium-length light brown hair, slightly messy, natural texture, loose strands framing the face. One hand resting on her head.\n\nLighting: bright natural sunlight, soft shadows, outdoor setting.\n\nBackground: blurred garden with pool, vibrant greens and blues, shallow depth of field (bokeh).\n\nCamera style: smartphone selfie, 28mm lens, slight wide-angle distortion, high detail skin texture, realistic imperfections.\n\nStyle: Instagram selfie, candid, natural beauty, no heavy makeup, minimal retouching, warm tones.",
+   "createdAt": "2026-04-24T16:19:40+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_e2b23f73.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_e1951b1d.webp",
+   "description": "naturally beautiful woman in her late 20s, light olive skin with visible freckles across nose and cheeks, green-hazel eyes, full natural lips slightly parted. Soft, relaxed expression, intimate eye contact with camera.\n\nMedium-length light brown hair, slightly messy, natural texture, loose strands framing the face. One hand resting on her head.\n\nLighting: bright natural sunlight, soft shadows, outdoor setting.\n\nBackground: blurred garden with pool, vibrant greens and blues, shallow depth of field (bokeh).\n\nCamera style: smartphone selfie, 28mm lens, slight wide-angle distortion, high detail skin texture, realistic imperfections.\n\nStyle: Instagram selfie, candid, natural beauty, no heavy makeup, minimal retouching, warm tones.",
+   "createdAt": "2026-04-24T16:19:39+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_e1951b1d.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_ba71c303.webp",
+   "description": "a beautiful woman around 30 years old, natural and approachable look, light green eyes, subtle smile, soft and confident expression. Medium-length messy red hair with natural texture, slightly tousled and casual. Clear skin with light freckles, minimal makeup, natural tones.\n\nWearing a simple grey knit sweater, soft fabric.\n\nIndoor setting with warm natural light coming from the side, soft shadows, cozy atmosphere. Background blurred (shallow depth of field, bokeh), neutral tones.\n\nCamera style: close-up portrait, 85mm lens, f/1.8, sharp focus on eyes, cinematic lighting, ultra-realistic, high detail skin texture, soft color grading.\n\nStyle: realistic photography, natural beauty, lifestyle portrait, no glamour exaggeration, authentic and warm feeling.",
+   "createdAt": "2026-04-24T16:15:08+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_ba71c303.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_41a34016.webp",
+   "description": "a beautiful woman around 30 years old, natural and approachable look, light green eyes, subtle smile, soft and confident expression. Medium-length messy red hair with natural texture, slightly tousled and casual. Clear skin with light freckles, minimal makeup, natural tones.\n\nWearing a simple grey knit sweater, soft fabric.\n\nIndoor setting with warm natural light coming from the side, soft shadows, cozy atmosphere. Background blurred (shallow depth of field, bokeh), neutral tones.\n\nCamera style: close-up portrait, 85mm lens, f/1.8, sharp focus on eyes, cinematic lighting, ultra-realistic, high detail skin texture, soft color grading.\n\nStyle: realistic photography, natural beauty, lifestyle portrait, no glamour exaggeration, authentic and warm feeling.",
+   "createdAt": "2026-04-24T16:15:08+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_41a34016.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_b7938111.webp",
+   "description": "a beautiful woman around 30 years old, natural and approachable look, light green eyes, subtle smile, soft and confident expression. Medium-length messy red hair with natural texture, slightly tousled and casual. Clear skin with light freckles, minimal makeup, natural tones.\n\nWearing a simple grey knit sweater, soft fabric.\n\nIndoor setting with warm natural light coming from the side, soft shadows, cozy atmosphere. Background blurred (shallow depth of field, bokeh), neutral tones.\n\nCamera style: close-up portrait, 85mm lens, f/1.8, sharp focus on eyes, cinematic lighting, ultra-realistic, high detail skin texture, soft color grading.\n\nStyle: realistic photography, natural beauty, lifestyle portrait, no glamour exaggeration, authentic and warm feeling.",
+   "createdAt": "2026-04-24T16:15:08+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_b7938111.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_2c98509d.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, in gym wear at home in the kitchen, without headphones",
+   "createdAt": "2026-04-14T14:11:18+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_2c98509d.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_7ebcd39e.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, in gym wear at home in the kitchen, without headphones",
+   "createdAt": "2026-04-14T14:11:18+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_7ebcd39e.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_2990995c.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, in gym wear at home in the kitchen, without headphones",
+   "createdAt": "2026-04-14T14:11:17+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_2990995c.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_9cae7bcf.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, in gym wear at home in the kitchen",
+   "createdAt": "2026-04-14T14:10:35+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_9cae7bcf.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_15cb53b8.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, in gym wear at home in the kitchen",
+   "createdAt": "2026-04-14T14:10:35+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_15cb53b8.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_6d494320.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, in gym wear at home in the kitchen",
+   "createdAt": "2026-04-14T14:10:34+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_6d494320.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_5315d620.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, wearing a simple white tank top, natural minimal makeup, friendly face.",
+   "createdAt": "2026-04-14T14:09:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_5315d620.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_affe29eb.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, wearing a simple white tank top, natural minimal makeup, friendly face.",
+   "createdAt": "2026-04-14T14:09:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_affe29eb.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_67db27be.webp",
+   "description": "A 24 year old attractive european woman, blonde wavy hair, wearing a simple white tank top, natural minimal makeup, friendly face.",
+   "createdAt": "2026-04-14T14:09:25+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_67db27be.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_3e23dec0.webp",
+   "description": "a 24 year old attractive european woman, blonde hair in a messy bun, natural look, tech-savvy vibe",
+   "createdAt": "2026-03-19T18:46:50+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_3e23dec0.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_2119895f.webp",
+   "description": "a 24 year old attractive european woman, blonde hair in a messy bun, natural look, tech-savvy vibe",
+   "createdAt": "2026-03-19T18:46:49+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_2119895f.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_1367f9b2.webp",
+   "description": "a 24 year old attractive european woman, blonde hair in a messy bun, natural look, tech-savvy vibe",
+   "createdAt": "2026-03-19T18:46:48+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_1367f9b2.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_c801172a.webp",
+   "description": "a 24 year old attractive european woman, wearing a grey ribbed tank top, natural look, tech-savvy vibe",
+   "createdAt": "2026-03-19T18:30:20+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_c801172a.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_13b0a266.webp",
+   "description": "a 24 year old attractive european woman, wearing a grey ribbed tank top, natural look, tech-savvy vibe",
+   "createdAt": "2026-03-19T18:30:19+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_13b0a266.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_dc8f3747.webp",
+   "description": "a 24 year old attractive european woman, wearing a grey ribbed tank top, natural look, tech-savvy vibe",
+   "createdAt": "2026-03-19T18:30:18+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_dc8f3747.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_81f3edbf.webp",
+   "description": "",
+   "createdAt": "2026-03-18T22:35:45+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_81f3edbf.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_5b03028a.webp",
+   "description": "",
+   "createdAt": "2026-03-18T22:35:44+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_5b03028a.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_bf73ca2f.webp",
+   "description": "",
+   "createdAt": "2026-03-18T22:35:44+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_bf73ca2f.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_1ea363bb.webp",
+   "description": "",
+   "createdAt": "2026-03-18T22:21:53+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_1ea363bb.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_5b84b5f5.webp",
+   "description": "",
+   "createdAt": "2026-03-18T22:21:53+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_5b84b5f5.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_271418bf.webp",
+   "description": "",
+   "createdAt": "2026-03-18T22:21:52+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_271418bf.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2_7a1df5e2.webp",
+   "description": "",
+   "createdAt": "2026-03-18T14:12:10+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2_7a1df5e2.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0_6ba53111.webp",
+   "description": "",
+   "createdAt": "2026-03-18T14:12:09+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0_6ba53111.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1_b37d2ede.webp",
+   "description": "",
+   "createdAt": "2026-03-18T14:12:09+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1_b37d2ede.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_1.webp",
+   "description": "",
+   "createdAt": "2026-03-18T13:31:36+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_1.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_2.webp",
+   "description": "",
+   "createdAt": "2026-03-18T13:31:36+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_2.png"
+  },
+  {
+   "file": "/templates/avatars/actor_actor_option_0.webp",
+   "description": "",
+   "createdAt": "2026-03-18T13:31:35+00:00",
+   "sourceUrl": "https://test-videos-upload-post.s3.eu-west-3.amazonaws.com/avatars/actor_actor_option_0.png"
+  }
+ ]
+}

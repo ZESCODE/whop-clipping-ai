@@ -28,3 +28,10 @@ export const CONNECTED_NETWORKS = [
 	{ name: "Bluesky", kind: "social" },
 	{ name: "Google Business", kind: "social" },
 ] as const;
+
+/**
+ * Where "Connect your accounts" sends the visitor: a route on this app that
+ * mints a branded 48-hour connect link server-side and redirects to it.
+ * Falls back to the plain signup page when the server has no key.
+ */
+export const CONNECT_HREF = "/api/social/connect";

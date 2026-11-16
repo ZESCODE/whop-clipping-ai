@@ -17,7 +17,7 @@ import {
 	Upload,
 } from "lucide-react";
 import SiteNav from "./SiteNav";
-import { UPLOAD_POST_URL } from "../lib/upload-post";
+import { CONNECT_HREF, UPLOAD_POST_URL } from "../lib/upload-post";
 
 const NETWORKS = [
 	{ name: "TikTok", short: "TT" },
@@ -198,7 +198,7 @@ export default function SocialFeaturePage({ page }) {
 					</h1>
 					<p className="text-ink2 text-base md:text-lg leading-relaxed mb-8">{page.lede}</p>
 					<div className="flex flex-wrap items-center gap-3">
-						<a href={UPLOAD_POST_URL} className="btn-primary" rel="noreferrer" target="_blank">
+						<a href={CONNECT_HREF} className="btn-primary">
 							{page.cta}
 							<ArrowRight size={15} className="ml-1" />
 						</a>
@@ -207,7 +207,11 @@ export default function SocialFeaturePage({ page }) {
 						</a>
 					</div>
 					<p className="text-xs text-muted mt-4">
-						Publishing runs on Upload-Post. Your social passwords go to the network, never to us.
+						Publishing runs on Upload-Post. Your social passwords go to the network, never to us.{" "}
+						<a href={UPLOAD_POST_URL} className="underline hover:text-ink2" target="_blank" rel="noreferrer">
+							Open Upload-Post directly
+						</a>
+						.
 					</p>
 				</div>
 			</header>
@@ -256,7 +260,7 @@ export default function SocialFeaturePage({ page }) {
 						calendar, one set of numbers.
 					</p>
 					<div className="flex flex-wrap justify-center gap-3">
-						<a href={UPLOAD_POST_URL} className="btn-primary" rel="noreferrer" target="_blank">
+						<a href={CONNECT_HREF} className="btn-primary">
 							{page.cta}
 						</a>
 						<a href="/#app" className="btn-ghost px-4 py-2 text-sm">

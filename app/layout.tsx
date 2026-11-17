@@ -1,6 +1,7 @@
 import { WhopApp } from "@whop/react/components";
 import { HashAppRedirect } from "@/components/HashAppRedirect";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -37,6 +38,7 @@ export default function RootLayout({
 			<body className="antialiased" suppressHydrationWarning>
 				<HashAppRedirect />
 				<WhopApp>{children}</WhopApp>
+				<Analytics />
 			</body>
 		</html>
 	);

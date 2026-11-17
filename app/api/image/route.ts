@@ -4,16 +4,18 @@ import type { NextRequest } from "next/server";
  * Image generation proxy (server-side, so no browser Origin reaches Pollinations).
  *
  *  - No key: the legacy free endpoint, same as the :7070 console proxy.
+ *    The free tier supports flux only; any other model needs a Pollen key.
  *  - Bearer sk_… (Pollinations Pay / BYOP): gen.pollinations.ai, spending that
  *    user's own Pollen. The key is only forwarded — never stored or logged.
  */
 const FREE_BASE = "https://image.pollinations.ai/prompt";
 const PAID_BASE = "https://gen.pollinations.ai/image";
+const FREE_MODEL = "flux";
 
 export async function GET(request: NextRequest) {
   const params = request.nextUrl.searchParams;
   const prompt = (params.get("prompt") || "").trim();
-  const model = params.get("model") || "flux";
+  const requested = params.get("model") || FREE_MODEL;
   const width = params.get("width") || "1024";
   const height = params.get("height") || "1024";
 
@@ -23,6 +25,18 @@ export async function GET(request: NextRequest) {
 
   const key = (request.headers.get("authorization") || "").replace(/^Bearer\s+/i, "").trim()
     || params.get("key") || "";
+
+  if (!key && requested !== FREE_MODEL) {
+    return Response.json(
+      {
+        error: "pollen_required",
+        detail: `"${requested}" needs a Pollinations API key. The free tier supports ${FREE_MODEL} only.`,
+      },
+      { status: 402 },
+    );
+  }
+
+  const model = key ? requested : FREE_MODEL;
 
   const qs = new URLSearchParams({
     model,

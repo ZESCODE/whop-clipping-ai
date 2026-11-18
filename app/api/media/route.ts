@@ -6,9 +6,9 @@ import { backendUrl } from "@/lib/backend-url";
  * and cross-origin playback in the Whop iframe is unreliable).
  *   GET /api/media?path=/videos/<job_id>/<file>.mp4
  */
-const CLIPPINGAI = backendUrl();
 
 export async function GET(request: NextRequest) {
+	const CLIPPINGAI = backendUrl(request);
   const path = request.nextUrl.searchParams.get("path") || "";
   if (!/^\/videos\/[\w.-]+\/[\w.-]+\.(mp4|mov|webm)$/.test(path)) {
     return NextResponse.json({ error: "invalid clip path" }, { status: 400 });

@@ -14,9 +14,9 @@ export const maxDuration = 60;
  * Same shape the upstream dashboard's Vite proxy used; the URL stays
  * server-side so the browser only ever talks to this origin.
  */
-const CLIPPINGAI = backendUrl();
 
 export async function GET(request: NextRequest) {
+	const CLIPPINGAI = backendUrl(request);
 	const { searchParams } = new URL(request.url);
 	const upstream = new URL(`${CLIPPINGAI}/api/tools/youtube-transcript`);
 	searchParams.forEach((value, key) => upstream.searchParams.set(key, value));

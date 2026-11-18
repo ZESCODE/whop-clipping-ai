@@ -11,9 +11,9 @@ export const maxDuration = 60;
  * GET /api/tools/tiktok-transcript?url=<video-url>&lang=<optional>
  *   → the captions a TikTok video already carries.
  */
-const CLIPPINGAI = backendUrl();
 
 export async function GET(request: NextRequest) {
+	const CLIPPINGAI = backendUrl(request);
 	const { searchParams } = new URL(request.url);
 	const upstream = new URL(`${CLIPPINGAI}/api/tools/tiktok-transcript`);
 	searchParams.forEach((value, key) => upstream.searchParams.set(key, value));

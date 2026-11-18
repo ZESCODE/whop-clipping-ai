@@ -14,9 +14,9 @@ export const maxDuration = 60;
  *
  * Powers the AI thumbnail maker and the YouTube tag generator.
  */
-const CLIPPINGAI = backendUrl();
 
 export async function POST(request: NextRequest) {
+	const CLIPPINGAI = backendUrl(request);
 	const body = await request.json().catch(() => ({}));
 	try {
 		const res = await fetch(`${CLIPPINGAI}/api/tools/youtube-metadata`, {

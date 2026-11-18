@@ -8,9 +8,9 @@ import { backendUrl } from "@/lib/backend-url";
  *   GET  ?job=<id>                → job status + finished clips
  * Keeps the Clipping AI URL server-side; the browser only talks to this origin.
  */
-const CLIPPINGAI = backendUrl();
 
 export async function POST(request: NextRequest) {
+  const CLIPPINGAI = backendUrl(request);
   const body = await request.json().catch(() => ({}));
   try {
     if (body.video_url) {
@@ -46,6 +46,7 @@ export async function POST(request: NextRequest) {
 }
 
 export async function GET(request: NextRequest) {
+  const CLIPPINGAI = backendUrl(request);
   const jobId = request.nextUrl.searchParams.get("job");
   if (!jobId) {
     return NextResponse.json({ error: "job id is required" }, { status: 400 });

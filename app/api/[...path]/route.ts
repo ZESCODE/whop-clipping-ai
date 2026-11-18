@@ -10,7 +10,6 @@ import { backendUrl } from "@/lib/backend-url";
  * route (clips, media, tools, bounties, …) is forwarded verbatim, so the app
  * works against the same backend the rest of this site uses.
  */
-const CLIPPINGAI = backendUrl();
 
 const HOP_BY_HOP = new Set([
 	"connection",
@@ -26,6 +25,7 @@ const HOP_BY_HOP = new Set([
 ]);
 
 async function proxy(request: NextRequest, ctx: { params: Promise<{ path: string[] }> }) {
+	const CLIPPINGAI = backendUrl(request);
 	const { path } = await ctx.params;
 	const target = `${CLIPPINGAI}/api/${path.join("/")}${request.nextUrl.search}`;
 

@@ -17,7 +17,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" data-accent-color="blue" suppressHydrationWarning>
 			<head>
-				{/* Self-hosted faces (OFL WOFF2): Space Grotesk display, Inter body,
+				{/* OFL-licensed fonts (WOFF2): Space Grotesk display, Inter body,
 				    JetBrains Mono readouts — see public/fonts.css. */}
 				<link rel="stylesheet" href="/fonts.css" />
 				{/* Dev overlay shows errors thrown by browser extensions (Automa

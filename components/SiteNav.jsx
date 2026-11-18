@@ -20,7 +20,7 @@ const hasStoredSession = () => {
 export default function SiteNav({ className = '' }) {
   const { isSignedIn, loading, billingEnabled } = useAuth();
   const signedIn = isSignedIn || (loading && hasStoredSession());
-  // Self-hosted (no billing) has no accounts to sign in to.
+  // Cloud-only (no self-host billing) has no accounts to sign in to.
   const showLogin = loading || billingEnabled;
   const html = useMemo(() => renderNav({ signedIn, showLogin }), [signedIn, showLogin]);
   const ref = useRef(null);

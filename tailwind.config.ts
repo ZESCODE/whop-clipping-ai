@@ -2,7 +2,7 @@ import { frostedThemePlugin } from "@whop/react/tailwind";
 
 // Frost palette mirrored from the ZES OS dashboard at :7070 (#409cff rim,
 // #0a0a0a paper, #eaf1ff ink), so the landing, the ported SEO pages and the
-// component classes in openshorts-ui.css all read as the same lit glass.
+// component classes in clippingai-ui.css all read as the same lit glass.
 export default {
 	plugins: [frostedThemePlugin()],
 	theme: {

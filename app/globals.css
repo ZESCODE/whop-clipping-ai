@@ -5,10 +5,10 @@
 @import "tailwindcss/utilities.css" layer(utilities);
 @import "@whop/react/styles.css" layer(frosted_ui);
 
-/* Ported OpenShorts design tokens + landing styles + component classes. */
+/* Ported design tokens + landing styles + component classes. */
 @import "./tokens.css";
 @import "./landing.css";
-@import "./openshorts-ui.css";
+@import "./clippingai-ui.css";
 
 /* biome-ignore lint/suspicious/noUnknownAtRules: this rule is imported from whop */
 @config '../tailwind.config.ts';

@@ -48,8 +48,8 @@ function extract(html: string) {
 	// build the app is the Whop experience at /discover, so those links stay in
 	// the app instead of jumping to a placeholder host.
 	body = body
-		.replaceAll("https://clippingai.local/#app", "/discover")
-		.replaceAll('href="https://clippingai.local/"', 'href="/"');
+		.replaceAll("https://clip.zes.codes/#app", "/discover")
+		.replaceAll('href="https://clip.zes.codes/"', 'href="/"');
 	return { styles, body, ld, toolSrc };
 }
 

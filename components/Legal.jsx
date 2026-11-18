@@ -9,7 +9,7 @@ import { ArrowLeft, FileText, Shield, Landmark, Flag, RotateCcw } from 'lucide-r
 // links, so the SPA route (#legal) and the crawlable pages never drift: the
 // full text lives in exactly one place.
 const LAST_UPDATED = '2026-09-04';
-const SUPPORT_EMAIL = 'info@clippingai.local';
+const SUPPORT_EMAIL = 'info@clip.zes.codes';
 
 const DOCS = [
     {

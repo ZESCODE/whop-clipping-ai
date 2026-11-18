@@ -554,7 +554,7 @@ export default function Landing({
     },
     {
       question: "Can I run Clipping AI from Claude, ChatGPT or n8n?",
-      answer: "Yes. Clipping AI ships a native MCP server at mcp.clippingai.local/mcp plus a REST API with per-user keys and completion webhooks, so an AI agent can run the whole flow: submit a video URL, wait for processing, list the clips and publish them to TikTok, Instagram or YouTube. An agent needs an endpoint that's always on, and the hosted one is, with the API key created in your account page in one click. Full guide at clippingai.local/mcp."
+      answer: "Yes. Clipping AI ships a native MCP server at clip.zes.codes/mcp plus a REST API with per-user keys and completion webhooks, so an AI agent can run the whole flow: submit a video URL, wait for processing, list the clips and publish them to TikTok, Instagram or YouTube. An agent needs an endpoint that's always on, and the hosted one is, with the API key created in your account page in one click. Full guide at clip.zes.codes/mcp."
     },
     {
       question: "Do I need to install anything?",
@@ -575,7 +575,7 @@ export default function Landing({
       <section className="hero-blueprint relative overflow-clip border-b border-rule pt-32 pb-20 px-6">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_auto] gap-14 items-center">
           <div className="min-w-0">
-            <p className="eyebrow mb-6">00 · AI Clip Studio · Open Source</p>
+            <p className="eyebrow mb-6">00 · AI Clip Studio</p>
 
             <h1 className="hero-h1 mb-6">
               <span className="block">ai clip studio:</span>{' '}
@@ -849,7 +849,7 @@ export default function Landing({
             <div className="card p-8 flex flex-col border-brass">
               <div className="flex flex-wrap items-center gap-3 mb-3">
                 <Sparkles size={18} className="text-brass" />
-                <h3 className="font-display text-2xl lowercase text-ink">cloud · clippingai.local</h3>
+                <h3 className="font-display text-2xl lowercase text-ink">cloud · clip.zes.codes</h3>
                 <span className="badge-brass">Recommended · Free plan</span>
               </div>
               <ul className="space-y-1.5 mb-6 flex-1">
@@ -975,7 +975,7 @@ export default function Landing({
       <section className="py-20 px-6 border-t border-rule">
         <div className="max-w-6xl mx-auto">
           <SectionHeader eyebrow="09 · Also Included" title="two more tools, one account">
-            Inside your clippingai.local account — no keys, no setup.
+            Inside your Clipping AI account — no keys, no setup.
           </SectionHeader>
           <div className="grid md:grid-cols-2 gap-5">
             <div className="card p-8">
@@ -1021,108 +1021,6 @@ export default function Landing({
               />
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Self-hosting details, folded: they matter to people who run it
-          themselves and are noise to someone deciding whether to try the cloud.
-          The content stays in the DOM, so crawlers still read it. */}
-      <section className="py-16 px-6 border-t border-rule">
-        <div className="max-w-5xl mx-auto">
-          <details className="group">
-            <summary className="list-none cursor-pointer flex items-center justify-between gap-6 [&::-webkit-details-marker]:hidden">
-              <div>
-                <span className="eyebrow block mb-3">11 · Self-Hosting</span>
-                <h2 className="font-display text-2xl md:text-3xl lowercase text-ink">Open source: run the whole pipeline on your own hardware</h2>
-              </div>
-              <ChevronDown size={22} className="text-muted shrink-0 transition-transform group-open:rotate-180" />
-            </summary>
-            {/* API Keys Section */}
-            <section className="pt-12">
-              <div className="max-w-5xl mx-auto">
-                <SectionHeader eyebrow="API Keys" title="Self-hosting? Every API here has a free tier">
-                  Cloud plans include managed Gemini and social publishing, so you never touch an API key. Self-hosters bring their own (all with generous free tiers):
-                </SectionHeader>
-                <div className="grid md:grid-cols-3 gap-5">
-                  <div className="card p-6 relative">
-                    <span className="badge-brass absolute top-4 right-4">Required</span>
-                    <div className="w-10 h-10 rounded-input bg-paper3 flex items-center justify-center mb-4">
-                      <Cpu size={18} className="text-brass" />
-                    </div>
-                    <h3 className="font-display text-xl lowercase text-ink mb-1">Google Gemini API</h3>
-                    <div className="mb-3"><span className="badge-ok">Free tier: 1,500 req/day</span></div>
-                    <p className="text-muted text-sm leading-relaxed">Runs every AI feature: moment detection, title writing, video effects, YouTube thumbnails and descriptions. The core engine behind Clipping AI.</p>
-                  </div>
-                  <div className="card p-6 relative">
-                    <span className="readout absolute top-4 right-4 border border-rule rounded-full px-2.5 py-1">Optional</span>
-                    <div className="w-10 h-10 rounded-input bg-paper3 flex items-center justify-center mb-4">
-                      <Languages size={18} className="text-brass" />
-                    </div>
-                    <h3 className="font-display text-xl lowercase text-ink mb-1">ElevenLabs API</h3>
-                    <div className="mb-3"><span className="badge-ok">Free tier included</span></div>
-                    <p className="text-muted text-sm leading-relaxed">Powers AI voice dubbing and translation in 30+ languages. Keeps the original speaker's voice while translating the audio. Dubbed clips get auto-subtitled.</p>
-                  </div>
-                  <div className="card p-6 relative">
-                    <span className="readout absolute top-4 right-4 border border-rule rounded-full px-2.5 py-1">Optional</span>
-                    <div className="w-10 h-10 rounded-input bg-paper3 flex items-center justify-center mb-4">
-                      <Globe size={18} className="text-brass" />
-                    </div>
-                    <h3 className="font-display text-xl lowercase text-ink mb-1">Upload-Post API</h3>
-                    <div className="mb-3"><span className="badge-ok">Free tier included</span></div>
-                    <p className="text-muted text-sm leading-relaxed">Handles direct publishing to YouTube, TikTok and Instagram Reels from the dashboard. A <a href="https://www.upload-post.com" target="_blank" rel="noopener noreferrer" className="text-brass underline hover:brightness-110">Social media API</a> that lets you post clips and thumbnails without ever leaving Clipping AI.</p>
-                  </div>
-                </div>
-                <div className="grid md:grid-cols-2 gap-5 mt-5">
-                  <div className="card p-6 relative">
-                    <span className="readout absolute top-4 right-4 border border-rule rounded-full px-2.5 py-1">AI Shorts</span>
-                    <div className="w-10 h-10 rounded-input bg-paper3 flex items-center justify-center mb-4">
-                      <Zap size={18} className="text-brass" />
-                    </div>
-                    <h3 className="font-display text-xl lowercase text-ink mb-1">Pollinations API</h3>
-                    <div className="mb-3"><span className="badge-ok">Pay-per-use from $0.04</span></div>
-                    <p className="text-muted text-sm leading-relaxed">Runs AI Shorts: generates AI actor images (Flux), talking-head videos (Hailuo/Kling) and lip-sync (VEED). Needed only for the AI Ad Video Maker.</p>
-                  </div>
-                  <div className="card p-6 relative">
-                    <span className="readout absolute top-4 right-4 border border-rule rounded-full px-2.5 py-1">AI Shorts</span>
-                    <div className="w-10 h-10 rounded-input bg-paper3 flex items-center justify-center mb-4">
-                      <Languages size={18} className="text-brass" />
-                    </div>
-                    <h3 className="font-display text-xl lowercase text-ink mb-1">ElevenLabs TTS</h3>
-                    <div className="mb-3"><span className="badge-ok">Free tier included</span></div>
-                    <p className="text-muted text-sm leading-relaxed">Turns AI Shorts scripts into natural-sounding voiceovers. Multiple male and female voice options in English and Spanish.</p>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            {/* Tech Stack */}
-            <section className="pt-12">
-              <div className="max-w-5xl mx-auto">
-                <SectionHeader eyebrow="Stack" title="Built on tech that works">
-                  Top-tier AI models and tools, all in one pipeline.
-                </SectionHeader>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  {[
-                    { name: "Google Gemini 3.1", desc: "AI brains" },
-                    { name: "faster-whisper", desc: "Transcribing" },
-                    { name: "YOLOv8", desc: "Object spotting" },
-                    { name: "MediaPipe", desc: "Face following" },
-                    { name: "FFmpeg", desc: "Video editing" },
-                    { name: "ElevenLabs", desc: "Voice & speech" },
-                    { name: "Pollinations", desc: "AI video gen" },
-                    { name: "React + Vite", desc: "Control panel" },
-                    { name: "Docker", desc: "Hosting" }
-                  ].map((tech, i) => (
-                    <div key={i} className="border border-rule rounded-input bg-paper2 px-4 py-3 text-center">
-                      <div className="readout text-ink2">{tech.name}</div>
-                      <div className="text-xs text-muted mt-1">{tech.desc}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </section>
-
-          </details>
         </div>
       </section>
 

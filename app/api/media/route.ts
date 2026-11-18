@@ -5,7 +5,13 @@ import { NextRequest, NextResponse } from "next/server";
  * and cross-origin playback in the Whop iframe is unreliable).
  *   GET /api/media?path=/videos/<job_id>/<file>.mp4
  */
-const CLIPPINGAI = process.env.CLIPPINGAI_API_URL || "http://127.0.0.1:8000";
+/* CLIPPINGAI_API_URL is the current name. OPENSHORTS_API_URL is the legacy
+   name and is still set as a write-only secret in Vercel, so it is honoured
+   until that variable is re-created under the new name. */
+const CLIPPINGAI =
+  process.env.CLIPPINGAI_API_URL ||
+  process.env.OPENSHORTS_API_URL ||
+  "http://127.0.0.1:8000";
 
 export async function GET(request: NextRequest) {
   const path = request.nextUrl.searchParams.get("path") || "";

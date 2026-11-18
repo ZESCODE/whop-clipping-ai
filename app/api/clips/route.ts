@@ -7,7 +7,13 @@ import { NextRequest, NextResponse } from "next/server";
  *   GET  ?job=<id>                → job status + finished clips
  * Keeps the Clipping AI URL server-side; the browser only talks to this origin.
  */
-const CLIPPINGAI = process.env.CLIPPINGAI_API_URL || "http://127.0.0.1:8000";
+/* CLIPPINGAI_API_URL is the current name. OPENSHORTS_API_URL is the legacy
+   name and is still set as a write-only secret in Vercel, so it is honoured
+   until that variable is re-created under the new name. */
+const CLIPPINGAI =
+  process.env.CLIPPINGAI_API_URL ||
+  process.env.OPENSHORTS_API_URL ||
+  "http://127.0.0.1:8000";
 
 export async function POST(request: NextRequest) {
   const body = await request.json().catch(() => ({}));

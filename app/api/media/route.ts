@@ -1,17 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
+import { backendUrl } from "@/lib/backend-url";
 
 /**
  * Streams Clipping AI clip videos same-origin (<video> can't set auth headers,
  * and cross-origin playback in the Whop iframe is unreliable).
  *   GET /api/media?path=/videos/<job_id>/<file>.mp4
  */
-/* CLIPPINGAI_API_URL is the current name. OPENSHORTS_API_URL is the legacy
-   name and is still set as a write-only secret in Vercel, so it is honoured
-   until that variable is re-created under the new name. */
-const CLIPPINGAI =
-  process.env.CLIPPINGAI_API_URL ||
-  process.env.OPENSHORTS_API_URL ||
-  "http://127.0.0.1:8000";
+const CLIPPINGAI = backendUrl();
 
 export async function GET(request: NextRequest) {
   const path = request.nextUrl.searchParams.get("path") || "";

@@ -15,7 +15,7 @@ Set these in the Vercel project (Production and Preview):
 | `NEXT_PUBLIC_WHOP_APP_ID` | `app_…` |
 | `WHOP_API_BASE` | `https://api.whop.com/api/v1` |
 | `WHOP_API_VERSION_DATE` | e.g. `2026-11-04-1` |
-| `OPENSHORTS_API_URL` | only needed by the free tools; see below |
+| `CLIPPINGAI_API_URL` | only needed by the free tools; see below |
 
 Local development reads the same names from `.env.local` (git-ignored).
 
@@ -44,6 +44,6 @@ committed and in sync with `package.json`.
 ## Free tools
 
 `/api/tools/{youtube-transcript,tiktok-transcript,youtube-metadata}` proxy an
-OpenShorts backend (`OPENSHORTS_API_URL`). With that variable unset they fall back
+Clipping AI backend (`CLIPPINGAI_API_URL`). With that variable unset they fall back
 to `127.0.0.1:8000` and answer 502. Either deploy the backend and set the
 variable, or replace the proxies with Node implementations.

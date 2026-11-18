@@ -4,11 +4,11 @@ import data from "@/lib/templates-data.json";
 /**
  * GET /api/saasshorts/gallery — the UGC video gallery in the /app dashboard.
  *
- * The dashboard bundle calls this path expecting the OpenShorts shape
+ * The dashboard bundle calls this path expecting the Clipping AI shape
  * (`{ videos, total }`, each with `video_id`, `video_url`, `actor_url`, …).
  * Instead of proxying to a backend, we serve the templates hosted under
  * /public/templates, so the gallery is populated on this deployment even with
- * no OpenShorts API reachable.
+ * no Clipping AI API reachable.
  */
 export async function GET(request: Request) {
 	const limit = Number(new URL(request.url).searchParams.get("limit")) || 100;

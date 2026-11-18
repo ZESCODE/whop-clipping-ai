@@ -9,7 +9,7 @@ import {
  * GET /api/social/analytics?user=<profile>&platforms=youtube,instagram
  *
  * Read-only numbers for one Upload-Post profile: followers, impressions and
- * engagement per platform. Same contract as the OpenShorts backend route, so
+ * engagement per platform. Same contract as the Clipping AI backend route, so
  * the dashboard can render it on either host.
  *
  * Upstream numbers lag (YouTube settles for a day or two) and some platforms

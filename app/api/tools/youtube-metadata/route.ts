@@ -5,7 +5,7 @@ import { NextRequest, NextResponse } from "next/server";
 export const maxDuration = 60;
 
 /**
- * Free-tool proxy → OpenShorts API (:8000 by default).
+ * Free-tool proxy → Clipping AI API (:8000 by default).
  *
  * POST /api/tools/youtube-metadata
  *   { platform, kind: "titles" | "description" | "tags", video_url, prompt? }
@@ -13,12 +13,12 @@ export const maxDuration = 60;
  *
  * Powers the AI thumbnail maker and the YouTube tag generator.
  */
-const OPENSHORTS = process.env.OPENSHORTS_API_URL || "http://127.0.0.1:8000";
+const CLIPPINGAI = process.env.CLIPPINGAI_API_URL || "http://127.0.0.1:8000";
 
 export async function POST(request: NextRequest) {
 	const body = await request.json().catch(() => ({}));
 	try {
-		const res = await fetch(`${OPENSHORTS}/api/tools/youtube-metadata`, {
+		const res = await fetch(`${CLIPPINGAI}/api/tools/youtube-metadata`, {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify(body),

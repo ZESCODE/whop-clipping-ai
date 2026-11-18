@@ -1,5 +1,5 @@
 // Minimal API stub for the marketing port. The real dashboard talks to the
-// OpenShorts backend; the whop site only needs the plan list to render pricing
+// Clipping AI backend; the whop site only needs the plan list to render pricing
 // and a safe failure for checkout (there is no billing backend here).
 
 export const getToken = () => {

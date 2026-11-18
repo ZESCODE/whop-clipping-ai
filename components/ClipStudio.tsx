@@ -6,7 +6,7 @@ import { Button } from "@whop/react/components";
 /**
  * Clip Studio — the experience-view tool:
  *   1. pick an open bounty (the campaign being clipped for)
- *   2. ingest a source video (URL) → OpenShorts pipeline
+ *   2. ingest a source video (URL) → Clipping AI pipeline
  *   3. poll job status → review finished vertical clips
  *   4. submit a clip as the bounty deliverable
  */

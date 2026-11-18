@@ -1,7 +1,7 @@
 import { legalPages } from "@/lib/legal";
 
 // Renders one of the legal documents from seo/legal.js (the same source the
-// OpenShorts static pages use). Unknown paths render a not-found note.
+// Clipping AI static pages use). Unknown paths render a not-found note.
 export default function LegalDoc({ path }: { path: string }) {
 	const doc = legalPages().find((p) => p.path === path);
 	if (!doc) {

@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-import { Sparkles, Zap, Globe, FileVideo, Subtitles, Youtube, Instagram, Shield, Github, ArrowRight, Check, ChevronDown, Monitor, Cpu, Languages, Type, Upload, Scissors, Link2, Bot } from 'lucide-react';
+import { Sparkles, Zap, Globe, FileVideo, Subtitles, Youtube, Instagram, ArrowRight, Check, ChevronDown, Monitor, Cpu, Languages, Type, Upload, Scissors, Link2, Bot } from 'lucide-react';
 import PricingSection from './PricingSection';
 import SiteNav from './SiteNav';
 import { useAuth } from '../lib/auth';
@@ -435,7 +435,7 @@ export default function Landing({
     {
       icon: Languages,
       title: "Voice Dubbing in 30+ Languages",
-      description: "Bring your own ElevenLabs key and dub any clip into 30+ languages while keeping the original voice. Works in the cloud and self-hosted."
+      description: "Bring your own ElevenLabs key and dub any clip into 30+ languages while keeping the original voice."
     },
     {
       icon: Type,
@@ -453,11 +453,6 @@ export default function Landing({
       description: "Drop in podcasts, webinars, livestreams and vlogs at full resolution."
     },
     {
-      icon: Shield,
-      title: "Run It Yourself, Keep It Private",
-      description: "Fire it up with Docker on your own machine — your footage never leaves your setup."
-    },
-    {
       icon: Monitor,
       title: "Free YouTube Toolkit",
       description: "Free AI thumbnail maker, 10 viral title ideas and auto descriptions with chapters."
@@ -470,7 +465,7 @@ export default function Landing({
     {
       icon: Bot,
       title: "Connect AI Agents (MCP, API, CLI)",
-      description: "Hook Claude, ChatGPT or n8n up to an always-on endpoint, or run pip install openshorts and clip from your terminal. Same pipeline, no dashboard required."
+      description: "Hook Claude, ChatGPT or n8n up to an always-on endpoint and run the whole pipeline from your agent or terminal."
     },
     {
       icon: Sparkles,
@@ -495,11 +490,11 @@ export default function Landing({
   const faqs = [
     {
       question: "Is Clipping AI actually free?",
-      answer: "Self-hosting costs nothing under the MIT licence — no watermark, no ceiling — while Clipping AI Cloud offers a free tier (your first video up to 60 minutes, then 20 minutes a month, watermarked) and paid plans from $12/month. No fine print, just two different ways to use it. (1) Self-hosted is 100% free and open source: you run it with Docker on your own machine, bring your own API keys, and there are no watermarks, no usage caps and no subscription. What you spend is hardware and time. On a typical CPU an 8-minute video takes 5 to 8 minutes to process, and you need your own Google Gemini key (required, free tier is 1,500 requests/day), plus ElevenLabs for dubbing and Pollinations for AI Shorts if you want those. (2) Hosted at clippingai.local is the very same software with the running costs covered: our NVIDIA GPU cuts that same 8-minute video in about 50 seconds, the Gemini key is included so there's nothing to create or paste, auto-posting to TikTok, Instagram and YouTube is already wired up, and your clips are saved and reopenable from any browser. Its free plan clips your first video whole up to 60 minutes, then 20 minutes a month, with a watermark and no card; paid plans start at $12/mo for 100 minutes without one. So: free if you're happy to run it yourself, paid if you'd rather it just ran fast. For reference, Opus Clip starts at $15/month and bills a credit per minute of source video."
+      answer: "Yes. Clipping AI's free plan clips your first video whole up to 60 minutes, then gives you 20 free minutes a month — no card needed. Those clips carry a small watermark. Paid plans from $12/month remove it and add 100 minutes a month. Our NVIDIA GPU cuts an 8-minute video in about 50 seconds, the Gemini key is included so there's nothing to create or paste, and auto-posting to TikTok, Instagram and YouTube is already wired up. For reference, Opus Clip starts at $15/month and bills a credit per minute of source video."
     },
     {
       question: "Do clips come with a watermark?",
-      answer: "Only on the free Cloud plan. Clips cut on Clipping AI Cloud's free tier carry a small watermark; every paid plan, from $12/month, is clean, and upgrading wipes the mark from clips you've already made. The self-hosted edition, free under MIT, never adds one."
+      answer: "Only on the free Cloud plan. Clips cut on Clipping AI Cloud's free tier carry a small watermark; every paid plan, from $12/month, is clean, and upgrading wipes the mark from clips you've already made."
     },
     {
       question: "Do I need a card to get started?",
@@ -515,11 +510,11 @@ export default function Landing({
     },
     {
       question: "What is Clipping AI, exactly?",
-      answer: "Clipping AI is an open source AI clip maker (free to self-host under MIT, Cloud plans from $12/month) that turns your long videos — podcasts, webinars, livestreams, vlogs, interviews — into share-ready short clips in 9:16 vertical. It runs a multi-step pipeline: faster-whisper for word-level transcriptions, PySceneDetect to spot scene changes, and Google Gemini 3.1 Flash-Lite to pick the most engaging moments. Per HubSpot's 2025 State of Marketing report, short-form video delivers the highest ROI of any content format, and repurposing long-form content into shorts can lift total reach by up to 300%."
+      answer: "Clipping AI is an AI clip maker (free to start, paid plans from $12/month) that turns your long videos — podcasts, webinars, livestreams, vlogs, interviews — into share-ready short clips in 9:16 vertical. It runs a multi-step pipeline: faster-whisper for word-level transcriptions, PySceneDetect to spot scene changes, and Google Gemini 3.1 Flash-Lite to pick the most engaging moments. Per HubSpot's 2025 State of Marketing report, short-form video delivers the highest ROI of any content format, and repurposing long-form content into shorts can lift total reach by up to 300%."
     },
     {
       question: "How does Clipping AI stack up against Opus Clip?",
-      answer: "Clipping AI is an open source alternative to Opus Clip. Both do AI moment detection and smart vertical reframing. The main differences: Clipping AI is free self-hosted and $12/month hosted, versus Opus Clip from $15/month billed per source minute. Clipping AI can run on your own infrastructure (full data privacy); Opus Clip is cloud-only. Clipping AI leans on Google Gemini 3.1 Flash-Lite for AI analysis instead of Opus Clip's proprietary model. You also get two-speaker and screencast layouts, AI ad videos with lip-synced actors, and an MCP server for Claude and ChatGPT. Fair trade-off: Opus Clip has a bigger caption-style library."
+      answer: "Clipping AI is an alternative to Opus Clip. Both do AI moment detection and smart vertical reframing. The main differences: Clipping AI starts free and runs $12/month, versus Opus Clip from $15/month billed per source minute. Clipping AI leans on Google Gemini 3.1 Flash-Lite for AI analysis instead of Opus Clip's proprietary model. You also get two-speaker and screencast layouts, AI ad videos with lip-synced actors, and an MCP server for Claude and ChatGPT. Fair trade-off: Opus Clip has a bigger caption-style library."
     },
     {
       question: "How do I turn a long video into TikTok or Reels clips?",
@@ -547,23 +542,23 @@ export default function Landing({
     },
     {
       question: "Can I translate and dub videos into other languages?",
-      answer: "Yes — bring your own ElevenLabs API key, in the cloud or self-hosted: add it in Settings and a clip gets dubbed into any of 30+ languages while keeping the original speaker's voice. After dubbing, Clipping AI re-transcribes the new audio and burns in subtitles in the target language. ElevenLabs bills dubbing to your key; it isn't included in Clipping AI plans."
+      answer: "Yes — bring your own ElevenLabs API key: add it in Settings and a clip gets dubbed into any of 30+ languages while keeping the original speaker's voice. After dubbing, Clipping AI re-transcribes the new audio and burns in subtitles in the target language. ElevenLabs bills dubbing to your key; it isn't included in Clipping AI plans."
     },
     {
       question: "How does the smart vertical reframe work?",
       answer: "Clipping AI has two smart crop modes for turning 16:9 horizontal footage into 9:16 vertical. TRACK mode uses MediaPipe face detection with YOLOv8 as backup to follow one subject with 'Heavy Tripod' stabilization — the camera glides like a pro cameraman. GENERAL mode handles group shots and landscapes with a blurred-background layout. A SpeakerTracker stops rapid jumping between subjects and rides out brief occlusions for a smooth result."
     },
     {
-      question: "Is there a free, open source clip generator?",
-      answer: "Yes. Clipping AI is an open source clip generator (also called open source clipping software or an AI video clipper) under the MIT licence. Self-hosted, it makes unlimited clips with no watermarks, no usage caps and no subscription fees. Clipping AI Cloud, the hosted version, clips your first video free up to 60 minutes, then 20 minutes a month with a watermark, and paid plans start at $12/month without one. You also get a free AI YouTube thumbnail maker, a free AI YouTube title maker and a free AI YouTube description maker — tools other clippers charge extra for. Self-host with Docker on your own machine for full privacy and control."
+      question: "Is there a free AI clip generator?",
+      answer: "Yes. Clipping AI clips your first video free up to 60 minutes, then 20 minutes a month with a watermark, and paid plans start at $12/month without one. You also get a free AI YouTube thumbnail maker, a free AI YouTube title maker and a free AI YouTube description maker — tools other clippers charge extra for."
     },
     {
       question: "Can I run Clipping AI from Claude, ChatGPT or n8n?",
-      answer: "Yes. Clipping AI ships a native MCP server at mcp.clippingai.local/mcp plus a REST API with per-user keys and completion webhooks, so an AI agent can run the whole flow: submit a video URL, wait for processing, list the clips and publish them to TikTok, Instagram or YouTube. This is where the hosted service shines — an agent needs an endpoint that's always on, and the hosted one is, with the API key created in your account page in one click. The self-hosted edition serves the same /mcp endpoint, but only while your machine is up. There's also a zero-dependency CLI (pip install openshorts) and an importable n8n workflow. Full guide at clippingai.local/mcp."
+      answer: "Yes. Clipping AI ships a native MCP server at mcp.clippingai.local/mcp plus a REST API with per-user keys and completion webhooks, so an AI agent can run the whole flow: submit a video URL, wait for processing, list the clips and publish them to TikTok, Instagram or YouTube. An agent needs an endpoint that's always on, and the hosted one is, with the API key created in your account page in one click. Full guide at clippingai.local/mcp."
     },
     {
-      question: "What do I need to run Clipping AI?",
-      answer: "Clipping AI runs anywhere Docker does. The sweet spot is 8GB+ RAM and a modern multi-core CPU. GPU acceleration (NVIDIA CUDA) is optional but makes video processing much faster. The Docker Compose setup sorts out every dependency for you — Python 3.11, FFmpeg, YOLOv8, MediaPipe, faster-whisper and the React dashboard. It works on Linux, macOS and Windows (via WSL2/Docker Desktop)."
+      question: "Do I need to install anything?",
+      answer: "No. Clipping AI runs in your browser: paste a link or upload a file, and our GPUs do the rest — an 8-minute video is cut in about 50 seconds. Captions, reframing, thumbnails and publishing are all built in."
     }
   ];
 
@@ -610,7 +605,7 @@ export default function Landing({
                   />
                 </div>
                 <button type="submit" className="btn-primary whitespace-nowrap">
-                  make free clips
+                  clip it now
                   <ArrowRight size={16} />
                 </button>
                 <button type="button" onClick={onLaunchApp} className="btn-ghost whitespace-nowrap">
@@ -630,15 +625,7 @@ export default function Landing({
             </div>
 
             <p className="text-sm text-muted lowercase">
-              <a href="#pricing" className="underline underline-offset-2 hover:text-ink">paid plans from $12/mo</a> drop the watermark. rather run it yourself?{' '}
-              <a
-                href="https://github.com/mutonby/clippingai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-ink2 underline hover:text-ink transition-colors"
-              >
-                self-host it free on github →
-              </a>
+              <a href="#pricing" className="underline underline-offset-2 hover:text-ink">paid plans from $12/mo</a> drop the watermark.
             </p>
 
             <p className="mt-4 text-sm text-muted lowercase">
@@ -689,7 +676,7 @@ export default function Landing({
             ['45,000+', 'creators signed up'],
             ['32,900+', 'videos chopped'],
             ['8,300+', 'hours of footage processed'],
-            ['7.5k', 'stars on github'],
+            ['20 min', 'free clips every month'],
           ].map(([n, label]) => (
             <div key={label} className="px-4">
               <div className="font-display text-4xl md:text-5xl text-ink tabular-nums">{n}</div>
@@ -852,11 +839,11 @@ export default function Landing({
         </div>
       </section>
 
-      {/* Two ways to use it: free self-host vs paid hosted */}
+      {/* How it runs */}
       <section className="py-20 px-6 border-t border-rule">
         <div className="max-w-4xl mx-auto">
-          <SectionHeader eyebrow="05 · Deploy" title="Two ways to run Clipping AI">
-            Same open source software, running on our GPUs or on your own rig.
+          <SectionHeader eyebrow="05 · Deploy" title="Running on our GPUs">
+            Nothing to install: your clips run on our hardware and land in your dashboard.
           </SectionHeader>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="card p-8 flex flex-col border-brass">
@@ -880,27 +867,11 @@ export default function Landing({
                 </button>
               )}
             </div>
-            <div className="card p-8 flex flex-col">
-              <div className="flex flex-wrap items-center gap-3 mb-3">
-                <Github size={18} className="text-muted" />
-                <h3 className="font-display text-2xl lowercase text-ink">self-hosted · for the hands-on</h3>
-                <span className="readout border border-rule rounded-full px-2.5 py-1">Free · Docker</span>
-              </div>
-              <ul className="space-y-1.5 mb-6 flex-1">
-                {['Your own machine: 5 to 8 min on a typical CPU', 'Bring your own Gemini, ElevenLabs and Pollinations keys', 'You install it, you run it, you back it up', 'Free forever. No fine print.'].map((f, i) => (
-                  <li key={i} className="flex items-center gap-2 text-sm text-muted"><Check size={14} className="text-ok shrink-0" />{f}</li>
-                ))}
-              </ul>
-              <a href="https://github.com/mutonby/clippingai" target="_blank" rel="noopener noreferrer"
-                className="btn-ghost whitespace-nowrap">
-                <Github size={16} /> view on github
-              </a>
-            </div>
           </div>
         </div>
       </section>
 
-      {/* Pricing Section — hosted plans (self-host stays free) */}
+      {/* Pricing Section */}
       {billingEnabled && (
         <section id="pricing" className="py-20 px-6 border-t border-rule">
           <div className="max-w-6xl mx-auto">
@@ -916,7 +887,7 @@ export default function Landing({
       <section id="comparison" className="py-20 px-6 border-t border-rule">
         <div className="max-w-4xl mx-auto">
           <SectionHeader eyebrow="07 · Comparison" title="Clipping AI vs Opus Clip, Klap and Vizard">
-            Hosted Clipping AI starts at $12/mo billed monthly, or self-host it for free. Opus Clip starts at $15/month, Klap at $14 and Vizard at $14.50 a month on yearly billing, Kapwing at $24/month.
+            Clipping AI starts at $12/mo billed monthly. Opus Clip starts at $15/month, Klap at $14 and Vizard at $14.50 a month on yearly billing, Kapwing at $24/month.
           </SectionHeader>
           <div className="overflow-x-auto">
             <table className="w-full">
@@ -925,28 +896,26 @@ export default function Landing({
                   <th className="py-3 px-4 text-left text-sm text-muted font-medium">Feature</th>
                   <th className="py-3 px-4 text-center text-sm font-medium">
                     <span className="text-brass">Clipping AI</span>
-                    <span className="block text-xs text-muted font-normal">self-hosted / Cloud</span>
+                    <span className="block text-xs text-muted font-normal">cloud</span>
                   </th>
                   <th className="py-3 px-4 text-center text-sm text-muted font-medium">Opus Clip</th>
                   <th className="py-3 px-4 text-center text-sm text-muted font-medium">Kapwing</th>
                 </tr>
               </thead>
               <tbody>
-                <ComparisonRow feature="Price" clippingai={<span className="text-ok font-medium">$0 / from $12/mo</span>} opusclip={xIcon} kapwing={xIcon} />
+                <ComparisonRow feature="Price" clippingai={<span className="text-ok font-medium">free plan / from $12/mo</span>} opusclip={xIcon} kapwing={xIcon} />
                 <ComparisonRow feature="Highlight finder" clippingai={checkIcon} opusclip={checkMuted} kapwing={checkMuted} />
                 <ComparisonRow feature="Smart reframe" clippingai={checkIcon} opusclip={checkMuted} kapwing={checkMuted} />
                 <ComparisonRow feature="Auto captions" clippingai={checkIcon} opusclip={checkMuted} kapwing={checkMuted} />
                 <ComparisonRow feature="Voice dubbing (30+ langs, your ElevenLabs key)" clippingai={checkIcon} opusclip={<span className="text-muted text-sm">Limited</span>} kapwing={<span className="text-muted text-sm">No</span>} />
                 <ComparisonRow feature="Smart video effects" clippingai={checkIcon} opusclip={<span className="text-muted text-sm">No</span>} kapwing={checkMuted} />
                 <ComparisonRow feature="Opening hook cards" clippingai={checkIcon} opusclip={checkMuted} kapwing={checkMuted} />
-                <ComparisonRow feature="Self-hosted / privacy" clippingai={checkIcon} opusclip={<span className="text-muted text-sm">Cloud only</span>} kapwing={<span className="text-muted text-sm">Cloud only</span>} />
-                <ComparisonRow feature="No watermark" clippingai={<span className="text-ok text-sm">Self-hosted &amp; paid</span>} opusclip={<span className="text-muted text-sm">Free tier only</span>} kapwing={<span className="text-muted text-sm">Paid</span>} />
-                <ComparisonRow feature="Open source" clippingai={checkIcon} opusclip={<span className="text-muted text-sm">No</span>} kapwing={<span className="text-muted text-sm">No</span>} />
+                <ComparisonRow feature="No watermark" clippingai={<span className="text-ok text-sm">Paid plans</span>} opusclip={<span className="text-muted text-sm">Free tier only</span>} kapwing={<span className="text-muted text-sm">Paid</span>} />
                 <ComparisonRow feature="YouTube thumbnail maker" clippingai={checkIcon} opusclip={<span className="text-muted text-sm">No</span>} kapwing={<span className="text-muted text-sm">Paid</span>} />
                 <ComparisonRow feature="Title & description maker" clippingai={checkIcon} opusclip={<span className="text-muted text-sm">Limited</span>} kapwing={<span className="text-muted text-sm">Paid</span>} />
                 <ComparisonRow feature="AI ad video maker" clippingai={checkIcon} opusclip={<span className="text-muted text-sm">No</span>} kapwing={<span className="text-muted text-sm">No</span>} />
                 <ComparisonRow feature="AI actors with lip-sync" clippingai={checkIcon} opusclip={<span className="text-muted text-sm">No</span>} kapwing={<span className="text-muted text-sm">No</span>} />
-                <ComparisonRow feature="Usage limits" clippingai={<span className="text-ok text-sm">Unlimited self-hosted</span>} opusclip={<span className="text-muted text-sm">Per plan</span>} kapwing={<span className="text-muted text-sm">Per plan</span>} />
+                <ComparisonRow feature="Usage limits" clippingai={<span className="text-ok text-sm">100 min/mo paid</span>} opusclip={<span className="text-muted text-sm">Per plan</span>} kapwing={<span className="text-muted text-sm">Per plan</span>} />
               </tbody>
             </table>
           </div>
@@ -1130,7 +1099,7 @@ export default function Landing({
             <section className="pt-12">
               <div className="max-w-5xl mx-auto">
                 <SectionHeader eyebrow="Stack" title="Built on tech that works">
-                  Top-tier AI models and open source tools, all in one pipeline.
+                  Top-tier AI models and tools, all in one pipeline.
                 </SectionHeader>
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   {[
@@ -1161,7 +1130,7 @@ export default function Landing({
       <section className="py-24 px-6 border-t border-rule">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-display text-4xl md:text-5xl lowercase text-ink tracking-tight mb-5">start making scroll-stopping clips today.</h2>
-          <p className="text-muted mb-10 max-w-xl mx-auto leading-relaxed lowercase">first video free (up to 60 min) · then 20 min/month · no card needed, or self-host it free with docker.</p>
+          <p className="text-muted mb-10 max-w-xl mx-auto leading-relaxed lowercase">first video free (up to 60 min) · then 20 min/month · no card needed.</p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             {billingEnabled ? (
               <a href="#pricing" className="btn-primary whitespace-nowrap">
@@ -1174,15 +1143,6 @@ export default function Landing({
                 <ArrowRight size={16} />
               </button>
             )}
-            <a
-              href="https://github.com/mutonby/clippingai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-ghost whitespace-nowrap"
-            >
-              <Github size={16} />
-              Star us on GitHub
-            </a>
           </div>
         </div>
       </section>
@@ -1204,7 +1164,7 @@ export default function Landing({
           aria-label="Video link"
         />
         <button type="submit" tabIndex={stickyCta ? 0 : -1} className="btn-primary whitespace-nowrap rounded-full text-sm">
-          make free clips <ArrowRight size={14} />
+          clip it now <ArrowRight size={14} />
         </button>
       </form>
 
@@ -1233,8 +1193,6 @@ export default function Landing({
             <a href="/use-cases/sermons" className="hover:text-ink transition-colors">sermon clip maker</a>
             <a href="/how-to/clip-a-youtube-video" className="hover:text-ink transition-colors">how to clip a youtube video</a>
             <a href="/pricing" className="hover:text-ink transition-colors">pricing</a>
-            <a href="/open-source-video-clipper" className="hover:text-ink transition-colors">open source video clipper</a>
-            <a href="/self-hosted-ai-clip-maker" className="hover:text-ink transition-colors">self-hosted ai clip maker</a>
             <a href="/podcast-to-shorts" className="hover:text-ink transition-colors">podcast clips</a>
             <a href="/youtube-to-shorts-converter" className="hover:text-ink transition-colors">youtube to shorts</a>
             <a href="/how-clipping-ai-works" className="hover:text-ink transition-colors">how it works</a>
@@ -1257,10 +1215,9 @@ export default function Landing({
           <div className="border-t border-rule pt-6 flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div className="flex items-center gap-3">
               <img src="/logo-clippingai.svg" alt="Clipping AI" className="w-6 h-6" />
-              <span className="text-sm text-muted">Clipping AI — Open Source Clip Studio & AI Ad Video Maker</span>
+              <span className="text-sm text-muted">Clipping AI — AI Clip Studio & AI Ad Video Maker</span>
             </div>
             <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm lowercase text-muted">
-              <a href="https://github.com/mutonby/clippingai" target="_blank" rel="noopener noreferrer" className="hover:text-ink transition-colors">GitHub</a>
               <a href="#features" className="hover:text-ink transition-colors">Features</a>
               <a href="#faq" className="hover:text-ink transition-colors">FAQ</a>
               <a href="/terms" className="hover:text-ink transition-colors whitespace-nowrap">Terms</a>

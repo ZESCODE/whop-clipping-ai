@@ -1,11 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 
 /**
- * Streams OpenShorts clip videos same-origin (<video> can't set auth headers,
+ * Streams Clipping AI clip videos same-origin (<video> can't set auth headers,
  * and cross-origin playback in the Whop iframe is unreliable).
  *   GET /api/media?path=/videos/<job_id>/<file>.mp4
  */
-const OPENSHORTS = process.env.OPENSHORTS_API_URL || "http://127.0.0.1:8000";
+const CLIPPINGAI = process.env.CLIPPINGAI_API_URL || "http://127.0.0.1:8000";
 
 export async function GET(request: NextRequest) {
   const path = request.nextUrl.searchParams.get("path") || "";
@@ -13,7 +13,7 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "invalid clip path" }, { status: 400 });
   }
   try {
-    const upstream = await fetch(`${OPENSHORTS}${path}`, {
+    const upstream = await fetch(`${CLIPPINGAI}${path}`, {
       headers: request.headers.get("range") ? { Range: request.headers.get("range")! } : {},
     });
     if (!upstream.ok && upstream.status !== 206) {
@@ -29,6 +29,6 @@ export async function GET(request: NextRequest) {
       },
     });
   } catch (e: any) {
-    return NextResponse.json({ error: `OpenShorts unreachable: ${String(e?.message || e)}` }, { status: 502 });
+    return NextResponse.json({ error: `Clipping AI unreachable: ${String(e?.message || e)}` }, { status: 502 });
   }
 }

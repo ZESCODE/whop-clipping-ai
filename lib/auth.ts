@@ -1,4 +1,4 @@
-// Minimal auth stub for the marketing port. The OpenShorts landing only reads
+// Minimal auth stub for the marketing port. The Clipping AI landing only reads
 // `billingEnabled` (to decide whether to show pricing) and `isSignedIn`
 // (checkout gating). This whop build has no billing backend, so it presents as
 // a signed-out visitor on the hosted (billing-on) product.

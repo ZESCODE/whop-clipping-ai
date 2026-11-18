@@ -5,16 +5,16 @@ import { NextRequest, NextResponse } from "next/server";
 export const maxDuration = 60;
 
 /**
- * Free-tool proxy → OpenShorts API (:8000 by default).
+ * Free-tool proxy → Clipping AI API (:8000 by default).
  *
  * GET /api/tools/tiktok-transcript?url=<video-url>&lang=<optional>
  *   → the captions a TikTok video already carries.
  */
-const OPENSHORTS = process.env.OPENSHORTS_API_URL || "http://127.0.0.1:8000";
+const CLIPPINGAI = process.env.CLIPPINGAI_API_URL || "http://127.0.0.1:8000";
 
 export async function GET(request: NextRequest) {
 	const { searchParams } = new URL(request.url);
-	const upstream = new URL(`${OPENSHORTS}/api/tools/tiktok-transcript`);
+	const upstream = new URL(`${CLIPPINGAI}/api/tools/tiktok-transcript`);
 	searchParams.forEach((value, key) => upstream.searchParams.set(key, value));
 
 	try {

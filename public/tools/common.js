@@ -6,9 +6,9 @@
  * biggest of them is the video converter, and that weight is mediabunny.
  */
 
-// Same variable the app uses. Empty means same-origin (self-host behind one host).
+// Same variable the app uses. Empty means same-origin.
 // This app serves the tools from its own origin (Next proxies /api/tools/* to
-// the OpenShorts backend), so the base stays empty — the browser has no Vite
+// the Clipping AI backend), so the base stays empty — the browser has no Vite
 // to replace import.meta.env for us.
 export const API_URL = ('').replace(/\/$/, '')
 

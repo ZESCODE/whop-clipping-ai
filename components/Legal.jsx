@@ -29,7 +29,7 @@ const DOCS = [
     {
         icon: Landmark,
         title: 'Legal Notice',
-        desc: 'Self-hosted instance (branded Clipping AI) — upstream: OpenShorts, run by TONVI TECH SL, Málaga, Spain (LSSI-CE art. 10).',
+        desc: 'Who operates Clipping AI, where, and how to reach us (LSSI-CE art. 10).',
         href: '/legal-notice',
         es: '/aviso-legal',
     },
@@ -102,13 +102,12 @@ export default function Legal() {
                 </div>
 
                 <p className="text-sm text-muted">
-                    the self-hosted instance is run by you; upstream OpenShorts.app is operated by TONVI TECH SL (CIF B-19780394), Calle Puerta del Mar 18,
+                    Clipping AI is operated by TONVI TECH SL (CIF B-19780394), Calle Puerta del Mar 18,
                     29005 Málaga, Spain. Questions:{' '}
                     <a className="underline underline-offset-2 hover:text-brass transition-colors" href={`mailto:${SUPPORT_EMAIL}`}>
                         {SUPPORT_EMAIL}
                     </a>
-                    . Self-hosted instances are managed by their own administrators under the MIT License; these
-                    documents apply to the hosted service alone.
+                    .
                 </p>
             </main>
         </div>
